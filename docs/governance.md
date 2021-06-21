@@ -58,4 +58,4 @@ A contributor is anyone who contributes code or some other IP to a project under
 Project Nebula. All Project Nebula maintainers are contributors.
 
 All contributors are expected to act according to the Project's
-[Code of Conduct](/pages/code-of-conduct).
+[Code of Conduct](/docs/code-of-conduct).
