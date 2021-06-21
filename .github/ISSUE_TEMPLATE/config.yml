@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Project Nebula Development Questions
+    url: https://github.com/acmutd/project-nebula/discussions
+    about: Please ask general questions about Project Nebula development here.
+  - name: Nebula App Development Questions
+    url: https://github.com/acmutd/nebula-web/discussions
+    about: Please ask general support or development questions about Nebula App here.
+  - name: Report a security vulnerability
+    url: nebula-maintainers@acmutd.co
+    about: Please report security vulnerabilities here.
