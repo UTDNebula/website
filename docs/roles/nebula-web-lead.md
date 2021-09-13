@@ -1,6 +1,6 @@
 ---
 sidebar_position: 6
-title: Nebula Web Project Lead Role Description
+title: Nebula Web Project Lead
 description: Description of Nebula Web project lead responsibilities
 ---
 

@@ -1,6 +1,6 @@
 ---
 sidebar_position: 8
-title: Back-end Developer Role Description
+title: Back-end Developer
 description: Description of back-end developer responsibilities
 ---
 

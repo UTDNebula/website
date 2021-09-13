@@ -1,6 +1,6 @@
 ---
 sidebar_position: 4
-title: Community Liason Role Description
+title: Community Liason
 description: Description of Project Nebula community liason responsibilities
 ---
 

@@ -1,6 +1,6 @@
 ---
 sidebar_position: 3
-title: Head of Design Role Description
+title: Head of Design
 description: Description of Project Nebula head of design responsibilities
 ---
 

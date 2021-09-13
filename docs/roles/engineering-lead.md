@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-title: Engineering Lead Role Description
+title: Engineering Lead
 description: Description of Project Nebula engineering lead responsibilities
 ---
 

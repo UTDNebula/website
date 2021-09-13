@@ -1,6 +1,6 @@
 ---
 sidebar_position: 5
-title: Nebula Data Service Project Lead Role Description
+title: Nebula Data Service Project Lead
 description: Description of Nebula Data Service project lead responsibilities
 ---
 

@@ -1,6 +1,6 @@
 ---
 sidebar_position: 7
-title: Front-end Developer Role Description
+title: Front-end Developer
 description: Description of front-end developer responsibilities
 ---
 

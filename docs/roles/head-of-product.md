@@ -1,6 +1,6 @@
 ---
 sidebar_position: 2
-title: Head of Product Role Description
+title: Head of Product
 description: Description of Project Nebula head of product responsibilities
 ---
 
