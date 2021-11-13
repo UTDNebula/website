@@ -8,7 +8,7 @@ description: Documentation for the Nebula API.
 
 The Nebula API allows you to query for data regarding UTD class sections as sourced from Coursebook.
 
-Ping (not DM) a maintainer with the `Project Nebula` role in the HackUTD server with proof of UTD student status to receive the API key.
+API key is in the HackUTD server in the #project-nebula-general chat.
 
 ## Authentication
 
