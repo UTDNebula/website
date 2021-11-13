@@ -6,6 +6,10 @@ description: Documentation for the Nebula API.
 
 # API Reference
 
+The Nebula API allows you to query for data regarding UTD class sections as sourced from Coursebook.
+
+Ping (not DM) a maintainer with the `Project Nebula` role in the HackUTD server with proof of UTD student status to receive the API key.
+
 ## Authentication
 
 Every request to the Nebula Data API requires a valid API key included in the HTTP header `Authorization`.
@@ -16,6 +20,8 @@ Authorization: apikey
 ```
 
 ## Sections
+
+Sections are specific instantiations of a course with a unique section ID⁠—for example, ACCT 2301 would be a general course classification, while acct2301.001.21f would represent an instance of ACCT 2301, taught by a professor at a specific time during the Fall 2021 semester. An API request with acct2301.001.21f would return data similar to that shown by Coursebook for ACCT 2301.001 during term 2021 Fall.
 
 `/v1/sections/id`
 
@@ -47,6 +53,8 @@ Returns
 ```
 
 ---
+
+The following specification allows for section querying:
 
 `/v1/sections/search?property=value`
 
