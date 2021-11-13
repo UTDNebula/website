@@ -6,6 +6,8 @@ description: Documentation for the Nebula API.
 
 # API Reference
 
+API endpoint: http://api.utdnebula.com/
+
 The Nebula API allows you to query for data regarding UTD class sections as sourced from Coursebook.
 
 API key is in the HackUTD server in the #project-nebula-general chat.
