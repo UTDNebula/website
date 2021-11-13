@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Overview
 
-This website is primarily meant for project-wide development and governance
+This website is primarily meant for project-wide development, API documentation, and governance
 information, like Project Nebula-wide styles/themes, code style, etc.
 
 For information on how to use each of Project Nebula's projects, see the
