@@ -7,7 +7,7 @@ static website generator.
 
 ### Installation
 
-If you only need to view the website, see the Project Nebula [Home page](https://nebula.acmutd.co)
+If you only need to view the website, see the Project Nebula [Home page](https://about.utdnebula.com/)
 
 To build this project, you will need a working Node.js installation, preferably
 Node.js 12 or later.

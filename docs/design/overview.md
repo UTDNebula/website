@@ -29,5 +29,5 @@ Project Nebula's design aesthetic is heavily adapted from Google's
 about building something big (or even small), start there as that will frame how
 you design anything else for Project Nebula.
 
-Project Nebula has a set of components ([Nebula Components](https://github.com/acmutd/nebula-components))
+Project Nebula has a set of components ([Nebula Components](https://github.com/UTDNebula/components))
 for common UI/UX elements. Use them when possible.

@@ -82,13 +82,13 @@ you commit to.
 Instead of doing this:
 
 ```shell script
-git clone https://github.com/acmutd/project-nebula.git
+git clone https://github.com/UTDNebula/website.git
 ```
 
 You would do this:
 
 ```shell script
-git clone https://github.com/<your-username>/project-nebula.git
+git clone https://github.com/<your-username>/website.git
 ```
 
 ### Branching Strategy
@@ -180,8 +180,7 @@ Non-bugfix pull requests should be applied to the `develop` branch.
 While you are working on your contribution, you'll likely have questions about
 specific parts of your code. Project maintainers will try their best to address
 them and help you as you finish your pull request. As much as possible, try to
-keep questions about code embedded within the pull request itself. For anything
-else, post them in the relevant Project Nebula channel in the [ACM Discord](https://acmutd.co/discord).
+keep questions about code embedded within the pull request itself.
 
 All pull requests must pass all status checks and must be approved by one
 maintainer before being merged into the default `develop` branch. Once a pull
