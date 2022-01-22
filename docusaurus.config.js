@@ -6,7 +6,7 @@ module.exports = {
   title: 'Project Nebula by ACM',
   tagline:
     'Information about an initiative to make tools to make students lives easier, built by students.',
-  url: 'https://nebula.acmutd.co',
+  url: 'https://about.utdnebula.com/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -29,7 +29,7 @@ module.exports = {
         },
         { to: '/blog', label: 'Blog', position: 'left' },
         {
-          href: 'https://github.com/acmutd/project-nebula',
+          href: 'https://github.com/UTDNebula/website',
           label: 'GitHub',
           position: 'right',
         },
@@ -43,11 +43,11 @@ module.exports = {
           items: [
             {
               label: 'Nebula Web',
-              href: 'https://github.com/acmutd/nebula-web',
+              href: 'https://github.com/UTDNebula/website',
             },
             {
               label: 'Nebula Data Service',
-              href: 'https://github.com/acmutd/nebula-data-service',
+              href: 'https://github.com/UTDNebula/nebula-api',
             },
             {
               label: 'UTD Survival Guide',
@@ -60,11 +60,7 @@ module.exports = {
           items: [
             {
               label: 'Project Discussion',
-              href: 'https://github.com/acmutd/project-nebula/discussions',
-            },
-            {
-              label: 'ACM Discord Server',
-              href: 'https://acmutd.co/discord',
+              href: 'https://github.com/UTDNebula/website/discussions',
             },
           ],
         },
@@ -77,7 +73,7 @@ module.exports = {
             },
             {
               label: 'Website Source',
-              href: 'https://github.com/acmutd/project-nebula',
+              href: 'https://github.com/UTDNebula/website',
             },
           ],
         },
