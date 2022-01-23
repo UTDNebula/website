@@ -3,10 +3,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'Project Nebula by ACM',
-  tagline:
-    'Information about an initiative to make tools to make students lives easier, built by students.',
-  url: 'https://about.utdnebula.com/',
+  title: 'Project Nebula',
+  tagline: `An initiative to build tools to make students' lives easier at UT Dallas.`,
+  url: 'https://about.utdnebula.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
