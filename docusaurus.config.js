@@ -23,9 +23,15 @@ module.exports = {
       items: [
         {
           type: 'doc',
-          docId: 'overview',
+          docId: 'about/overview',
           position: 'left',
-          label: 'Documentation',
+          label: 'About',
+        },
+        {
+          type: 'doc',
+          docId: 'maintainers/overview',
+          position: 'left',
+          label: 'Maintainer Docs',
         },
         { to: '/blog', label: 'Blog', position: 'left' },
         {
