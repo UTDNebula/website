@@ -11,7 +11,7 @@ module.exports = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'acmutd',
+  organizationName: 'UTDNebula',
   projectName: 'project-nebula',
   themeConfig: {
     navbar: {
@@ -42,16 +42,16 @@ module.exports = {
           title: 'The Nebula Family',
           items: [
             {
-              label: 'Nebula Web',
+              label: 'Nebula Planner',
               href: 'https://github.com/UTDNebula/website',
             },
             {
-              label: 'Nebula Data Service',
+              label: 'Nebula API',
               href: 'https://github.com/UTDNebula/nebula-api',
             },
             {
               label: 'UTD Survival Guide',
-              href: 'https://utdsurvivalguide.netlify.app',
+              href: 'https://utd.guide',
             },
           ],
         },
@@ -92,12 +92,13 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/acmutd/project-nebula/edit/master/website/',
+          editUrl: 'https://github.com/UTDNebula/website/edit/master/website/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl: 'https://github.com/acmutd/project-nebula/edit/master/website/blog/',
+          editUrl:
+            'https://github.com/UTDNebula/website/edit/master/website/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
