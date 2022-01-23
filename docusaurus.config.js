@@ -18,7 +18,7 @@ module.exports = {
       title: 'Project Nebula',
       logo: {
         alt: 'Project Nebula Logo',
-        src: 'img/logo.svg',
+        src: 'img/logos/nebula-logo.svg',
       },
       items: [
         {
