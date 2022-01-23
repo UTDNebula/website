@@ -77,6 +77,10 @@ module.exports = {
               to: '/blog',
             },
             {
+              label: 'ACM UTD Website',
+              href: 'https://acmutd.co',
+            },
+            {
               label: 'Website Source',
               href: 'https://github.com/UTDNebula/website',
             },
