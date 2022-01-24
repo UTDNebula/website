@@ -93,6 +93,11 @@ module.exports = {
           ],
         },
       ],
+      logo: {
+        alt: 'Project Nebula Logo',
+        src: 'img/logos/nebula-logo-wordmark.png',
+        href: '/',
+      },
       copyright: `Copyright © ${new Date().getFullYear()} Project Nebula Maintainers. Built with Docusaurus.`,
     },
     prism: {
