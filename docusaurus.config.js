@@ -9,7 +9,7 @@ module.exports = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/logos/nebula-logo-full-bleed.png',
   organizationName: 'UTDNebula',
   projectName: 'project-nebula',
   themeConfig: {
