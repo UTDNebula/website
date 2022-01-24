@@ -2,6 +2,7 @@ import React from 'react';
 import clsx from 'clsx';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
+import ExecutionEnvironment from '@docusaurus/ExecutionEnvironment';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
 import HomepageFeatures from '../components/HomepageFeatures';
@@ -32,18 +33,21 @@ function HomepageHeader() {
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   // In useEffect hook to support window references
+
   React.useEffect(() => {
-    /* @ts-ignore */
-    if (window.netlifyIdentity) {
+    if (ExecutionEnvironment.canUseDOM) {
       /* @ts-ignore */
-      window.netlifyIdentity.on('init', (user) => {
-        if (!user) {
-          /* @ts-ignore */
-          window.netlifyIdentity.on('login', () => {
-            document.location.href = '/admin/';
-          });
-        }
-      });
+      if (window.netlifyIdentity) {
+        /* @ts-ignore */
+        window.netlifyIdentity.on('init', (user) => {
+          if (!user) {
+            /* @ts-ignore */
+            window.netlifyIdentity.on('login', () => {
+              document.location.href = '/admin/';
+            });
+          }
+        });
+      }
     }
   }, []);
   return (
