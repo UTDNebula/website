@@ -11,7 +11,7 @@ perform well academically, how to find friends and get involved socially, and ho
 to get an internship or other career opportunity, all in one easily-accessible
 place.
 
-# Motivation
+## Motivation
 
 For some students, college life comes easily. For other students, like
 first-generation students those from non-traditional backgrounds, like student
