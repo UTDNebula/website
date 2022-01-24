@@ -13,6 +13,12 @@ module.exports = {
   organizationName: 'UTDNebula',
   projectName: 'project-nebula',
   themeConfig: {
+    metadata: [
+      {
+        name: 'og:site_name',
+        content: 'Project Nebula',
+      },
+    ],
     navbar: {
       title: 'Project Nebula',
       logo: {
