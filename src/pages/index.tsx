@@ -5,21 +5,33 @@ import Link from '@docusaurus/Link';
 import ExecutionEnvironment from '@docusaurus/ExecutionEnvironment';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
-import HomepageFeatures from '../components/HomepageFeatures';
+import HomepageFeatures from '../components/HomepageFeatures.tsx';
+import ProjectNebulaLogoWordmark from '../assets/nebula-logo-wordmark-dark.png';
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
-        <h1 className="hero__title">{siteConfig.title}</h1>
+        {/* <h1 className="hero__title">{siteConfig.title}</h1> */}
+        <div>
+          <img src={ProjectNebulaLogoWordmark} alt="Project Nebula logo" />
+        </div>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
           <Link
-            className="button button--secondary button--lg"
+            className="button button--primary button--lg"
             to="/docs/about/overview"
           >
             Learn about Project Nebula
+          </Link>
+        </div>
+        <div className="mt-4">
+          <Link
+            className="button button--secondary button--lg"
+            href="https://acmutd.typeform.com/to/tlZUaM4V"
+          >
+            Join the team
           </Link>
         </div>
       </div>

@@ -124,4 +124,5 @@ module.exports = {
       },
     ],
   ],
+  plugins: ['docusaurus-tailwindcss'],
 };
