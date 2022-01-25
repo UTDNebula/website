@@ -62,7 +62,7 @@ module.exports = {
           items: [
             {
               label: 'Nebula Planner',
-              href: 'https://github.com/UTDNebula/website',
+              href: 'https://utdnebula.com',
             },
             {
               label: 'Nebula API',
