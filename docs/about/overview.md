@@ -18,8 +18,8 @@ For more information on each of Project Nebula's projects, see the respective
 pages:
 
 - [Nebula Planner](/docs/about/projects/planner)
-- [Nebula API](/docs/about/projects/nebula-api)
+- [Nebula API](/docs/about/projects/api)
 - [UTD Survival Guide](/docs/about/projects/utd-survival-guide)
 
 Contributors wanting to update documentation for this website should consult the
-[Meta](docs/meta/create-a-page) collection of pages.
+[Meta](/docs/maintainers/website/create-a-page) collection of pages.
