@@ -130,4 +130,4 @@ We're always looking for people to help build features and maintain Project
 Nebula's apps. See our project on [GitHub](https://github.com/UTDNebula/planner)
 to get involved!
 
-If you have other questions, [contact us](/contact)!
+If you have other questions, contact us at core-maintainers@utdnebula.com!

@@ -78,4 +78,5 @@ editors, or casual contributors. Additionally, we're always willing to accept
 contributions on [GitHub](https://github.com/UTDNebula/survival-guide) from more
 engineering-oriented folks.
 
-If have questions on this or other Project Nebula tools, [contact us](/contact)!
+If have questions on this or other Project Nebula tools, contact us at
+core-maintainers@utdnebula.com!

@@ -41,4 +41,4 @@ Nebula's apps.
 If you're interested in contributing to our upgrade to UTD Grades, see our
 project on [GitHub](https://github.com/UTDNebula/utd-grades) to get involved!
 
-If you have other questions, [contact us](/contact).
+If you have other questions, contact us at core-maintainers@utdnebula.com!

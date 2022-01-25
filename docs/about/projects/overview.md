@@ -8,14 +8,14 @@ description: About everything Project Nebula does
 
 Project Nebula is made of several projects:
 
-- The [Nebula Planner](/about/projects/planner) is a tool that helps each student
+- The [Nebula Planner](/docs/about/projects/planner) is a tool that helps each student
   plan their college experience and their coursework.
-- The [UTD Survival Guide](/about/projects/utd-survival-guide) is a personalized
+- The [UTD Survival Guide](/docs/about/projects/utd-survival-guide) is a personalized
   handbook and reference guide on how to best be a student and take advantage of
   opportunities at UT Dallas.
-- The [Nebula API](/about/projects/api) is a public API for student-related data
+- The [Nebula API](/docs/about/projects/api) is a public API for student-related data
   that powers Project Nebula.
-- [UTD Grades](/about/projects/utd-grades) is a tool to visualize historical
+- [UTD Grades](/docs/about/projects/utd-grades) is a tool to visualize historical
   class grade distributions.
 - [Comet Circle](https://heatmap.utdnebula.com) is a tool to visualize good times
   to host events.
