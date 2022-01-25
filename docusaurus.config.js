@@ -72,6 +72,10 @@ module.exports = {
               label: 'UTD Survival Guide',
               href: 'https://utd.guide',
             },
+            {
+              label: 'UTD Grades',
+              href: 'https://grades.utdnebula.com',
+            },
           ],
         },
         {
