@@ -1,3 +1,4 @@
+// @ts-check
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
@@ -13,6 +14,14 @@ module.exports = {
   organizationName: 'UTDNebula',
   projectName: 'project-nebula',
   themeConfig: {
+    announcementBar: {
+      id: 'join_us',
+      content:
+        'We are looking for UI/UX designers, product designers, and developers to grow Project Nebula. Please see our <a target="_blank" href="https://acmutd.typeform.com/to/tlZUaM4V">interest form</a> to get involved!',
+      backgroundColor: '#4659A7',
+      textColor: '#FFFFFF',
+      isCloseable: false,
+    },
     metadata: [
       {
         name: 'og:site_name',
@@ -47,7 +56,6 @@ module.exports = {
       ],
     },
     footer: {
-      style: 'dark',
       links: [
         {
           title: 'The Nebula Family',
