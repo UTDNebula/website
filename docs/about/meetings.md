@@ -1,5 +1,6 @@
 ---
 title: Meetings
+description: Project Nebula is a decentralized group of contributors who meet regularly to catch up and discuss roadblocks. See when our maintainers for each of our projects meet, and feel free to drop in!
 ---
 
 Project Nebula is a distributed collection of open source initiatives primarily
