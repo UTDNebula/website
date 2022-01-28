@@ -20,14 +20,14 @@ check for maintainers.
 
 These are the days and times each team regularly meets:
 
-| Team               | Day        | Time     | Location   |
-| ------------------ | ---------- | -------- | ---------- |
-| Nebula Planner     | Wednesdays | 7 PM CST | SSA 12.471 |
-| UTD Survival Guide | Wednesdays | 7 PM CST | SSA 12.471 |
-| API                | Wednesdays | 7 PM CST | SSA 12.471 |
-| Platform           | Wednesdays | 7 PM CST | SSA 12.471 |
-| Athena             | Wednesdays | 7 PM CST | SSA 12.471 |
-| Engage             | TBD        | TBD      | TBD        |
+| Team               | Day        | Time     | Location       |
+| ------------------ | ---------- | -------- | -------------- |
+| Nebula Planner     | Thursdays  | 4 PM CST | Nebula Discord |
+| UTD Survival Guide | Wednesdays | 7 PM CST | SSA 12.471     |
+| API                | Wednesdays | 7 PM CST | SSA 12.471     |
+| Platform           | Wednesdays | 7 PM CST | SSA 12.471     |
+| Athena             | Wednesdays | 7 PM CST | SSA 12.471     |
+| Engage             | TBD        | TBD      | TBD            |
 
 ## Committee Meetings
 
