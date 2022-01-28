@@ -39,3 +39,17 @@ UTDNebula organization):
   UTD Grades service.
 - [comet-circle](https://github.com/UTDNebula/comet-circle) - Source code for
   the Comet Circle HackUTD VIII project.
+
+## Reference: Project Naming
+
+Project Nebula has different names for all of the stuff going on.
+
+| **Project Name**   | **Short Name** | **Codename** | **GitHub Repo Name**     | **Project Website**                                                                         |
+| ------------------ | -------------- | ------------ | ------------------------ | ------------------------------------------------------------------------------------------- |
+| Nebula Planner     | Planner        | _planner_    | UTDNebula/planner        | [utdnebula.com](https://utdnebula.com)                                                      |
+| UTD Survival Guide | Guide          | _guide_      | UTDNebula/survival-guide | [utd.guide](https://utd.guide)                                                              |
+| Nebula API         | API            | _api_        | UTDNebula/nebula-api     | [api.utdnebula.com](https://api.utdnebula.com)                                              |
+| UTD Grades         | UTD Grades     | _athena_     | UTDNebula/utd-grades     | [utdgrades.com](https://utdgrades.com) [grades.utdnebula.com](https://grades.utdnebula.com) |
+| Comet Circle       | Heatmap        | _heatmap_    | UTDNebula/comet-circle   | [heatmap.utdenbula.com](http://heatmap.utdnebula.com)                                       |
+| Components         | Components     | _components_ | UTDNebula/components     |                                                                                             |
+| Nebula Website     | Website        | _website_    | UTDNebula/website        | [about.utdnebula.com](https://about.utdnebula.com)                                          |
