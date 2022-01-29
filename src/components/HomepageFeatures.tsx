@@ -34,9 +34,9 @@ const FeatureList = [
     Icon: require('../../static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        The UTD Survival Guide is a student handbook and collection of resources
-        for all students at UTD. Whether a freshman, non-traditional student, or
-        anyone else, everyone is bound to find something useful in this guide.
+        The Nebula API is a public API containing resources for UTD student
+        data, including professor information, grade distribution information,
+        and more.
       </>
     ),
     link: '/docs/about/api',
@@ -60,9 +60,8 @@ const FeatureList = [
     Icon: require('../../static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        The Nebula Data Service is a public API containing resources for UTD
-        student data, including professor information, grade distribution
-        information, and more.
+        UTD Grades is a website that lets you visualize historical class grade
+        distributions - soon to be Athena, a tool that lets you see much more.
       </>
     ),
     link: 'https://grades.utdnebula.com',
