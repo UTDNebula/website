@@ -82,6 +82,10 @@ module.exports = {
           title: 'Community',
           items: [
             {
+              label: 'Code of Conduct',
+              to: '/code-of-conduct',
+            },
+            {
               label: 'Project Discussion',
               href: 'https://github.com/UTDNebula/website/discussions',
             },
