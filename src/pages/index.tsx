@@ -64,6 +64,9 @@ export default function Home() {
   }, []);
   return (
     <Layout title={`Home`} description={siteConfig.tagline}>
+      <Head>
+        <meta property="og:site_name" content="Project Nebula" />
+      </Head>
       <HomepageHeader />
       <main>
         <HomepageFeatures />
