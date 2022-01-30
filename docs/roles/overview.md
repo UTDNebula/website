@@ -10,6 +10,6 @@ sidebar_position: 1
   - Head of Design
 - Outreach
   - Head of Marketing
-  - [Community Liaison](/roles/community-liaison)
+  - [Community Liaison](/docs/roles/community-liaison)
 - Engineering
   - Product Lead
