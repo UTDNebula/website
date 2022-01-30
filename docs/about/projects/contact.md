@@ -7,7 +7,7 @@ title: Contact Us
 We're always ready to answer your questions. Just follow the instructions below
 so we can assist as efficiently as possible.
 
-### Feature Suggestions and
+### Feature Suggestions and Bug Reports
 
 To suggest a new feature or a modification to an existing feature, please use
 GitHub issues tracker for the respective project. If you come from a
