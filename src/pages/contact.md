@@ -2,6 +2,8 @@
 title: Contact Us
 ---
 
+# Contact Us
+
 ## Getting in Touch (General Inquiries)
 
 We're always ready to answer your questions. Just follow the instructions below

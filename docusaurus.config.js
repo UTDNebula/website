@@ -112,6 +112,10 @@ module.exports = {
               label: 'Website Source',
               href: 'https://github.com/UTDNebula/website',
             },
+            {
+              label: 'Contact Us',
+              href: '/contact',
+            },
           ],
         },
       ],
