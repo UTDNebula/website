@@ -48,6 +48,7 @@ module.exports = {
           label: 'Maintainer Docs',
         },
         { to: '/blog', label: 'Blog', position: 'left' },
+        { to: '/contact', label: 'Contact Us', position: 'left' },
         {
           type: 'doc',
           docId: 'roles/overview',
