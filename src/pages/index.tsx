@@ -18,10 +18,12 @@ function HomepageHeader() {
         <div>
           <img src={ProjectNebulaLogoWordmark} alt="Project Nebula logo" />
         </div>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <p className={clsx('hero__subtitle', styles.hero__subtitle)}>
+          {siteConfig.tagline}
+        </p>
         <div className={styles.buttons}>
           <Link
-            className="button button--primary button--lg"
+            className={clsx('button button--primary button--lg', styles.button)}
             to="/docs/about/overview"
           >
             Learn about Project Nebula
