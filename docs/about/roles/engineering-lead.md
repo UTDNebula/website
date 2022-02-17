@@ -1,20 +1,26 @@
 ---
 sidebar_position: 1
-title: Engineering Lead
-description: Description of Project Nebula engineering lead responsibilities
+title: Head of Engineering
+description: The Head of Engineering maintains Project Nebula's core infrastructure and serves as the chief technical advisor for its projects.
 ---
 
 ## Overview
 
-Project Nebula is an initiative to build tools that help students. The Engineering Lead for Project Nebula oversees and maintains all of its technical infrastructure.
+Project Nebula is an initiative to build tools that help students. The Head of
+Engineering for Project Nebula oversees and maintains all of its technical
+infrastructure.
 
-The Engineering Lead serves as Project Nebula’s chief technical lead and head of dev-ops, chief architect of core Project Nebula infrastructure, working with project leads to build just about everything.
+The Head of Engineering serves as Project Nebula’s chief technical lead, head
+of dev-ops, and chief architect of core Project Nebula infrastructure. The Head
+collaborates with project leads to support their specific project needs while
+coordinating the use of shared resources between projects. The Head manages the
+Nebula Platform, a collection of tools and services
 
-Additionally, the Engineering Lead is very hands-on. We expect the Engineering Lead to have the enthusiasm to collaborate with others and find resources to solve their problems. The Engineering Lead is driven and technically-minded but can communicate technical requirements to other Project Nebula leads who may not necessarily have domain knowledge.
+Additionally, the Head of Engineering is very hands-on. We expect the Head of Engineering to have the enthusiasm to collaborate with others and find resources to solve their problems. The Head of Engineering is driven and technically-minded but can communicate technical requirements to other Project Nebula leads who may not necessarily have domain knowledge.
 
 ## What We Need
 
-The Engineering Lead must have experience building projects with different frameworks and technology stacks and be able to communicate project requirements to others. We’re looking for someone with the following:
+The Head of Engineering must have experience building projects with different frameworks and technology stacks and be able to communicate project requirements to others. We’re looking for someone with the following:
 
 - Ample experience taking software from idea to implementation
 - Understanding of libraries, frameworks, and tools used to build modern software
@@ -36,11 +42,17 @@ We’re all students, so we understand that someone won’t be an expert in anyt
 
 ## What You'll Do
 
-The Engineering Lead works closely with the Project Nebula Lead and Head of Product to prioritize features and come up with paths for implementation.
+The Head of Engineering works closely with the Head of Project Nebula and Head
+of Product to prioritize features and come up with paths for implementation.
 
-As the Engineering Lead, you’ll be an active contributor to all projects and be tasked with keeping an eye on the whole code base with assistance from the respective project leads.
+As the Head of Engineering, you’ll be an active contributor to all projects and
+be tasked with keeping an eye on the whole code base with assistance from the
+respective project leads.
 
-You’ll also serve as an architect for common interfaces for Project Nebula’s products. For example, you’d be responsible for designing a public API for the Nebula Web App and the UTD Survival Guide to access common data on grade distributions or course data.
+You’ll also serve as an architect for common interfaces for Project Nebula’s
+products. For example, you’d be responsible for designing a public API for the
+Nebula Planner and the UTD Survival Guide to access common data on grade
+distributions or course data.
 
 Additionally, you will write documentation that all contributors to the project will use and ensure it is usable by all developers.
 
