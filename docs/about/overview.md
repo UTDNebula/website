@@ -9,7 +9,7 @@ designers who make college life easier through projects.
 
 This website contains information about what projects are a part of Project
 Nebula along with how it is organized. It also contains documentation for
-[maintainers](docs/maintainers/overview) on how to contribute, including theming
+[maintainers](/docs/maintainers/overview) on how to contribute, including theming
 and code style information.
 
 **To get involved, see our [roles](/docs/about/roles/overview) page.**
