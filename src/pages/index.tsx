@@ -68,7 +68,13 @@ export default function Home() {
   return (
     <Layout title={`Home`} description={siteConfig.tagline}>
       <Head>
+        <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Project Nebula" />
+        <meta
+          property="og:image"
+          content="/img/logos/nebula-logo-full-bleed.png"
+        />
+        <meta property="og:url" content="https://about.utdnebula.com" />
       </Head>
       <HomepageHeader />
       <main>
