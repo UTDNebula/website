@@ -3,7 +3,7 @@ name: Bug Report
 about: See something wrong? Tell us, and we'll fix it.
 title: '[Bug Report]'
 labels: 'Type: Bug Report, Status: Awaiting Triage'
-assignees: 'WillieCubed'
+assignees: ''
 ---
 
 ## Expected Behavior
