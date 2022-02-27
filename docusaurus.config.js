@@ -93,8 +93,16 @@ module.exports = {
               to: '/code-of-conduct',
             },
             {
-              label: 'Project Discussion',
+              label: 'UTD Nebula Github',
+              href: 'https://github.com/UTDNebula',
+            },
+            {
+              label: 'Github Project Discussion',
               href: 'https://github.com/UTDNebula/website/discussions',
+            },
+            {
+              label: 'Interest Form',
+              href: 'https://acmutd.typeform.com/to/tlZUaM4V',
             },
           ],
         },
