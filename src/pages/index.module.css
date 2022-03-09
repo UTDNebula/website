@@ -5,11 +5,19 @@
  * and scoped locally.
  */
 
+.heroLogo {
+  max-height: 200px;
+}
+
 .heroBanner {
   padding: 4rem 0;
   text-align: center;
   position: relative;
   overflow: hidden;
+  background-image: url('/img/graphics/hero.svg');
+  background-size: cover;
+  background-position: center center;
+  min-height: 70vh;
 }
 
 @media screen and (max-width: 966px) {
@@ -18,17 +26,7 @@
   }
 }
 
-.buttons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .hero__subtitle {
-  color: var(--ifm-color-gray-900);
-}
-
-.button,
-.button:hover {
-  color: var(--ifm-color-gray-900);
+  color: var(--ifm-color-white);
+  text-shadow: 0px 0px 14px rgba(0, 0, 0, 1);
 }

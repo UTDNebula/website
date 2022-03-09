@@ -5,7 +5,7 @@ import styles from './HomepageFeatures.module.css';
 const FeatureList = [
   {
     title: 'Nebula Planner',
-    Icon: require('../../static/img/undraw_docusaurus_mountain.svg').default,
+    Icon: require('../../static/img/illustrations/undraw_events.svg').default,
     description: (
       <>
         The Nebula Planner is a tool to help students craft their college
@@ -18,7 +18,7 @@ const FeatureList = [
   },
   {
     title: 'UTD Survival Guide',
-    Icon: require('../../static/img/undraw_docusaurus_tree.svg').default,
+    Icon: require('../../static/img/illustrations/undraw_books.svg').default,
     description: (
       <>
         The UTD Survival Guide is a student handbook and collection of resources
@@ -31,7 +31,7 @@ const FeatureList = [
   },
   {
     title: 'Nebula API',
-    Icon: require('../../static/img/undraw_docusaurus_tree.svg').default,
+    Icon: require('../../static/img/illustrations/undraw_stars.svg').default,
     description: (
       <>
         The Nebula API is a public API containing resources for UTD student
@@ -44,7 +44,8 @@ const FeatureList = [
   },
   {
     title: 'Course Heatmap',
-    Icon: require('../../static/img/undraw_docusaurus_react.svg').default,
+    Icon: require('../../static/img/illustrations/undraw_outer_space.svg')
+      .default,
     description: (
       <>
         The Course Heatmap lets you see the best times to host events or plan
@@ -57,7 +58,7 @@ const FeatureList = [
   },
   {
     title: 'UTD Grades Upgrade (Codename: Athena)',
-    Icon: require('../../static/img/undraw_docusaurus_react.svg').default,
+    Icon: require('../../static/img/illustrations/undraw_teacher.svg').default,
     description: (
       <>
         UTD Grades is a website that lets you visualize historical class grade
