@@ -17,7 +17,6 @@
   background-image: url('/img/graphics/hero.svg');
   background-size: cover;
   background-position: center center;
-  min-height: 70vh;
 }
 
 @media screen and (max-width: 966px) {
