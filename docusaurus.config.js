@@ -14,6 +14,9 @@ module.exports = {
   organizationName: 'UTDNebula',
   projectName: 'project-nebula',
   themeConfig: {
+    colorMode: {
+      respectPrefersColorScheme: true,
+    },
     announcementBar: {
       id: 'join_us',
       content:
