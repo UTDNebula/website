@@ -32,9 +32,9 @@ function HomepageHeader() {
         <div className="mt-4">
           <Link
             className="button button--secondary button--lg"
-            href="https://acmutd.typeform.com/to/tlZUaM4V"
+            href="mailto:contact@utdnebula.com?subject=Getting involved&subject=Hi, I would like to get involved with Nebula Labs. How would I do that? I'm interested in..."
           >
-            Join the team
+            Get involved
           </Link>
         </div>
       </div>
