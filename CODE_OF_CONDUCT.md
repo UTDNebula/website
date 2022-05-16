@@ -2,12 +2,12 @@
 title: 'Code of Conduct'
 ---
 
-# Project Nebula Code of Conduct
+# Nebula Labs Code of Conduct
 
-The Project Nebula code of conduct governs all of Project Nebula's projects and
+The Nebula Labs code of conduct governs all of Nebula Labs's projects and
 its operations. All maintainers and contributors are expected to abide by it.
 
-For more information, see the Project Nebula [website](https://about.utdnebula.com).
+For more information, see the Nebula Labs [website](https://about.utdnebula.com).
 
 ## Our Pledge
 
@@ -47,12 +47,12 @@ Examples of unacceptable behavior include:
 
 ## Enforcement Responsibilities
 
-Project Nebula's leadership is responsible for clarifying and enforcing our standards of
+Nebula Labs's leadership is responsible for clarifying and enforcing our standards of
 acceptable behavior and will take appropriate and fair corrective action in
 response to any behavior that they deem inappropriate, threatening, offensive,
 or harmful.
 
-Project Nebula's leadership and project maintainers have the right and
+Nebula Labs's leadership and project maintainers have the right and
 responsibility to remove, edit, or reject comments, commits, code, wiki edits,
 issues, and other contributions that are not aligned to this Code of Conduct
 and will communicate reasons for moderation decisions when appropriate.

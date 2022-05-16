@@ -3,7 +3,7 @@ title: 'Overview'
 sidebar_position: 1
 ---
 
-Project Nebula is an initiative to build tools that help students at The
+Nebula Labs is an initiative to build tools that help students at The
 University of Texas at Dallas. We're a community of student developers and
 designers who make college life easier through projects.
 
@@ -14,7 +14,7 @@ and code style information.
 
 **To get involved, see our [roles](/docs/about/roles/overview) page.**
 
-For more information on each of Project Nebula's projects, see the respective
+For more information on each of Nebula Labs's projects, see the respective
 pages:
 
 - [Nebula Planner](/docs/about/projects/planner)

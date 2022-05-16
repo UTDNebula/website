@@ -1,22 +1,22 @@
 ---
 sidebar_position: 1
 title: Head of Engineering
-description: The Head of Engineering maintains Project Nebula's core infrastructure and serves as the chief technical advisor for its projects.
+description: The Head of Engineering maintains Nebula Labs's core infrastructure and serves as the chief technical advisor for its projects.
 ---
 
 ## Overview
 
-Project Nebula is an initiative to build tools that help students. The Head of
-Engineering for Project Nebula oversees and maintains all of its technical
+Nebula Labs is an initiative to build tools that help students. The Head of
+Engineering for Nebula Labs oversees and maintains all of its technical
 infrastructure.
 
-The Head of Engineering serves as Project Nebula’s chief technical lead, head
-of dev-ops, and chief architect of core Project Nebula infrastructure. The Head
+The Head of Engineering serves as Nebula Labs’s chief technical lead, head
+of dev-ops, and chief architect of core Nebula Labs infrastructure. The Head
 collaborates with project leads to support their specific project needs while
 coordinating the use of shared resources between projects. The Head manages the
 Nebula Platform, a collection of tools and services
 
-Additionally, the Head of Engineering is very hands-on. We expect the Head of Engineering to have the enthusiasm to collaborate with others and find resources to solve their problems. The Head of Engineering is driven and technically-minded but can communicate technical requirements to other Project Nebula leads who may not necessarily have domain knowledge.
+Additionally, the Head of Engineering is very hands-on. We expect the Head of Engineering to have the enthusiasm to collaborate with others and find resources to solve their problems. The Head of Engineering is driven and technically-minded but can communicate technical requirements to other Nebula Labs leads who may not necessarily have domain knowledge.
 
 ## What We Need
 
@@ -38,18 +38,18 @@ Any of these may additionally help:
 - Web development experience using frameworks such as Node.js, Next.js, and React/Vue.js
 - Experience building or maintaining software used by others
 
-We’re all students, so we understand that someone won’t be an expert in anything. If you don’t have all the skills, you will most certainly learn as a part of the Project Nebula team!
+We’re all students, so we understand that someone won’t be an expert in anything. If you don’t have all the skills, you will most certainly learn as a part of the Nebula Labs team!
 
 ## What You'll Do
 
-The Head of Engineering works closely with the Head of Project Nebula and Head
+The Head of Engineering works closely with the Head of Nebula Labs and Head
 of Product to prioritize features and come up with paths for implementation.
 
 As the Head of Engineering, you’ll be an active contributor to all projects and
 be tasked with keeping an eye on the whole code base with assistance from the
 respective project leads.
 
-You’ll also serve as an architect for common interfaces for Project Nebula’s
+You’ll also serve as an architect for common interfaces for Nebula Labs’s
 products. For example, you’d be responsible for designing a public API for the
 Nebula Planner and the UTD Survival Guide to access common data on grade
 distributions or course data.
@@ -60,7 +60,7 @@ Responsibilities:
 
 - Weekly meet-ups with project leads (either in person or virtual)
 - Advocating for open source software
-- Designing product architectures for all of Project Nebula
+- Designing product architectures for all of Nebula Labs
 
 On a day-to-day basis: you'll:
 
@@ -68,8 +68,8 @@ On a day-to-day basis: you'll:
 - Design automation scripts to make the team’s job easier
 - Assist with code reviews
 - Respond to issues and discussions on GitHub
-- Oversee recruitment for Project Nebula’s engineering contributors
-- Serve as technical advisor for Project Nebula
+- Oversee recruitment for Nebula Labs’s engineering contributors
+- Serve as technical advisor for Nebula Labs
 
 Expect to spend 6-8 hours per week in this role.
 

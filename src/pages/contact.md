@@ -39,7 +39,7 @@ See the recommendations above on who to contact to have your issue resolved as
 quickly as possible.
 
 If you are someone of high importance (university administrator, member of law
-enforcement) and need to talk to the Head of Project Nebula, contact
+enforcement) and need to talk to the Head of Nebula Labs, contact
 head@utdnebula.com.
 
 If you still don't know who to contact, send a message to contact@utdnebula.com.

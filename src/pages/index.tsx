@@ -16,7 +16,7 @@ function HomepageHeader() {
       <div className="container">
         {/* <h1 className="hero__title">{siteConfig.title}</h1> */}
         <div>
-          <img src={ProjectNebulaLogoWordmark} alt="Project Nebula logo" />
+          <img src={ProjectNebulaLogoWordmark} alt="Nebula Labs logo" />
         </div>
         <p className={clsx('hero__subtitle', styles.hero__subtitle)}>
           {siteConfig.tagline}
@@ -26,7 +26,7 @@ function HomepageHeader() {
             className={clsx('button button--primary button--lg', styles.button)}
             to="/docs/about/overview"
           >
-            Learn about Project Nebula
+            Learn about Nebula Labs
           </Link>
         </div>
         <div className="mt-4">
@@ -69,7 +69,7 @@ export default function Home() {
     <Layout title={`Home`} description={siteConfig.tagline}>
       <Head>
         <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="Project Nebula" />
+        <meta property="og:site_name" content="Nebula Labs" />
         <meta
           property="og:image"
           content="/img/logos/nebula-logo-full-bleed.png"

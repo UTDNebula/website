@@ -6,13 +6,13 @@ description: Description of front-end developer responsibilities
 
 ## Overview
 
-Project Nebula is an initiative to build tools that help students. Front-end developers for Project Nebula implement the user experiences that allow students to get the information they need and plan their college experience.
+Nebula Labs is an initiative to build tools that help students. Front-end developers for Nebula Labs implement the user experiences that allow students to get the information they need and plan their college experience.
 
-This description is general for all of Project Nebula’s projects, but your desired project may have specific responsibilities that you can ask Willie about.
+This description is general for all of Nebula Labs’s projects, but your desired project may have specific responsibilities that you can ask Willie about.
 
 ## What We Need
 
-Project Nebula is looking for someone with:
+Nebula Labs is looking for someone with:
 
 - Some experience using reactive frameworks to build interactive websites
 - Experience debugging software

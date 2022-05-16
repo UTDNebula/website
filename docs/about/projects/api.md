@@ -30,7 +30,7 @@ this time.
 At [HackUTD VIII](https://hackutd.co) in fall 2021, hackers tested and built
 projects with the Nebula API as part of a alpha preview. As a result, the
 [Comet Circle](https://devpost.com/software/comet-clique) team was invited to
-Project Nebula to work on similar useful tools. Comet Circle was redeployed to
+Nebula Labs to work on similar useful tools. Comet Circle was redeployed to
 [heatmap.utdnebula.com](https://heatmap.utdnebula.com) for public use.
 
 ## Contributing

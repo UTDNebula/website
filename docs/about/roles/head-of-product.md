@@ -1,16 +1,16 @@
 ---
 sidebar_position: 2
 title: Head of Product
-description: Description of Project Nebula head of product responsibilities
+description: Description of Nebula Labs head of product responsibilities
 ---
 
 ## Overview
 
-Project Nebula is an initiative to build tools that help students. The Head of Product directs strategy by figuring out what student problems we should address next and how best to address them.
+Nebula Labs is an initiative to build tools that help students. The Head of Product directs strategy by figuring out what student problems we should address next and how best to address them.
 
-The Head of Product will keep in touch with external partners including students and university staff and third parties to increase the impact and utility of Project Nebula’s projects.
+The Head of Product will keep in touch with external partners including students and university staff and third parties to increase the impact and utility of Nebula Labs’s projects.
 
-The Head of Product sets the vision for the features that ought to be implemented based on their own experience and based on research done on the community. The Head of Product thinks very holistically about what Project Nebula builds and tries to prioritize what is built based on user feedback.
+The Head of Product sets the vision for the features that ought to be implemented based on their own experience and based on research done on the community. The Head of Product thinks very holistically about what Nebula Labs builds and tries to prioritize what is built based on user feedback.
 
 ## What We Need
 
@@ -29,7 +29,7 @@ Any of these may additionally help:
 
 ## What You'll Do
 
-The Head of Product oversees the functionality for Project Nebula’s projects and determines their feasibility from a user perspective.
+The Head of Product oversees the functionality for Nebula Labs’s projects and determines their feasibility from a user perspective.
 
 For example, while the User Experience Lead would figure out how a student would associate transfer credits with their degree plan, the Head of Product would determine the core requirements for and understand the problem space for the problem domain (like researching edge cases when planning degree plans). The Engineering Lead would work with project leads who would oversee their implementation.
 
@@ -37,18 +37,18 @@ On a day-to-day basis: you will:
 
 - Work with Engineering Lead to determine technical requirements to build new features
 - Work with User Experience Lead to design project experiences
-- Keeping in touch with Project Nebula community liaisons and other students
+- Keeping in touch with Nebula Labs community liaisons and other students
 
 Responsibilities:
 
 - Weekly meet-ups with project leads (either in person or virtual)
-- Monthly Project Nebula-wide meetings
+- Monthly Nebula Labs-wide meetings
 - Talk to on-campus departments, acting as a liaison for what students want
 - Brainstorming new features for projects or developing entirely new projects
 - Soliciting feedback from the community
-- Working with Project Nebula’s Policy Consultant to consider broader impacts of what is built
-- Developing a maintainable product ecosystem that encompasses the vision and values of Project Nebula
-- Serving as a chief decision-maker for what Project Nebula should focus on
+- Working with Nebula Labs’s Policy Consultant to consider broader impacts of what is built
+- Developing a maintainable product ecosystem that encompasses the vision and values of Nebula Labs
+- Serving as a chief decision-maker for what Nebula Labs should focus on
 
 Expect to spend around 5 hours per week in your role.
 

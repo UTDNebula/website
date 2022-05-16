@@ -1,4 +1,4 @@
-# Project Nebula Support
+# Nebula Labs Support
 
 This project repository is specifically for core project documenation. If you
 are looking for the Nebula App - the degree planning tool, see the

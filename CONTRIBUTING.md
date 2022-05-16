@@ -1,4 +1,4 @@
-# Project Nebula Contributor's Guide
+# Nebula Labs Contributor's Guide
 
 _Information on how to contribute to this project._
 
@@ -27,7 +27,7 @@ This is the process for contributing code to the repository:
 
 ### Opening an Issue
 
-Project Nebula uses the following issue labels to designate between type:
+Nebula Labs uses the following issue labels to designate between type:
 
 - `Type: Feature Request` for user-facing or API feature requests
 - `Type: Security Vulnerability` for security vulnerability reports
@@ -62,7 +62,7 @@ We also have the following special-purpose indicators:
 - `Special: Help Needed` - may either be urgent to fix or stale (has been open
   for multiple sprints)
 
-By default, Project Nebula repositories have four default issue templates to
+By default, Nebula Labs repositories have four default issue templates to
 make the process easier, each corresponding to one issue type:
 
 - Feature Request
@@ -93,7 +93,7 @@ git clone https://github.com/<your-username>/website.git
 
 ### Branching Strategy
 
-Project Nebula uses the following naming convention for branching:
+Nebula Labs uses the following naming convention for branching:
 
 - `main` for production-ready code
   - Default branch for basing pull requests
@@ -125,7 +125,7 @@ specification. Using Conventional Commits allows us to automatically generate
 changelogs that abide by semantic versioning. Individual project codebases will
 reject commits that are not properly formatted.
 
-Project Nebula uses the following commit types:
+Nebula Labs uses the following commit types:
 
 - chore: Default commit type for functional code changes or new implementations
   for features that are in progress or incomplete

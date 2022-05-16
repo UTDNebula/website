@@ -1,11 +1,11 @@
 ---
 id: overview
-title: 'About Maintaining Project Nebula'
-description: 'How to set up a new Project Nebula codebase.'
+title: 'About Maintaining Nebula Labs'
+description: 'How to set up a new Nebula Labs codebase.'
 sidebar_position: 1
 ---
 
-Contributing to Project Nebula is simple. All of our codebases use a consistent
+Contributing to Nebula Labs is simple. All of our codebases use a consistent
 process to suggest or implement changes.
 
 Addiitonally, many of our projects use a consistent technology stack and similar

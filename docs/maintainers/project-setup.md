@@ -1,6 +1,6 @@
 ---
 title: 'Project Setup'
-description: 'How to set up a new Project Nebula codebase.'
+description: 'How to set up a new Nebula Labs codebase.'
 ---
 
 # TL;DR
@@ -13,7 +13,7 @@ description: 'How to set up a new Project Nebula codebase.'
 
 # Code Quality
 
-The Project Nebula codebase uses a few tools to enforce code quality and commit
+The Nebula Labs codebase uses a few tools to enforce code quality and commit
 conventions.
 
 ## Prettier

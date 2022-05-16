@@ -10,10 +10,10 @@ from previously taught class sections.
 Thousands of students use UTD Grades as a rough approximation for the difficulty
 of a class and to plan their academic coursework.
 
-UTD Grades is a joint collaboration between Project Nebula maintainers and the
+UTD Grades is a joint collaboration between Nebula Labs maintainers and the
 [Mercury](https://utdmercury.com), the student-run newspaper of UT Dalllas. To
 obtain the historical grades data, the Mercury submits a Freedom of Information
-Act request shortly after a semester ends, and then Project Nebula uploads that
+Act request shortly after a semester ends, and then Nebula Labs uploads that
 data to the UTD Grades database.
 
 You can access UTD Grades [here](https://grades.utdnebula.com) or at
@@ -26,10 +26,10 @@ web editor for the Mercury, based off a concept by [UNT Grades](https://untgrade
 a website built by [Jeffrey Wang](https://jeffw.xyz/) while he was a student the
 Texas Academy of Mathematics and Science at the University of North Texas. The
 project was built as a part of [ACM UTD's](https://acmutd.co) Labs initiative
-and maintained by its team. In summer 2021, UTD Grades became a Project Nebula
+and maintained by its team. In summer 2021, UTD Grades became a Nebula Labs
 project to give it better focus.
 
-In fall 2021, Project Nebula announced that UTD Grades would get an upgrade due
+In fall 2021, Nebula Labs announced that UTD Grades would get an upgrade due
 for spring 2022. This upgrade would revamp the interface to provide more
 information to students.
 

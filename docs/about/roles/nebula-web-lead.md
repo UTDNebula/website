@@ -6,11 +6,11 @@ description: Description of Nebula Web project lead responsibilities
 
 ## Overview
 
-Project Nebula is an initiative to build tools that help students. The Nebula Web App is the flagship product for Project Nebula. It is a tool for helping students plan their degree plans and general college experience.
+Nebula Labs is an initiative to build tools that help students. The Nebula Web App is the flagship product for Nebula Labs. It is a tool for helping students plan their degree plans and general college experience.
 
 ## What We Need
 
-A project lead for Project Nebula is both a project manager and active developer for the Nebula Data Service. We’re looking for someone with:
+A project lead for Nebula Labs is both a project manager and active developer for the Nebula Data Service. We’re looking for someone with:
 
 - An understanding of libraries, frameworks, and tools used to build modern software
 - Experience building reactive websites using third-party data sources
@@ -20,7 +20,7 @@ Additionally, the following would be useful:
 - Experience building progressive web applications
 - Knowledge of how degree planning works at UTD
 
-We’re all students, so we understand that someone won’t be an expert in anything. If you don’t have all the skills, you will most certainly learn as a part of the Project Nebula team!
+We’re all students, so we understand that someone won’t be an expert in anything. If you don’t have all the skills, you will most certainly learn as a part of the Nebula Labs team!
 
 ## What You'll Do
 
@@ -30,7 +30,7 @@ Your general responsibilities would be:
 - Managing the Nebula Web team (three other people)
 - Keeping in touch with the Engineering Lead
 - Taking feedback and working with your project’s community liaison to optimize feature development
-- Working with the Head of Design to keep the data service in line with the rest of Project Nebula’s brand
+- Working with the Head of Design to keep the data service in line with the rest of Nebula Labs’s brand
 - Working with the Head of Product to prioritize feature development
 
 On a day-to-day basis, you would:

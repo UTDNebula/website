@@ -1,15 +1,15 @@
-# Project Nebula Home Site
+# Nebula Labs Home Site
 
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](./CODE_OF_CONDUCT.md)
 
-_A place for core Project Nebula documentation._
+_A place for core Nebula Labs documentation._
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern
 static website generator.
 
 ### Installation
 
-If you only need to view the website, see the Project Nebula [Home page](https://about.utdnebula.com/)
+If you only need to view the website, see the Nebula Labs [Home page](https://about.utdnebula.com/)
 
 To build this project, you will need a working Node.js installation, preferably
 Node.js 12 or later.

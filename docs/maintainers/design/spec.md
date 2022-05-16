@@ -1,12 +1,12 @@
 ---
 sidebar_position: 3
 title: 'UI Specs'
-description: How Project Nebula things are supposed to look.
+description: How Nebula Labs things are supposed to look.
 ---
 
 ## Overview
 
-Here you'll learn how to make things _look_ like Project Nebula apps.
+Here you'll learn how to make things _look_ like Nebula Labs apps.
 
 Generally, we stick to Material Design guidelines for usability.
 

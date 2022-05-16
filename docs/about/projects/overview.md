@@ -1,12 +1,12 @@
 ---
 sidebar_position: 1
 title: Overview
-description: About everything Project Nebula does
+description: About everything Nebula Labs does
 ---
 
-## Project Nebula Apps and Tools
+## Nebula Labs Apps and Tools
 
-Project Nebula is made of several projects:
+Nebula Labs is made of several projects:
 
 - The [Nebula Planner](/docs/about/projects/planner) is a tool that helps each student
   plan their college experience and their coursework.
@@ -14,7 +14,7 @@ Project Nebula is made of several projects:
   handbook and reference guide on how to best be a student and take advantage of
   opportunities at UT Dallas.
 - The [Nebula API](/docs/about/projects/api) is a public API for student-related data
-  that powers Project Nebula.
+  that powers Nebula Labs.
 - [UTD Grades](/docs/about/projects/utd-grades) is a tool to visualize historical
   class grade distributions.
 - [Comet Circle](https://heatmap.utdnebula.com) is a tool to visualize good times
@@ -22,7 +22,7 @@ Project Nebula is made of several projects:
 
 ## Project Repositories
 
-Project Nebula has a few repositories for different purposes (all in the
+Nebula Labs has a few repositories for different purposes (all in the
 UTDNebula organization):
 
 - [planner](https://github.com/UTDNebula/planner) - Source code for the Nebula
@@ -32,7 +32,7 @@ UTDNebula organization):
 - [client-library](https://github.com/UTDNebula/client-library) - A JavaScipt
   client library to interface with the Nebula API.
 - [components](https://github.com/UTDNebula/components) - A custom shared
-  component library for Project Nebula projects.
+  component library for Nebula Labs projects.
 - [website](https://github.com/UTDNebula/website) - Source for the Project
   Nebula team website
 - [utd-grades](https://github.com/UTDNebula/utd-grades) - Source fcode for the
@@ -42,7 +42,7 @@ UTDNebula organization):
 
 ## Reference: Project Naming
 
-Project Nebula has different names for all of the stuff going on.
+Nebula Labs has different names for all of the stuff going on.
 
 | **Project Name**   | **Short Name** | **Codename** | **GitHub Repo Name**     | **Project Website**                                                                         |
 | ------------------ | -------------- | ------------ | ------------------------ | ------------------------------------------------------------------------------------------- |

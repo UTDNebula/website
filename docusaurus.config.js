@@ -4,7 +4,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'Project Nebula',
+  title: 'Nebula Labs',
   tagline: `An initiative to build tools to make students' lives easier at UT Dallas.`,
   url: 'https://about.utdnebula.com',
   baseUrl: '/',
@@ -17,7 +17,7 @@ module.exports = {
     announcementBar: {
       id: 'join_us',
       content:
-        'We are looking for UI/UX designers, product designers, and developers to grow Project Nebula. Please see our <a target="_blank" href="https://acmutd.typeform.com/to/tlZUaM4V">interest form</a> to get involved!',
+        'We are looking for UI/UX designers, product designers, and developers to grow Nebula Labs. Please see our <a target="_blank" href="https://acmutd.typeform.com/to/tlZUaM4V">interest form</a> to get involved!',
       backgroundColor: '#4659A7',
       textColor: '#FFFFFF',
       isCloseable: false,
@@ -25,13 +25,13 @@ module.exports = {
     metadata: [
       {
         name: 'og:site_name',
-        content: 'Project Nebula',
+        content: 'Nebula Labs',
       },
     ],
     navbar: {
-      title: 'Project Nebula',
+      title: 'Nebula Labs',
       logo: {
-        alt: 'Project Nebula Logo',
+        alt: 'Nebula Labs Logo',
         src: 'img/logos/nebula-logo.svg',
       },
       items: [
@@ -121,11 +121,11 @@ module.exports = {
         },
       ],
       logo: {
-        alt: 'Project Nebula Logo',
+        alt: 'Nebula Labs Logo',
         src: 'img/logos/nebula-logo-wordmark.png',
         href: '/',
       },
-      copyright: `Copyright © ${new Date().getFullYear()} Project Nebula Maintainers. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Nebula Labs Maintainers. Built with Docusaurus.`,
     },
     prism: {
       theme: lightCodeTheme,

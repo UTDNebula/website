@@ -1,15 +1,15 @@
 ---
 title: Meetings
-description: Project Nebula is a decentralized group of contributors who meet regularly to catch up and discuss roadblocks. See when our maintainers for each of our projects meet, and feel free to drop in!
+description: Nebula Labs is a decentralized group of contributors who meet regularly to catch up and discuss roadblocks. See when our maintainers for each of our projects meet, and feel free to drop in!
 ---
 
-Project Nebula is a distributed collection of open source initiatives primarily
+Nebula Labs is a distributed collection of open source initiatives primarily
 operated from The University of Texas at Dallas main campus.
 
 All meetings are open to the public unless otherwise noted, so feel free to drop
 in and get involved!
 
-The simplest way to get involved is through Project Nebula Weekly Stand-up
+The simplest way to get involved is through Nebula Labs Weekly Stand-up
 meetings, which are co-hosted during Coding Hangouts on Wednesdays at 7 PM in
 [SSA 12.471][hangouts room].
 
@@ -31,12 +31,12 @@ These are the days and times each team regularly meets:
 | Athena             | Thursdays | 7:00 PM CST | Nebula Discord |
 | Jupiter            | Thursdays | 4:30 PM CST | Nebula Discord |
 
-Some meetings take place on the Project Nebula Discord. You can directly join
+Some meetings take place on the Nebula Labs Discord. You can directly join
 the meeting room [here][discord link].
 
 ## Committee Meetings
 
-There are some groups within Project Nebula who meet on a limited basis to
+There are some groups within Nebula Labs who meet on a limited basis to
 discuss aspects of its governance and strategic direction. These groups are:
 
 | **Group**                        | **Frequency**          | **When**              | **Where**   |
@@ -48,12 +48,12 @@ discuss aspects of its governance and strategic direction. These groups are:
 | Marketing and Outreach Committee | Once per week          | TBD                   | TBD         |
 | Guide Content Team               | About thrice per month | TBD                   | TBD         |
 
-- Product Council meetings discuss alignment of Project Nebula's products,
+- Product Council meetings discuss alignment of Nebula Labs's products,
   considering the needs of external stakeholders.
-- Design meetings are for ensuring consistency of Project Nebula brand and to
+- Design meetings are for ensuring consistency of Nebula Labs brand and to
   get feedback on works in progress.
 - Engineering committee meetings are largely trainings and teach-ins for
-  technical topics or discussions about development issues for Project Nebula
+  technical topics or discussions about development issues for Nebula Labs
   maintainers.
 
 ## Socials

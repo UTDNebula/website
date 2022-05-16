@@ -6,13 +6,13 @@ description: Description of Nebula Data Service project lead responsibilities
 
 ## Overview
 
-Project Nebula is an initiative to build tools that help students. The Project Lead for the Nebula Data Service oversees the core API and data source for Project Nebula.
+Nebula Labs is an initiative to build tools that help students. The Project Lead for the Nebula Data Service oversees the core API and data source for Nebula Labs.
 
 For the fall 2021 semester, the Nebula Data Service Project Lead will oversee upgrading UTD Grades to be a publicly accessible tool that students can use to look at historical and current UTD-related data including grade distributions, course prerequisites, and professor evaluations.
 
 ## What We Need
 
-A project lead for Project Nebula is both a project manager and active developer for the Nebula Data Service. We need someone who understands what to prioritize when designing a public API and someone who understands the necessity of quality documentation. We're looking for someone with:
+A project lead for Nebula Labs is both a project manager and active developer for the Nebula Data Service. We need someone who understands what to prioritize when designing a public API and someone who understands the necessity of quality documentation. We're looking for someone with:
 
 - An understanding of libraries, frameworks, and tools used to build modern software
 - Experience building reactive websites using third-party data sources
@@ -24,7 +24,7 @@ Additionally, the following would be useful:
 - Experience reading technical documentation for third-party services
 - Knowledge of networking
 
-We’re all students, so we understand that someone won’t be an expert in anything. If you don’t have all the skills, you will most certainly learn as a part of the Project Nebula team!
+We’re all students, so we understand that someone won’t be an expert in anything. If you don’t have all the skills, you will most certainly learn as a part of the Nebula Labs team!
 
 ## What You'll Do
 
@@ -33,7 +33,7 @@ Your general responsibilities would be:
 - Ensuring the Nebula Data Service is accessible at all times
 - Managing the Nebula Data Service team (two other people)
 - Working with the Head of Product to prioritize feature development
-- Working with the Head of Design to keep the data service in line with the rest of Project Nebula’s brand
+- Working with the Head of Design to keep the data service in line with the rest of Nebula Labs’s brand
 - Keeping in touch with the Engineering Lead
 
 On a day-to-day basis, you would:

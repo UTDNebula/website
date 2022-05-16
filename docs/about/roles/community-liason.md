@@ -1,12 +1,12 @@
 ---
 sidebar_position: 4
 title: Community Liason
-description: Description of Project Nebula community liason responsibilities
+description: Description of Nebula Labs community liason responsibilities
 ---
 
 ## Overview
 
-Project Nebula is an initiative to build tools that help students. Keeping in touch with other students is an important part of that! A community liaison serves as a bridge from the wider community to Project Nebula’s developers by talking to other students.
+Nebula Labs is an initiative to build tools that help students. Keeping in touch with other students is an important part of that! A community liaison serves as a bridge from the wider community to Nebula Labs’s developers by talking to other students.
 
 ## What We Need
 
@@ -27,11 +27,11 @@ Any of these would additionally help:
 - Qualitative research skills
 - Knowing a lot of people
 
-We’re all students, so we understand that someone won’t be an expert in anything. If you don’t have all the skills, you will most certainly learn as a part of the Project Nebula team!
+We’re all students, so we understand that someone won’t be an expert in anything. If you don’t have all the skills, you will most certainly learn as a part of the Nebula Labs team!
 
 ## What You'll Do
 
-As a community liaison, you’ll keep in touch with people outside of the Project Nebula team. You’ll act as a representative for Project Nebula and stay engaged with what’s going on in the student body.
+As a community liaison, you’ll keep in touch with people outside of the Nebula Labs team. You’ll act as a representative for Nebula Labs and stay engaged with what’s going on in the student body.
 
 Responsibilities:
 
@@ -44,7 +44,7 @@ What you’ll do on a regular basis:
 - Have conversations with students (mostly virtually, but also offline)
 - Keep track of what issues are most important to students
 - Informally poll the UT Dallas community
-- Advocate for Project Nebula in relevant online community spaces (for example, sharing links to the UTD Survival Guide on Reddit in a non-spammy way)
+- Advocate for Nebula Labs in relevant online community spaces (for example, sharing links to the UTD Survival Guide on Reddit in a non-spammy way)
 
 Expect to spend 2-3 hours/week in this role.
 
