@@ -13,8 +13,8 @@ const FeatureList = [
         course information tracking, and more.
       </>
     ),
-    link: 'https://utdnebula.com',
-    linkCta: 'Visit Planner',
+    link: '/docs/about/projects/planner',
+    linkCta: 'Learn more',
   },
   {
     title: 'UTD Survival Guide',
@@ -26,7 +26,7 @@ const FeatureList = [
         anyone else, everyone is bound to find something useful in this guide.
       </>
     ),
-    link: '/docs/about/survival-guide',
+    link: '/docs/about/projects/utd-survival-guide',
     linkCta: 'Learn more',
   },
   {
@@ -39,33 +39,20 @@ const FeatureList = [
         and more.
       </>
     ),
-    link: '/docs/about/api',
+    link: '/docs/about/projects/api',
     linkCta: 'Learn more',
   },
   {
-    title: 'Course Heatmap',
+    title: 'UTD Trends',
     Icon: require('../../static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        The Course Heatmap lets you see the best times to host events or plan
-        meetings by visualizing course density throughout the week, powered by
-        the Nebula API.
+        UTD Trends is a website that lets you visualize historical class grade
+        distributions, course evals, professor salaries, and more.
       </>
     ),
-    link: 'http://heatmap.utdnebula.com',
-    linkCta: 'Visit Heatmap',
-  },
-  {
-    title: 'UTD Grades Upgrade (Codename: Athena)',
-    Icon: require('../../static/img/undraw_docusaurus_react.svg').default,
-    description: (
-      <>
-        UTD Grades is a website that lets you visualize historical class grade
-        distributions - soon to be Athena, a tool that lets you see much more.
-      </>
-    ),
-    link: 'https://grades.utdnebula.com',
-    linkCta: 'Browse grades',
+    link: '/docs/about/projects/utd-grades',
+    linkCta: 'Learn more',
   },
 ];
 

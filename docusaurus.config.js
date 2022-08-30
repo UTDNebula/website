@@ -17,7 +17,7 @@ module.exports = {
     announcementBar: {
       id: 'join_us',
       content:
-        'We are looking for UI/UX designers, product designers, and developers to grow Nebula Labs. Please see our <a target="_blank" href="https://acmutd.typeform.com/to/tlZUaM4V">interest form</a> to get involved!',
+        'We are currently updating our website! <a target="_blank" href="https://discord.gg/tcpcnfxmeQ">Join our Discord</a> to get involved!',
       backgroundColor: '#4659A7',
       textColor: '#FFFFFF',
       isCloseable: false,
@@ -104,10 +104,6 @@ module.exports = {
             {
               label: 'Blog',
               to: '/blog',
-            },
-            {
-              label: 'ACM UTD Website',
-              href: 'https://acmutd.co',
             },
             {
               label: 'Website Source',
