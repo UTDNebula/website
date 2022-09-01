@@ -50,12 +50,6 @@ module.exports = {
         { to: '/blog', label: 'Blog', position: 'left' },
         { to: '/contact', label: 'Contact Us', position: 'left' },
         {
-          type: 'doc',
-          docId: 'roles/overview',
-          position: 'right',
-          label: 'People & Roles',
-        },
-        {
           href: 'https://github.com/UTDNebula/website',
           label: 'GitHub',
           position: 'right',
