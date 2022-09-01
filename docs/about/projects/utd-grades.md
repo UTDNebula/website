@@ -29,7 +29,8 @@ for spring 2022. This upgrade would revamp the interface to provide more
 information to students.
 
 In spring 2022, Nebula Labs split with ACM, and handed maintenance of UTD Grades
-to ACM Development.
+to ACM Development. Nebula Labs subsequently rebranded the UTD Grades upgrade to
+UTD Trends and continued development.
 
 ## Contributing
 
