@@ -1,23 +1,18 @@
 ---
 sidebar_position: 5
-title: UTD Grades
-description: 'A tool that lets students view historical grade distributions from previously taught class sections at UT Dallas.'
+title: UTD Trends
+description: 'A tool that lets students view historical grade distributions and more from previously taught class sections at UT Dallas.'
 ---
 
-UTD Grades is a tool that lets students view historical grade distributions
-from previously taught class sections.
+UTD Trends is a tool that lets students view historical grade distributions,
+course evaluation data, and more from previously taught class sections.
 
-Thousands of students use UTD Grades as a rough approximation for the difficulty
-of a class and to plan their academic coursework.
-
-UTD Grades is a joint collaboration between Nebula Labs maintainers and the
-[Mercury](https://utdmercury.com), the student-run newspaper of UT Dalllas. To
+UTD Trends is in part supported by both The [Mercury](https://utdmercury.com), and
+the [Nebula Labs API Team](/docs/about/projects/api.md). To
 obtain the historical grades data, the Mercury submits a Freedom of Information
 Act request shortly after a semester ends, and then Nebula Labs uploads that
-data to the UTD Grades database.
-
-You can access UTD Grades [here](https://grades.utdnebula.com) or at
-[utdgrades.com](https://utdgrades.com).
+data to the UTD Trends database. This data is then processed by our backend team
+and is augmented by data gathered through web scraping.
 
 ## History
 
@@ -33,12 +28,15 @@ In fall 2021, Nebula Labs announced that UTD Grades would get an upgrade due
 for spring 2022. This upgrade would revamp the interface to provide more
 information to students.
 
+In spring 2022, Nebula Labs split with ACM, and handed maintenance of UTD Grades
+to ACM Development.
+
 ## Contributing
 
 We're always looking for people to help build features and maintain Project
 Nebula's apps.
 
-If you're interested in contributing to our upgrade to UTD Grades, see our
-project on [GitHub](https://github.com/UTDNebula/utd-grades) to get involved!
+If you're interested in contributing to our iteration upon UTD Grades, see our
+project on [GitHub](https://github.com/UTDNebula/utd-trends) to get involved!
 
 If you have other questions, contact us at core-maintainers@utdnebula.com!

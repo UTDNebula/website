@@ -63,7 +63,7 @@ module.exports = {
           items: [
             {
               label: 'Nebula Planner',
-              href: 'https://utdnebula.com',
+              href: 'https://github.com/UTDNebula/planner',
             },
             {
               label: 'Nebula API',
@@ -71,11 +71,11 @@ module.exports = {
             },
             {
               label: 'UTD Survival Guide',
-              href: 'https://utd.guide',
+              href: 'https://github.com/UTDNebula/survival-guide',
             },
             {
-              label: 'UTD Grades',
-              href: 'https://grades.utdnebula.com',
+              label: 'UTD Trends',
+              href: 'https://github.com/UTDNebula/utd-trends',
             },
           ],
         },

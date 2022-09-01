@@ -8,4 +8,4 @@ Nebula Labs is an interdisciplinary community of dedicated project
 maintainers and contributors who each give back to the project in their own way.
 
 If you want to regularly contribute to Nebula Labs without a formal
-commitment, please join our [Discord](https://discord.gg/tcpcnfxmeQ)
+commitment, please join our [Discord](https://discord.gg/tcpcnfxmeQ).

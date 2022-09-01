@@ -9,9 +9,7 @@ operated from The University of Texas at Dallas main campus.
 All meetings are open to the public unless otherwise noted, so feel free to drop
 in and get involved!
 
-The simplest way to get involved is through Nebula Labs Weekly Stand-up
-meetings, which are co-hosted during Coding Hangouts on Wednesdays at 7 PM in
-[SSA 12.471][hangouts room].
+The simplest way to get involved is through joining our [Discord][discord link].
 
 If you need assistance, contact head@utdnebula.com.
 
@@ -32,23 +30,24 @@ These are the days and times each team regularly meets:
 | Jupiter            | TBD |      |          |
 
 Some meetings take place on the Nebula Labs Discord. You can directly join
-the meeting room [here][discord link].
+the Discord [here][discord link].
 
 ## Committee Meetings
 
 There are some groups within Nebula Labs who meet on a limited basis to
 discuss aspects of its governance and strategic direction. These groups are:
 
-| **Group**                        | **Frequency**          | **When** | **Where** |
-| -------------------------------- | ---------------------- | -------- | --------- |
-| Leadership Team                  | About twice per month  | TBD      | TBD       |
-| Product Council                  | Twice per semester     | Ad hoc   | TBD       |
-| Design Committee                 | Once per week          | TBD      | TBD       |
-| Engineering Committee            | Thrice per semester    | Ad hoc   | TBD       |
-| Marketing and Outreach Committee | Once per week          | TBD      | TBD       |
-| Guide Content Team               | About thrice per month | TBD      | TBD       |
+| **Group**               | **Frequency**  | **When** | **Where** |
+| ----------------------- | -------------- | -------- | --------- |
+| Officer Team            | Once per month | TBD      | TBD       |
+| Leadership Team         | Once per month | TBD      | TBD       |
+| Project Council         | Once per month | Ad hoc   | TBD       |
+| Division Heads          | Once per month | Ad hoc   | TBD       |
+| Engineering Team        | Once per month | Ad hoc   | TBD       |
+| UI/UX Design Team       | Once per month | Ad hoc   | TBD       |
+| Product Management Team | Once per month | Ad hoc   | TBD       |
 
-- Product Council meetings discuss alignment of Nebula Labs's products,
+- Product Management meetings discuss alignment of Nebula Labs's products,
   considering the needs of external stakeholders.
 - Design meetings are for ensuring consistency of Nebula Labs brand and to
   get feedback on works in progress.
@@ -73,4 +72,3 @@ desired.
   - How: Reach out on Discord (Radster859#6720)
 
 [discord link]: https://discord.gg/tcpcnfxmeQ
-[hangouts room]: https://map.concept3d.com/?id=1772#!m/544802
