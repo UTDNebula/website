@@ -13,61 +13,37 @@ development for that respective project.
 Nebula Labs's leadership is made of roles with different backgrounds who
 oversee and assist with different aspects of development:
 
-- Head of Nebula Labs
+- President
+- Vice President
+- Executive Director
+- Treasurer
+- Secretary
 - Head of Product
 - Head of Engineering
 - Head of Design
-- Head of Marketing and Outreach
 - Project Lead, Nebula Planner
 - Project Lead, UTD Survival Guide
 - Project Lead, API & Platform
-- UI/UX Designer
-- Product Deigner
-- Community Liasion
+- Project Lead, Jupiter
+- Project Lead, UTD Trends
 
-Leadership consists of an Executive Committee made of:
+## Member Responsibilities
 
-- Head of Nebula Labs
-- Head of Product
-- Head of Engineering
-- Head of Design
-
-This Executive Committee makes decisions on project governance and oversees
-recruitment and partnerships with other external groups.
-
-## Maintainer Responsibilities
-
-A Nebula Labs maintainer is someone who monitors at least one project
+A Nebula Labs member is someone who monitors at least one project
 and is responsible for maintaining its codebase, responding to issues,
 performing code review for pull requests, fixing bugs, and developing or
 designing new features when needed.
 
-Each maintainer chooses which projects they contribute to. Project Leads are
+Each member chooses which projects they contribute to. Project Leads are
 responsible for coordinating project timelines and being the ultimate
-maintainers for the projects they oversee. Any maintainer may propose an idea
+members for the projects they oversee. Any member may propose an idea
 for a new project or tool maintained by Nebula Labs by proposing it to the
 Head of Product.
 
 ## Contributors
 
 A contributor is anyone who contributes code or some other IP to a project under
-Nebula Labs. All Nebula Labs maintainers are contributors.
+Nebula Labs. All Nebula Labs members are contributors.
 
 All contributors are expected to act according to the Project's
 [Code of Conduct](/code-of-conduct).
-
-## The Role of ACM
-
-The Engineering team of the UT Dallas chapter of the
-[Association for Computing Machinery](https://acmutd.co) currently provides
-hosting and other infrastructure for all Nebula Labs components.
-
-The Director of Engineering reports to the ACM executives - president and vice
-president - and has sole but limited authority in the following domains:
-
-- Infrastucture choices (due to finance constraints or otherwise)
-- Anything ACM-related (advertising Nebula Labs from ACM's end)
-
-The Nebula Labs lead must abide by the polices for community projects set by
-the Director of Engineering. ACM's media team is independent from Project
-Nebula's designers.

@@ -15,10 +15,8 @@ Nebula Labs is made of several projects:
   opportunities at UT Dallas.
 - The [Nebula API](/docs/about/projects/api) is a public API for student-related data
   that powers Nebula Labs.
-- [UTD Grades](/docs/about/projects/utd-grades) is a tool to visualize historical
+- [UTD Trends](/docs/about/projects/utd-grades) is a tool to visualize historical
   class grade distributions.
-- [Comet Circle](https://heatmap.utdnebula.com) is a tool to visualize good times
-  to host events.
 
 ## Project Repositories
 
@@ -35,7 +33,7 @@ UTDNebula organization):
   component library for Nebula Labs projects.
 - [website](https://github.com/UTDNebula/website) - Source for the Project
   Nebula team website
-- [utd-grades](https://github.com/UTDNebula/utd-grades) - Source fcode for the
+- [utd-trends](https://github.com/UTDNebula/utd-trends) - Source fcode for the
   UTD Grades service.
 - [comet-circle](https://github.com/UTDNebula/comet-circle) - Source code for
   the Comet Circle HackUTD VIII project.
@@ -49,7 +47,7 @@ Nebula Labs has different names for all of the stuff going on.
 | Nebula Planner     | Planner        | _planner_    | UTDNebula/planner        | [utdnebula.com](https://utdnebula.com)                                                      |
 | UTD Survival Guide | Guide          | _guide_      | UTDNebula/survival-guide | [utd.guide](https://utd.guide)                                                              |
 | Nebula API         | API            | _api_        | UTDNebula/nebula-api     | [api.utdnebula.com](https://api.utdnebula.com)                                              |
-| UTD Grades         | UTD Grades     | _athena_     | UTDNebula/utd-grades     | [utdgrades.com](https://utdgrades.com) [grades.utdnebula.com](https://grades.utdnebula.com) |
+| UTD Trends         | Trends         | _trends_     | UTDNebula/utd-trends     | [utdgrades.com](https://utdgrades.com) [grades.utdnebula.com](https://grades.utdnebula.com) |
 | Comet Circle       | Heatmap        | _heatmap_    | UTDNebula/comet-circle   | [heatmap.utdenbula.com](http://heatmap.utdnebula.com)                                       |
 | Components         | Components     | _components_ | UTDNebula/components     |                                                                                             |
 | Nebula Website     | Website        | _website_    | UTDNebula/website        | [about.utdnebula.com](https://about.utdnebula.com)                                          |

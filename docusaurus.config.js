@@ -17,7 +17,7 @@ module.exports = {
     announcementBar: {
       id: 'join_us',
       content:
-        'We are looking for UI/UX designers, product designers, and developers to grow Nebula Labs. Please see our <a target="_blank" href="https://acmutd.typeform.com/to/tlZUaM4V">interest form</a> to get involved!',
+        'We are currently updating our website! <a target="_blank" href="https://discord.gg/tcpcnfxmeQ">Join our Discord</a> to get involved!',
       backgroundColor: '#4659A7',
       textColor: '#FFFFFF',
       isCloseable: false,
@@ -50,12 +50,6 @@ module.exports = {
         { to: '/blog', label: 'Blog', position: 'left' },
         { to: '/contact', label: 'Contact Us', position: 'left' },
         {
-          type: 'doc',
-          docId: 'roles/overview',
-          position: 'right',
-          label: 'People & Roles',
-        },
-        {
           href: 'https://github.com/UTDNebula/website',
           label: 'GitHub',
           position: 'right',
@@ -69,7 +63,7 @@ module.exports = {
           items: [
             {
               label: 'Nebula Planner',
-              href: 'https://utdnebula.com',
+              href: 'https://github.com/UTDNebula/planner',
             },
             {
               label: 'Nebula API',
@@ -77,11 +71,11 @@ module.exports = {
             },
             {
               label: 'UTD Survival Guide',
-              href: 'https://utd.guide',
+              href: 'https://github.com/UTDNebula/survival-guide',
             },
             {
-              label: 'UTD Grades',
-              href: 'https://grades.utdnebula.com',
+              label: 'UTD Trends',
+              href: 'https://github.com/UTDNebula/utd-trends',
             },
           ],
         },
@@ -104,10 +98,6 @@ module.exports = {
             {
               label: 'Blog',
               to: '/blog',
-            },
-            {
-              label: 'ACM UTD Website',
-              href: 'https://acmutd.co',
             },
             {
               label: 'Website Source',
