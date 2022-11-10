@@ -22,7 +22,7 @@ headingLevel: 2
 
 The public Nebula Labs API for access to pertinent UT Dallas data
 
-Email: <a href="mailto:eric.boysen@utdnebula.com">Eric Boysen</a> Web: <a href="utdnebula.com">Nebula Labs</a>
+Email: <a href="mailto:eric.boysen@utdnebula.com">Eric Boysen</a>
 License: MIT License
 
 <h1 id="nebula-labs-api-default">Default</h1>
