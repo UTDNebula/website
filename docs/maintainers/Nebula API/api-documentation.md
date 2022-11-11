@@ -14,9 +14,17 @@ includes: []
 search: true
 highlight_theme: darkula
 headingLevel: 2
+sidebar_position: 8
 ---
 
 <h1 id="nebula-labs-api">Nebula Labs API v0.1.0</h1>
+
+This is the full open API Specification. If you want to know something about the API and weren't able to
+find it elsewhere in our documentation, you should be able to find it here, just with less examples and
+detail.
+
+If there is an issue or you are still unable to find what you are looking forward, please reach out to
+engineering@utdnebula.com
 
 > Scroll down for code samples, example requests and responses. Select a language for code samples from the tabs above or the mobile navigation menu.
 
@@ -1428,6 +1436,7 @@ Accept: application/json
 
 ```javascript
 const headers = {
+  Authorization: { API_KEY },
   Accept: 'application/json',
 };
 
@@ -1919,7 +1928,8 @@ This operation does not require authentication
 
 # Schemas
 
-<h2 id="tocS_ALEKSExam">ALEKSExam</h2>
+## ALEKSExam
+
 <a id="schemaaleksexam"></a>
 <a id="schema_ALEKSExam"></a>
 <a id="tocSaleksexam"></a>
@@ -1958,7 +1968,8 @@ and
 | ----------- | ------ | -------- | ------------ | ----------- |
 | _anonymous_ | object | false    | none         | none        |
 
-<h2 id="tocS_APExam">APExam</h2>
+## APExam
+
 <a id="schemaapexam"></a>
 <a id="schema_APExam"></a>
 <a id="tocSapexam"></a>
@@ -1999,7 +2010,8 @@ and
 | ----------- | ------ | -------- | ------------ | ----------- |
 | _anonymous_ | object | false    | none         | none        |
 
-<h2 id="tocS_AcademicSession">AcademicSession</h2>
+## AcademicSession
+
 <a id="schemaacademicsession"></a>
 <a id="schema_AcademicSession"></a>
 <a id="tocSacademicsession"></a>
@@ -2021,7 +2033,8 @@ and
 | start_date | string | false    | none         | none        |
 | end_date   | string | false    | none         | none        |
 
-<h2 id="tocS_Assistant">Assistant</h2>
+## Assistant
+
 <a id="schemaassistant"></a>
 <a id="schema_Assistant"></a>
 <a id="tocSassistant"></a>
@@ -2045,7 +2058,8 @@ and
 | role       | string | false    | none         | none        |
 | email      | string | false    | none         | none        |
 
-<h2 id="tocS_CLEPExam">CLEPExam</h2>
+## CLEPExam
+
 <a id="schemaclepexam"></a>
 <a id="schema_CLEPExam"></a>
 <a id="tocSclepexam"></a>
@@ -2086,7 +2100,8 @@ and
 | ----------- | ------ | -------- | ------------ | ----------- |
 | _anonymous_ | object | false    | none         | none        |
 
-<h2 id="tocS_CSPlacementExam">CSPlacementExam</h2>
+## CSPlacementExam
+
 <a id="schemacsplacementexam"></a>
 <a id="schema_CSPlacementExam"></a>
 <a id="tocScsplacementexam"></a>
@@ -2125,7 +2140,8 @@ and
 | ----------- | ------ | -------- | ------------ | ----------- |
 | _anonymous_ | object | false    | none         | none        |
 
-<h2 id="tocS_ChoiceRequirement">ChoiceRequirement</h2>
+## ChoiceRequirement
+
 <a id="schemachoicerequirement"></a>
 <a id="schema_ChoiceRequirement"></a>
 <a id="tocSchoicerequirement"></a>
@@ -2165,7 +2181,8 @@ and
 | ----------- | ------ | -------- | ------------ | ----------- |
 | _anonymous_ | object | false    | none         | none        |
 
-<h2 id="tocS_CollectionRequirement">CollectionRequirement</h2>
+## CollectionRequirement
+
 <a id="schemacollectionrequirement"></a>
 <a id="schema_CollectionRequirement"></a>
 <a id="tocScollectionrequirement"></a>
@@ -2204,7 +2221,8 @@ and
 | ----------- | ------ | -------- | ------------ | ----------- |
 | _anonymous_ | object | false    | none         | none        |
 
-<h2 id="tocS_ConsentRequirement">ConsentRequirement</h2>
+## ConsentRequirement
+
 <a id="schemaconsentrequirement"></a>
 <a id="schema_ConsentRequirement"></a>
 <a id="tocSconsentrequirement"></a>
@@ -2235,7 +2253,8 @@ and
 | ----------- | ------ | -------- | ------------ | ----------- |
 | _anonymous_ | object | false    | none         | none        |
 
-<h2 id="tocS_CoreRequirement">CoreRequirement</h2>
+## CoreRequirement
+
 <a id="schemacorerequirement"></a>
 <a id="schema_CoreRequirement"></a>
 <a id="tocScorerequirement"></a>
@@ -2268,7 +2287,8 @@ and
 | ----------- | ------ | -------- | ------------ | ----------- |
 | _anonymous_ | object | false    | none         | none        |
 
-<h2 id="tocS_Course">Course</h2>
+## Course
+
 <a id="schemacourse"></a>
 <a id="schema_Course"></a>
 <a id="tocScourse"></a>
@@ -2334,7 +2354,8 @@ and
 | laboratory_contact_hours | string                                                | true     | none         | none        |
 | offering_frequency       | string                                                | true     | none         | none        |
 
-<h2 id="tocS_CourseRequirement">CourseRequirement</h2>
+## CourseRequirement
+
 <a id="schemacourserequirement"></a>
 <a id="schema_CourseRequirement"></a>
 <a id="tocScourserequirement"></a>
@@ -2367,7 +2388,8 @@ and
 | ----------- | ------ | -------- | ------------ | ----------- |
 | _anonymous_ | object | false    | none         | none        |
 
-<h2 id="tocS_Credit">Credit</h2>
+## Credit
+
 <a id="schemacredit"></a>
 <a id="schema_Credit"></a>
 <a id="tocScredit"></a>
@@ -2387,7 +2409,8 @@ and
 | category     | string | true     | none         | none        |
 | credit_hours | int    | true     | none         | none        |
 
-<h2 id="tocS_Exam">Exam</h2>
+## Exam
+
 <a id="schemaexam"></a>
 <a id="schema_Exam"></a>
 <a id="tocSexam"></a>
@@ -2407,7 +2430,8 @@ and
 | \_id | string | true     | none         | none        |
 | type | string | true     | none         | none        |
 
-<h2 id="tocS_ExamRequirement">ExamRequirement</h2>
+## ExamRequirement
+
 <a id="schemaexamrequirement"></a>
 <a id="schema_ExamRequirement"></a>
 <a id="tocSexamrequirement"></a>
@@ -2440,7 +2464,8 @@ and
 | ----------- | ------ | -------- | ------------ | ----------- |
 | _anonymous_ | object | false    | none         | none        |
 
-<h2 id="tocS_GPARequirement">GPARequirement</h2>
+## GPARequirement
+
 <a id="schemagparequirement"></a>
 <a id="schema_GPARequirement"></a>
 <a id="tocSgparequirement"></a>
@@ -2473,7 +2498,8 @@ and
 | ----------- | ------ | -------- | ------------ | ----------- |
 | _anonymous_ | object | false    | none         | none        |
 
-<h2 id="tocS_HoursRequirement">HoursRequirement</h2>
+## HoursRequirement
+
 <a id="schemahoursrequirement"></a>
 <a id="schema_HoursRequirement"></a>
 <a id="tocShoursrequirement"></a>
@@ -2512,7 +2538,8 @@ and
 | ----------- | ------ | -------- | ------------ | ----------- |
 | _anonymous_ | object | false    | none         | none        |
 
-<h2 id="tocS_IBExam">IBExam</h2>
+## IBExam
+
 <a id="schemaibexam"></a>
 <a id="schema_IBExam"></a>
 <a id="tocSibexam"></a>
@@ -2555,7 +2582,8 @@ and
 | ----------- | ------ | -------- | ------------ | ----------- |
 | _anonymous_ | object | false    | none         | none        |
 
-<h2 id="tocS_LimitRequirement">LimitRequirement</h2>
+## LimitRequirement
+
 <a id="schemalimitrequirement"></a>
 <a id="schema_LimitRequirement"></a>
 <a id="tocSlimitrequirement"></a>
@@ -2586,7 +2614,8 @@ and
 | ----------- | ------ | -------- | ------------ | ----------- |
 | _anonymous_ | object | false    | none         | none        |
 
-<h2 id="tocS_Location">Location</h2>
+## Location
+
 <a id="schemalocation"></a>
 <a id="schema_Location"></a>
 <a id="tocSlocation"></a>
@@ -2608,7 +2637,8 @@ and
 | room     | string | false    | none         | none        |
 | map_uri  | string | false    | none         | none        |
 
-<h2 id="tocS_MajorRequirement">MajorRequirement</h2>
+## MajorRequirement
+
 <a id="schemamajorrequirement"></a>
 <a id="schema_MajorRequirement"></a>
 <a id="tocSmajorrequirement"></a>
@@ -2639,7 +2669,8 @@ and
 | ----------- | ------ | -------- | ------------ | ----------- |
 | _anonymous_ | object | false    | none         | none        |
 
-<h2 id="tocS_Meeting">Meeting</h2>
+## Meeting
+
 <a id="schemameeting"></a>
 <a id="schema_Meeting"></a>
 <a id="tocSmeeting"></a>
@@ -2673,7 +2704,8 @@ and
 | modality     | string                      | false    | none         | none        |
 | location     | [Location](#schemalocation) | false    | none         | none        |
 
-<h2 id="tocS_MinorRequirement">MinorRequirement</h2>
+## MinorRequirement
+
 <a id="schemaminorrequirement"></a>
 <a id="schema_MinorRequirement"></a>
 <a id="tocSminorrequirement"></a>
@@ -2704,7 +2736,8 @@ and
 | ----------- | ------ | -------- | ------------ | ----------- |
 | _anonymous_ | object | false    | none         | none        |
 
-<h2 id="tocS_OtherRequirement">OtherRequirement</h2>
+## OtherRequirement
+
 <a id="schemaotherrequirement"></a>
 <a id="schema_OtherRequirement"></a>
 <a id="tocSotherrequirement"></a>
@@ -2737,7 +2770,8 @@ and
 | ----------- | ------ | -------- | ------------ | ----------- |
 | _anonymous_ | object | false    | none         | none        |
 
-<h2 id="tocS_Outcome">Outcome</h2>
+## Outcome
+
 <a id="schemaoutcome"></a>
 <a id="schema_Outcome"></a>
 <a id="tocSoutcome"></a>
@@ -2771,7 +2805,8 @@ xor
 | ------------- | ----------------------- | -------- | ------------ | ----------- |
 | » _anonymous_ | [Credit](#schemacredit) | false    | none         | none        |
 
-<h2 id="tocS_Professor">Professor</h2>
+## Professor
+
 <a id="schemaprofessor"></a>
 <a id="schema_Professor"></a>
 <a id="tocSprofessor"></a>
@@ -2827,7 +2862,8 @@ xor
 | office_hours | [[Meeting](#schemameeting)] | false    | none         | none        |
 | sections     | [string]                    | false    | none         | none        |
 
-<h2 id="tocS_Requirement">Requirement</h2>
+## Requirement
+
 <a id="schemarequirement"></a>
 <a id="schema_Requirement"></a>
 <a id="tocSrequirement"></a>
@@ -2845,7 +2881,8 @@ xor
 | ---- | ---- | -------- | ------------ | ----------- |
 | type | any  | true     | none         | none        |
 
-<h2 id="tocS_Section">Section</h2>
+## Section
+
 <a id="schemasection"></a>
 <a id="schema_Section"></a>
 <a id="tocSsection"></a>
@@ -2921,7 +2958,8 @@ xor
 | syllabus_uri          | string                                                | true     | none         | none        |
 | grade_distribution    | [integer]                                             | false    | none         | none        |
 
-<h2 id="tocS_SectionRequirement">SectionRequirement</h2>
+## SectionRequirement
+
 <a id="schemasectionrequirement"></a>
 <a id="schema_SectionRequirement"></a>
 <a id="tocSsectionrequirement"></a>
