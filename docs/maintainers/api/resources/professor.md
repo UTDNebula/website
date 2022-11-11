@@ -1,0 +1,29 @@
+---
+sidebar_position: 5
+title: 'Professor'
+description: Nebula Labs's approach to user-centered design.
+---
+
+## Overview
+
+A **Professor** represents a professor employed at the University of Texas at Dallas.
+
+## Properties
+
+| Name             | Type             | Description                                                                                                                                                                               | Example                                                                                                                           |
+| ---------------- | ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| **\_id**         | ObjectId         | The MongoDB database id for the `Professor` object.                                                                                                                                       | ObjectId("61ebbb126e3659537e8a14d6")                                                                                              |
+| **first_name**   | String           | The professor's first name.                                                                                                                                                               | John                                                                                                                              |
+| **last_name**    | String           | The professor's last name.                                                                                                                                                                | Doe                                                                                                                               |
+| **titles**       | Array - String   | The professor's titles.                                                                                                                                                                   | ["Senior Mathematics Lecturer"], ["Lars Magnus Ericsson Chair", "Dean – Erik Jonsson School of Engineering and Computer Science"] |
+| **email**        | String           | The professor's email address.                                                                                                                                                            | N/A                                                                                                                               |
+| **phone_number** | String           | The professor's phone number.                                                                                                                                                             | N/A                                                                                                                               |
+| **office**       | Location         | The location of the professor's office.                                                                                                                                                   | N/A                                                                                                                               |
+| **profile_uri**  | String           | A hyperlink pointing to the professor's official university profile.                                                                                                                      | N/A                                                                                                                               |
+| **image_uri**    | String           | A link to the image used for the professor on the professor's official university profile.                                                                                                | N/A                                                                                                                               |
+| **office_hours** | Array - Meeting  | A list of all office hours of the professor.                                                                                                                                              | N/A                                                                                                                               |
+| **sections**     | Array - ObjectId | A list of references to sections a professor is currently teaching or has taught. This will be sorted in descending order with respect to `end_date` in the section's `academic_session`. | N/A                                                                                                                               |
+
+## Request
+
+## Response
