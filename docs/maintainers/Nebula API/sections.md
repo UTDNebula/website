@@ -23,7 +23,7 @@ When querying for a Section, it will return Section JSON objects in with the fol
 | course_reference      | string                                                                                                | true     | none         | The course reference represents a foreign key to the course record                          |
 | section_corequisites  | [CollectionRequirement](/docs/maintainers/Nebula%20API/api-documentation#schemacollectionrequirement) | false    | none         | All of the classes that must be taken alongside this section eg. A lab for a science course |
 | academic_session      | [AcademicSession](/docs/maintainers/Nebula%20API/api-documentation#schemaacademicsession)             | true     | none         | The name of the academic session of the section                                             |
-| professors            | [string]                                                                                              | true     | none         | An array of all of the instructors associated with this section                             |
+| professors            | [string]                                                                                              | true     | none         | An array of references to professor objects associated with this section                    |
 | teaching_assistants   | [[Assistant](/docs/maintainers/Nebula%20API/api-documentation#schemaassistant)]                       | false    | none         | An array of all TA's associated with this section                                           |
 | internal_class_number | string                                                                                                | true     | none         | The internal representation of the class number unique id from university                   |
 | instruction_mode      | string                                                                                                | true     | none         | The modality the course is taught it eg. Online, In Person, Hybrid                          |
@@ -44,8 +44,6 @@ Each of these methods has its own API endpoint to get the requested data.
 ### GET /section
 
 The default endpoint for /section returns a list of sections matching the set of query parameters provided.
-
-> :warning: **If no query parameters are provided, the API will return every section in the entire data set. Be very careful when attempting to make large queries like this!**
 
 Below is a list of all of the parameters that can be used to refine your query:
 

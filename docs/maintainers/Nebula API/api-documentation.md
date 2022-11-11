@@ -1928,12 +1928,14 @@ This operation does not require authentication
 
 # Schemas
 
-## ALEKSExam
-
 <a id="schemaaleksexam"></a>
 <a id="schema_ALEKSExam"></a>
 <a id="tocSaleksexam"></a>
 <a id="tocsaleksexam"></a>
+
+## ALEKSExam
+
+The ALEXS Exam is an exam required by all students for math placement upon admittance to the University. This Exam is used in leiu of credit for lower level math courses in the University.
 
 ```json
 {
@@ -1952,9 +1954,9 @@ This operation does not require authentication
 
 ### Properties
 
-| Name      | Type                        | Required | Restrictions | Description |
-| --------- | --------------------------- | -------- | ------------ | ----------- |
-| placement | [[Outcome](#schemaoutcome)] | true     | none         | none        |
+| Name      | Type                        | Required | Restrictions | Description                                                                                                                      |
+| --------- | --------------------------- | -------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------- |
+| placement | [[Outcome](#schemaoutcome)] | true     | none         | An array of Outcomes for which the placement into the Course is earned. Does not include credit, only placement into the course. |
 
 allOf - discriminator: Exam.type
 
@@ -1968,12 +1970,14 @@ and
 | ----------- | ------ | -------- | ------------ | ----------- |
 | _anonymous_ | object | false    | none         | none        |
 
-## APExam
-
 <a id="schemaapexam"></a>
 <a id="schema_APExam"></a>
 <a id="tocSapexam"></a>
 <a id="tocsapexam"></a>
+
+## APExam
+
+AP Exams are exams offered by College Board that are taken prior to college in order to earn college credit. Depending upon the score received, a student may be able to obtain different levels of credit for their success on the exam.
 
 ```json
 {
@@ -1993,10 +1997,10 @@ and
 
 ### Properties
 
-| Name   | Type                        | Required | Restrictions | Description |
-| ------ | --------------------------- | -------- | ------------ | ----------- |
-| name   | string                      | true     | none         | none        |
-| yields | [[Outcome](#schemaoutcome)] | true     | none         | none        |
+| Name   | Type                                                                        | Required | Restrictions | Description                                                                                                                     |
+| ------ | --------------------------------------------------------------------------- | -------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------- |
+| name   | string                                                                      | true     | none         | The name of the exam                                                                                                            |
+| yields | [[Outcome](/docs/maintainers/Nebula%20API/api-documentation#schemaoutcome)] | true     | none         | An array of Outcomes for which the credit for the Course or Credit is received. Does not include placement, only actual credit. |
 
 allOf - discriminator: Exam.type
 
@@ -2010,12 +2014,14 @@ and
 | ----------- | ------ | -------- | ------------ | ----------- |
 | _anonymous_ | object | false    | none         | none        |
 
-## AcademicSession
-
 <a id="schemaacademicsession"></a>
 <a id="schema_AcademicSession"></a>
 <a id="tocSacademicsession"></a>
 <a id="tocsacademicsession"></a>
+
+## AcademicSession
+
+An AcademicSession represents the time period in which courses takes place. This is normally most closely associated with a semester
 
 ```json
 {
@@ -2027,18 +2033,20 @@ and
 
 ### Properties
 
-| Name       | Type   | Required | Restrictions | Description |
-| ---------- | ------ | -------- | ------------ | ----------- |
-| name       | string | false    | none         | none        |
-| start_date | string | false    | none         | none        |
-| end_date   | string | false    | none         | none        |
-
-## Assistant
+| Name       | Type   | Required | Restrictions | Description                                           |
+| ---------- | ------ | -------- | ------------ | ----------------------------------------------------- |
+| name       | string | false    | none         | The name of the academic session in question.         |
+| start_date | string | false    | none         | The date of classes starting in the academic session. |
+| end_date   | string | false    | none         | The date of classes ending in the academic session.   |
 
 <a id="schemaassistant"></a>
 <a id="schema_Assistant"></a>
 <a id="tocSassistant"></a>
 <a id="tocsassistant"></a>
+
+## Assistant
+
+An 'Assistant' represents a teaching assistant at UT Dallas.
 
 ```json
 {
@@ -2051,19 +2059,21 @@ and
 
 ### Properties
 
-| Name       | Type   | Required | Restrictions | Description |
-| ---------- | ------ | -------- | ------------ | ----------- |
-| first_name | string | false    | none         | none        |
-| last_name  | string | false    | none         | none        |
-| role       | string | false    | none         | none        |
-| email      | string | false    | none         | none        |
-
-## CLEPExam
+| Name       | Type   | Required | Restrictions | Description                                 |
+| ---------- | ------ | -------- | ------------ | ------------------------------------------- |
+| first_name | string | false    | none         | The first name of the assistant.            |
+| last_name  | string | false    | none         | The last name of the assistant.             |
+| role       | string | false    | none         | The role of the assistant.                  |
+| email      | string | false    | none         | The email address to contact the assistant. |
 
 <a id="schemaclepexam"></a>
 <a id="schema_CLEPExam"></a>
 <a id="tocSclepexam"></a>
 <a id="tocsclepexam"></a>
+
+## CLEPExam
+
+CLEP Exams are exams offered by College Board that are taken before or during college in order to earn college credit. Depending upon the score received, a student may be able to obtain different levels of credit for their success on the exam.
 
 ```json
 {
@@ -2083,10 +2093,10 @@ and
 
 ### Properties
 
-| Name   | Type                        | Required | Restrictions | Description |
-| ------ | --------------------------- | -------- | ------------ | ----------- |
-| name   | string                      | true     | none         | none        |
-| yields | [[Outcome](#schemaoutcome)] | true     | none         | none        |
+| Name   | Type                                                                        | Required | Restrictions | Description                                                                                                                     |
+| ------ | --------------------------------------------------------------------------- | -------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------- |
+| name   | string                                                                      | true     | none         | The name of the exam                                                                                                            |
+| yields | [[Outcome](/docs/maintainers/Nebula%20API/api-documentation#schemaoutcome)] | true     | none         | An array of Outcomes for which the credit for the Course or Credit is received. Does not include placement, only actual credit. |
 
 allOf - discriminator: Exam.type
 
@@ -2100,12 +2110,14 @@ and
 | ----------- | ------ | -------- | ------------ | ----------- |
 | _anonymous_ | object | false    | none         | none        |
 
-## CSPlacementExam
-
 <a id="schemacsplacementexam"></a>
 <a id="schema_CSPlacementExam"></a>
 <a id="tocScsplacementexam"></a>
 <a id="tocscsplacementexam"></a>
+
+## CSPlacementExam
+
+The CS Placement Exam is an exam required of Computer Science students upon entry to the Erik Johnsson School of Computer Science. This exam can be used to place out of entry level computer science courses and obtain credit for them instead.
 
 ```json
 {
@@ -2124,9 +2136,9 @@ and
 
 ### Properties
 
-| Name   | Type                        | Required | Restrictions | Description |
-| ------ | --------------------------- | -------- | ------------ | ----------- |
-| yields | [[Outcome](#schemaoutcome)] | true     | none         | none        |
+| Name   | Type                                                                        | Required | Restrictions | Description                                                                                                                     |
+| ------ | --------------------------------------------------------------------------- | -------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------- |
+| yields | [[Outcome](/docs/maintainers/Nebula%20API/api-documentation#schemaoutcome)] | true     | none         | An array of Outcomes for which the credit for the Course or Credit is received. Does not include placement, only actual credit. |
 
 allOf - discriminator: Exam.type
 
@@ -2287,12 +2299,39 @@ and
 | ----------- | ------ | -------- | ------------ | ----------- |
 | _anonymous_ | object | false    | none         | none        |
 
-## Course
-
 <a id="schemacourse"></a>
 <a id="schema_Course"></a>
 <a id="tocScourse"></a>
 <a id="tocscourse"></a>
+
+## Courses
+
+Courses lay one level of abstraction above sections in the academic hierarchy at UTD. A course represents a class offered by a school at UTD.
+
+A Course should not be confused with a Section which is the actual instantiation of a Course with a professor and dedicated meeting times.A course can have multiple sections associated with it every semester. An example of a course would be ECS1100.
+
+This data will include important pieces of information that a relevant to every section of the course like its prerequisites and the number of credit hours. All of the attributes associated with a course are as follows:
+
+### Properties
+
+| Name                     | Type                                                                                                  | Required | Restrictions | Description                                                                                                                                      |
+| ------------------------ | ----------------------------------------------------------------------------------------------------- | -------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| \_id                     | string                                                                                                | true     | none         | The primary key associated with a course                                                                                                         |
+| course_number            | string                                                                                                | true     | none         | The course's official number                                                                                                                     |
+| subject_prefix           | string                                                                                                | true     | none         | The course's subject prefix                                                                                                                      |
+| title                    | string                                                                                                | true     | none         | The course's title                                                                                                                               |
+| description              | string                                                                                                | true     | none         | The course's description                                                                                                                         |
+| school                   | string                                                                                                | true     | none         | The course's school                                                                                                                              |
+| credit_hours             | string                                                                                                | true     | none         | The number of credit hours awarded by successful completion of the course                                                                        |
+| class_level              | string                                                                                                | true     | none         | The level of education that this course course corresponds to                                                                                    |
+| activity_type            | string                                                                                                | true     | none         | The type of class this course corresponds to                                                                                                     |
+| grading                  | string                                                                                                | true     | none         | The grading status of this course                                                                                                                |
+| internal_course_number   | string                                                                                                | true     | none         | The internal (university) number used to reference this course                                                                                   |
+| prerequisites            | [CollectionRequirement](/docs/maintainers/Nebula%20API/api-documentation#schemacollectionrequirement) | false    | none         | A Collection Requirement object containing a list of the courses that must be taken before this course                                           |
+| corequisites             | [CollectionRequirement](/docs/maintainers/Nebula%20API/api-documentation#schemacollectionrequirement) | false    | none         | A Collection Requirement object containing a list of the courses that must be taken before or alongside this course                              |
+| lecture_contact_hours    | string                                                                                                | true     | none         | The weekly contact hours in lecture for a course                                                                                                 |
+| laboratory_contact_hours | string                                                                                                | true     | none         | The weekly contact hours in laboratory for a course                                                                                              |
+| offering_frequency       | string                                                                                                | true     | none         | The frequency of offering a course. The meanings of each letter can be found in the UTD Course Policies page. Example: "S", "Y", "T", "R" course |
 
 ```json
 {
@@ -2333,27 +2372,6 @@ and
 }
 ```
 
-### Properties
-
-| Name                     | Type                                                  | Required | Restrictions | Description |
-| ------------------------ | ----------------------------------------------------- | -------- | ------------ | ----------- |
-| \_id                     | string                                                | true     | none         | none        |
-| course_number            | string                                                | true     | none         | none        |
-| subject_prefix           | string                                                | true     | none         | none        |
-| title                    | string                                                | true     | none         | none        |
-| description              | string                                                | true     | none         | none        |
-| school                   | string                                                | true     | none         | none        |
-| credit_hours             | string                                                | true     | none         | none        |
-| class_level              | string                                                | true     | none         | none        |
-| activity_type            | string                                                | true     | none         | none        |
-| grading                  | string                                                | true     | none         | none        |
-| internal_course_number   | string                                                | true     | none         | none        |
-| prerequisites            | [CollectionRequirement](#schemacollectionrequirement) | false    | none         | none        |
-| corequisites             | [CollectionRequirement](#schemacollectionrequirement) | false    | none         | none        |
-| lecture_contact_hours    | string                                                | true     | none         | none        |
-| laboratory_contact_hours | string                                                | true     | none         | none        |
-| offering_frequency       | string                                                | true     | none         | none        |
-
 ## CourseRequirement
 
 <a id="schemacourserequirement"></a>
@@ -2388,12 +2406,14 @@ and
 | ----------- | ------ | -------- | ------------ | ----------- |
 | _anonymous_ | object | false    | none         | none        |
 
-## Credit
-
 <a id="schemacredit"></a>
 <a id="schema_Credit"></a>
 <a id="tocScredit"></a>
 <a id="tocscredit"></a>
+
+## Credit
+
+The Credit object represents an amount of 'semester credit hours' given by The University of Texas at Dallas. A Credit should not be confused with a Course as semester credit hours serve only to fulfill credit hour requirements.
 
 ```json
 {
@@ -2404,17 +2424,19 @@ and
 
 ### Properties
 
-| Name         | Type   | Required | Restrictions | Description |
-| ------------ | ------ | -------- | ------------ | ----------- |
-| category     | string | true     | none         | none        |
-| credit_hours | int    | true     | none         | none        |
-
-## Exam
+| Name         | Type   | Required | Restrictions | Description                                                                                                                                |
+| ------------ | ------ | -------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| category     | string | true     | none         | The catergory of the credit hours. If there is no category associated with the credit, the value is "general". "free" is a valid category. |
+| credit_hours | int    | true     | none         | The number of credit hours.                                                                                                                |
 
 <a id="schemaexam"></a>
 <a id="schema_Exam"></a>
 <a id="tocSexam"></a>
 <a id="tocsexam"></a>
+
+## Exam
+
+The default exam interface whose attributes are inherited by all other exam types.
 
 ```json
 {
@@ -2425,17 +2447,17 @@ and
 
 ### Properties
 
-| Name | Type   | Required | Restrictions | Description |
-| ---- | ------ | -------- | ------------ | ----------- |
-| \_id | string | true     | none         | none        |
-| type | string | true     | none         | none        |
-
-## ExamRequirement
+| Name | Type   | Required | Restrictions | Description                                     |
+| ---- | ------ | -------- | ------------ | ----------------------------------------------- |
+| \_id | string | true     | none         | The MongoDB database id for the Exam object.    |
+| type | string | true     | none         | The type of exam object this object represents. |
 
 <a id="schemaexamrequirement"></a>
 <a id="schema_ExamRequirement"></a>
 <a id="tocSexamrequirement"></a>
 <a id="tocsexamrequirement"></a>
+
+## ExamRequirement
 
 ```json
 {
@@ -2464,12 +2486,12 @@ and
 | ----------- | ------ | -------- | ------------ | ----------- |
 | _anonymous_ | object | false    | none         | none        |
 
-## GPARequirement
-
 <a id="schemagparequirement"></a>
 <a id="schema_GPARequirement"></a>
 <a id="tocSgparequirement"></a>
 <a id="tocsgparequirement"></a>
+
+## GPARequirement
 
 ```json
 {
@@ -2498,12 +2520,12 @@ and
 | ----------- | ------ | -------- | ------------ | ----------- |
 | _anonymous_ | object | false    | none         | none        |
 
-## HoursRequirement
-
 <a id="schemahoursrequirement"></a>
 <a id="schema_HoursRequirement"></a>
 <a id="tocShoursrequirement"></a>
 <a id="tocshoursrequirement"></a>
+
+## HoursRequirement
 
 ```json
 {
@@ -2538,12 +2560,14 @@ and
 | ----------- | ------ | -------- | ------------ | ----------- |
 | _anonymous_ | object | false    | none         | none        |
 
-## IBExam
-
 <a id="schemaibexam"></a>
 <a id="schema_IBExam"></a>
 <a id="tocSibexam"></a>
 <a id="tocsibexam"></a>
+
+## IBExam
+
+International Baccalaureate (IB) Exams are exams offered by the IBO for students in secondary education to obtain credit for university level credit. Depending upon the score recieved on these exams, a student may be eligible for credit that can replace other required courses in their degree plan.
 
 ```json
 {
@@ -2564,11 +2588,11 @@ and
 
 ### Properties
 
-| Name   | Type                        | Required | Restrictions | Description |
-| ------ | --------------------------- | -------- | ------------ | ----------- |
-| name   | string                      | true     | none         | none        |
-| level  | string                      | true     | none         | none        |
-| yields | [[Outcome](#schemaoutcome)] | true     | none         | none        |
+| Name   | Type                                                                        | Required | Restrictions | Description                                                                                                                     |
+| ------ | --------------------------------------------------------------------------- | -------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------- |
+| name   | string                                                                      | true     | none         | The name of the exam                                                                                                            |
+| level  | string                                                                      | true     | none         | The level of the IB exam.                                                                                                       |
+| yields | [[Outcome](/docs/maintainers/Nebula%20API/api-documentation#schemaoutcome)] | true     | none         | An array of Outcomes for which the credit for the Course or Credit is received. Does not include placement, only actual credit. |
 
 allOf - discriminator: Exam.type
 
@@ -2582,12 +2606,12 @@ and
 | ----------- | ------ | -------- | ------------ | ----------- |
 | _anonymous_ | object | false    | none         | none        |
 
-## LimitRequirement
-
 <a id="schemalimitrequirement"></a>
 <a id="schema_LimitRequirement"></a>
 <a id="tocSlimitrequirement"></a>
 <a id="tocslimitrequirement"></a>
+
+## LimitRequirement
 
 ```json
 {
@@ -2614,12 +2638,14 @@ and
 | ----------- | ------ | -------- | ------------ | ----------- |
 | _anonymous_ | object | false    | none         | none        |
 
-## Location
-
 <a id="schemalocation"></a>
 <a id="schema_Location"></a>
 <a id="tocSlocation"></a>
 <a id="tocslocation"></a>
+
+## Location
+
+A location on the UT Dallas campus.
 
 ```json
 {
@@ -2631,18 +2657,18 @@ and
 
 ### Properties
 
-| Name     | Type   | Required | Restrictions | Description |
-| -------- | ------ | -------- | ------------ | ----------- |
-| building | string | false    | none         | none        |
-| room     | string | false    | none         | none        |
-| map_uri  | string | false    | none         | none        |
-
-## MajorRequirement
+| Name     | Type   | Required | Restrictions | Description                          |
+| -------- | ------ | -------- | ------------ | ------------------------------------ |
+| building | string | false    | none         | The building of the location.        |
+| room     | string | false    | none         | The room of the location.            |
+| map_uri  | string | false    | none         | A hyperlink to the UTD room locator. |
 
 <a id="schemamajorrequirement"></a>
 <a id="schema_MajorRequirement"></a>
 <a id="tocSmajorrequirement"></a>
 <a id="tocsmajorrequirement"></a>
+
+## MajorRequirement
 
 ```json
 {
@@ -2669,12 +2695,14 @@ and
 | ----------- | ------ | -------- | ------------ | ----------- |
 | _anonymous_ | object | false    | none         | none        |
 
-## Meeting
-
 <a id="schemameeting"></a>
 <a id="schema_Meeting"></a>
 <a id="tocSmeeting"></a>
 <a id="tocsmeeting"></a>
+
+## Meeting
+
+A 'Meeting' represents a recurring meeting. This schema can represent both recurring meetings and single meetings. Meetings occur repeatedly on the specified days of the week during a period. Non-recurring meetings should have the start_date equal to the end_date.
 
 ```json
 {
@@ -2694,22 +2722,22 @@ and
 
 ### Properties
 
-| Name         | Type                        | Required | Restrictions | Description |
-| ------------ | --------------------------- | -------- | ------------ | ----------- |
-| start_date   | string                      | false    | none         | none        |
-| end_date     | string                      | false    | none         | none        |
-| meeting_days | [string]                    | false    | none         | none        |
-| start_time   | string                      | false    | none         | none        |
-| end_time     | string                      | false    | none         | none        |
-| modality     | string                      | false    | none         | none        |
-| location     | [Location](#schemalocation) | false    | none         | none        |
-
-## MinorRequirement
+| Name         | Type                        | Required | Restrictions | Description                                                                   |
+| ------------ | --------------------------- | -------- | ------------ | ----------------------------------------------------------------------------- |
+| start_date   | string                      | false    | none         | The start date of a meeting.                                                  |
+| end_date     | string                      | false    | none         | The end date of a meeting.                                                    |
+| meeting_days | [string]                    | false    | none         | A list of all days the meeting occurs during the time period.                 |
+| start_time   | string                      | false    | none         | The time the meeting starts on each meeting day.                              |
+| end_time     | string                      | false    | none         | The time a meeting ends on each meeting day.                                  |
+| modality     | string                      | false    | none         | The modality of the meeting following the modality types in UTD's CourseBook. |
+| location     | [Location](#schemalocation) | false    | none         | The location of the meeting.                                                  |
 
 <a id="schemaminorrequirement"></a>
 <a id="schema_MinorRequirement"></a>
 <a id="tocSminorrequirement"></a>
 <a id="tocsminorrequirement"></a>
+
+## MinorRequirement
 
 ```json
 {
@@ -2736,12 +2764,12 @@ and
 | ----------- | ------ | -------- | ------------ | ----------- |
 | _anonymous_ | object | false    | none         | none        |
 
-## OtherRequirement
-
 <a id="schemaotherrequirement"></a>
 <a id="schema_OtherRequirement"></a>
 <a id="tocSotherrequirement"></a>
 <a id="tocsotherrequirement"></a>
+
+## OtherRequirement
 
 ```json
 {
@@ -2770,12 +2798,14 @@ and
 | ----------- | ------ | -------- | ------------ | ----------- |
 | _anonymous_ | object | false    | none         | none        |
 
-## Outcome
-
 <a id="schemaoutcome"></a>
 <a id="schema_Outcome"></a>
 <a id="tocSoutcome"></a>
 <a id="tocsoutcome"></a>
+
+## Outcome
+
+An outcome describes the credit or course awarded for completion of an exam. It can fulfill an ExamRequirement, CourseRequirement, or result in some Credit awarded.
 
 ```json
 {
@@ -2788,10 +2818,10 @@ and
 
 ### Properties
 
-| Name        | Type                              | Required | Restrictions | Description |
-| ----------- | --------------------------------- | -------- | ------------ | ----------- |
-| requirement | [Requirement](#schemarequirement) | true     | none         | none        |
-| outcome     | [array]                           | true     | none         | none        |
+| Name        | Type                              | Required | Restrictions | Description                                                                                                                                                 |
+| ----------- | --------------------------------- | -------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| requirement | [Requirement](#schemarequirement) | true     | none         | The requirement to achieve the associated outcome                                                                                                           |
+| outcome     | [array]                           | true     | none         | The set of sets of Courses and Credits which can result (awarded/placed into) should the requirement be met. The outer array contains the possible choices. |
 
 oneOf
 
@@ -2805,12 +2835,14 @@ xor
 | ------------- | ----------------------- | -------- | ------------ | ----------- |
 | » _anonymous_ | [Credit](#schemacredit) | false    | none         | none        |
 
-## Professor
-
 <a id="schemaprofessor"></a>
 <a id="schema_Professor"></a>
 <a id="tocSprofessor"></a>
 <a id="tocsprofessor"></a>
+
+## Professor
+
+Professors are a representation of an insturctor on campus for a Course. Professors can be queried to find information regarding their professional information and office hours information.
 
 ```json
 {
@@ -2848,26 +2880,26 @@ xor
 
 ### Properties
 
-| Name         | Type                        | Required | Restrictions | Description |
-| ------------ | --------------------------- | -------- | ------------ | ----------- |
-| \_id         | string                      | true     | none         | none        |
-| first_name   | string                      | true     | none         | none        |
-| last_name    | string                      | true     | none         | none        |
-| titles       | [string]                    | false    | none         | none        |
-| email        | string                      | true     | none         | none        |
-| phone_number | string                      | false    | none         | none        |
-| office       | [Location](#schemalocation) | false    | none         | none        |
-| profile_uri  | string                      | false    | none         | none        |
-| image_uri    | string                      | false    | none         | none        |
-| office_hours | [[Meeting](#schemameeting)] | false    | none         | none        |
-| sections     | [string]                    | false    | none         | none        |
-
-## Requirement
+| Name         | Type                                                                        | Required | Restrictions | Description                                                                                                                                                                          |
+| ------------ | --------------------------------------------------------------------------- | -------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| \_id         | string                                                                      | true     | none         | The MongoDB database id for the Professor object.                                                                                                                                    |
+| first_name   | string                                                                      | true     | none         | The professor's first name.                                                                                                                                                          |
+| last_name    | string                                                                      | true     | none         | The professor's last name.                                                                                                                                                           |
+| titles       | [string]                                                                    | false    | none         | The professor's titles. Example: ["Senior Mathematics Lecturer"], ["Lars Magnus Ericsson Chair", "Dean – Erik Jonsson School of Engineering and Computer Science"]                   |
+| email        | string                                                                      | true     | none         | The professor's email address.                                                                                                                                                       |
+| phone_number | string                                                                      | false    | none         | The professor's phone number.                                                                                                                                                        |
+| office       | [Location](/docs/maintainers/Nebula%20API/api-documentation#schemalocation) | false    | none         | The location of the professor's office.                                                                                                                                              |
+| profile_uri  | string                                                                      | false    | none         | A hyperlink pointing to the professor's official university profile.                                                                                                                 |
+| image_uri    | string                                                                      | false    | none         | A link to the image used for the professor on the professor's official university profile.                                                                                           |
+| office_hours | [[Meeting](/docs/maintainers/Nebula%20API/api-documentation#schemameeting)] | false    | none         | A list of all office hours of the professor.                                                                                                                                         |
+| sections     | [string]                                                                    | false    | none         | A list of references to sections a professor is currently teaching or has taught. This will be sorted in descending order with respect to end_date in the section's academic_session |
 
 <a id="schemarequirement"></a>
 <a id="schema_Requirement"></a>
 <a id="tocSrequirement"></a>
 <a id="tocsrequirement"></a>
+
+## Requirement
 
 ```json
 {
@@ -2881,12 +2913,14 @@ xor
 | ---- | ---- | -------- | ------------ | ----------- |
 | type | any  | true     | none         | none        |
 
-## Section
-
 <a id="schemasection"></a>
 <a id="schema_Section"></a>
 <a id="tocSsection"></a>
 <a id="tocssection"></a>
+
+## Section
+
+Sections are the lowest level unit of organization for a class at UT Dallas. A section represents a specific instance of a course taught during a specific semester by a specific professor, at a specific time.
 
 ```json
 {
@@ -2942,28 +2976,28 @@ xor
 
 ### Properties
 
-| Name                  | Type                                                  | Required | Restrictions | Description |
-| --------------------- | ----------------------------------------------------- | -------- | ------------ | ----------- |
-| \_id                  | string                                                | true     | none         | none        |
-| section_number        | string                                                | true     | none         | none        |
-| course_reference      | string                                                | true     | none         | none        |
-| section_corequisites  | [CollectionRequirement](#schemacollectionrequirement) | false    | none         | none        |
-| academic_session      | [AcademicSession](#schemaacademicsession)             | true     | none         | none        |
-| professors            | [string]                                              | true     | none         | none        |
-| teaching_assistants   | [[Assistant](#schemaassistant)]                       | false    | none         | none        |
-| internal_class_number | string                                                | true     | none         | none        |
-| instruction_mode      | string                                                | true     | none         | none        |
-| meetings              | [[Meeting](#schemameeting)]                           | true     | none         | none        |
-| core_flags            | [string]                                              | false    | none         | none        |
-| syllabus_uri          | string                                                | true     | none         | none        |
-| grade_distribution    | [integer]                                             | false    | none         | none        |
-
-## SectionRequirement
+| Name                  | Type                                                                                                  | Required | Restrictions | Description                                                                                 |
+| --------------------- | ----------------------------------------------------------------------------------------------------- | -------- | ------------ | ------------------------------------------------------------------------------------------- |
+| \_id                  | string                                                                                                | true     | none         | The id represents the primary key associated with the section                               |
+| section_number        | string                                                                                                | true     | none         | This is the number associated with the course during its semester eg. .001                  |
+| course_reference      | string                                                                                                | true     | none         | The course reference represents a foreign key to the course record                          |
+| section_corequisites  | [CollectionRequirement](/docs/maintainers/Nebula%20API/api-documentation#schemacollectionrequirement) | false    | none         | All of the classes that must be taken alongside this section eg. A lab for a science course |
+| academic_session      | [AcademicSession](/docs/maintainers/Nebula%20API/api-documentation#schemaacademicsession)             | true     | none         | The name of the academic session of the section                                             |
+| professors            | [string]                                                                                              | true     | none         | An array of references to professor objects associated with this section                    |
+| teaching_assistants   | [[Assistant](/docs/maintainers/Nebula%20API/api-documentation#schemaassistant)]                       | false    | none         | An array of all TA's associated with this section                                           |
+| internal_class_number | string                                                                                                | true     | none         | The internal representation of the class number unique id from university                   |
+| instruction_mode      | string                                                                                                | true     | none         | The modality the course is taught it eg. Online, In Person, Hybrid                          |
+| meetings              | [[Meeting](/docs/maintainers/Nebula%20API/api-documentation#schemameeting)]                           | true     | none         | All of the meeting information associated with a section                                    |
+| core_flags            | [string]                                                                                              | false    | none         | Information if the course counts as a core credit for one of the core subject areas         |
+| syllabus_uri          | string                                                                                                | true     | none         | Link to the syllabus for the section listed on coursebook                                   |
+| grade_distribution    | [integer]                                                                                             | false    | none         | An array representing the distribution of grades for this section                           |
 
 <a id="schemasectionrequirement"></a>
 <a id="schema_SectionRequirement"></a>
 <a id="tocSsectionrequirement"></a>
 <a id="tocssectionrequirement"></a>
+
+## SectionRequirement
 
 ```json
 {
