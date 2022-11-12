@@ -1,5 +1,5 @@
 ---
-title: Nebula Labs API v0.1.0
+title: Nebula Labs API v0.1.0 (Depreciated)
 language_tabs:
   - shell: Shell
   - http: HTTP

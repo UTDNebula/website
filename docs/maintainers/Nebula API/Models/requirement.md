@@ -10,9 +10,9 @@ sidebar_position: 3
 
 <a id="requirement"></a>
 
-# Requirements
+## Overview
 
-Requirements represent a requirement that can be satisfied. This is probably the most important concept in the API and also has the most cognitive overhead. Requirement is an abstract type and has multiple classes that derive from it to represent the various types of requirements at UTD.
+A **Requirement** represents a requirement that can be satisfied. This is probably the most important concept in the API and also has the most cognitive overhead. `Requirement` is an abstract type and has multiple classes that derive from it to represent the various types of requirements at UTD.
 
 ## Requirement
 
@@ -24,6 +24,8 @@ Requirements represent a requirement that can be satisfied. This is probably the
 | ---- | ------------------------------- | -------- | ----------------------------------------------- |
 | type | [RequirementType](#requirement) | true     | The type of requirement this object represents. |
 
+<a id="collectionrequirement"></a>
+
 ### RequirementType
 
 Requirement types are differentiated by the `type` attribute. The valid types are:
@@ -32,8 +34,6 @@ Requirement types are differentiated by the `type` attribute. The valid types ar
 "collection", "course", "section", "major", "minor", "exam",
 "gpa", "hours", "consent", "limit", "core", "other"
 ```
-
-<a id="collectionrequirement"></a>
 
 ## CollectionRequirement
 
