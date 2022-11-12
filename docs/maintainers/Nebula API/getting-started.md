@@ -31,6 +31,10 @@ access to an API Key.
 
 The API is free to use for any students at UTD, but each key does have a limit on how much data it can query per day, so please be careful when making potentially large queries.
 
+> :warning: **Be sure to not accidentally leak your API Key by uploading it to a public Github repository!**
+
+We recommend storing your keys in a file ([.env](https://dev.to/aadilraza339/what-is-env-file-in-node-js-3h6c)), including that file in your [.gitignore](https://www.freecodecamp.org/news/gitignore-what-is-it-and-how-to-add-to-repo/) file.
+
 ## Making your first request
 
 Because API keys are required to access the API, we recommend that you use a tool like [Postman](https://www.postman.com/) or [Insomnia](https://insomnia.rest/). From here you can make richly formatted requests with proper HTTP Headings.
