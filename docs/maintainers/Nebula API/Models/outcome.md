@@ -13,7 +13,7 @@ An `Outcome` represents a [Requirement](./requirement.md) outcome from [Exam](./
 | Name            | Type                                             | Description                                                                                 |
 | --------------- | ------------------------------------------------ | ------------------------------------------------------------------------------------------- |
 | **requirement** | [Requirement](./requirement.md)                  | Requirement associated with the outcome                                                     |
-| **outcome**     | Array - Array<ObjectId \| [Credit](.\credit.md)> | Array of choices of `Course`s and `Credit`s for meeting the [Requirement](./requirement.md) |
+| **outcome**     | Array - Array<ObjectId \| [Credit](./credit.md)> | Array of choices of `Course`s and `Credit`s for meeting the [Requirement](./requirement.md) |
 
 ## Example
 
