@@ -44,7 +44,7 @@ As a more realistic example, consider the prerequisites for the course CS 3305. 
 | Name     | Type                                | Required | Restrictions | Description                                                                                              |
 | -------- | ----------------------------------- | -------- | ------------ | -------------------------------------------------------------------------------------------------------- |
 | type     | string                              | true     | "collection" | none                                                                                                     |
-| name     | string                              | true     | none         | A name for the collection to indicate what it holds. May be empty if not very applicable.                |
+| name     | string                              | false    | none         | A name for the collection to indicate what it holds. May be empty if not very applicable.                |
 | required | integer                             | true     | none         | The minimum number of requirements (from `options`) necessary to satisfy the collection requirement.     |
 | options  | [[Requirement](#schemarequirement)] | true     | none         | A list of all the options for requirements that can contribute to satisfying the collection requirement. |
 
@@ -56,8 +56,9 @@ The following is an example collection requirement where completion of both CS 2
 {
   "type": "collection",
   "name": "Example Collection Requirement",
-  "required": 2, // This represents a requirement that requires both CS 2305 and CS 2336 (i.e. an "and" relationship) to be satisfied.
-  // If the `required` property was set to 1, only 1 of CS 2305 and CS 2336 would be required (i.e. an "or" relationship).
+  "required": 2, // This represents a requirement that requires both CS 2305 and CS 2336 (i.e. an "and" relationship)
+  // to be satisfied. If the `required` property was set to 1,
+  // only 1 of CS 2305 and CS 2336 would be required (i.e. an "or" relationship).
   "options": [
     {
       "type": "course",
@@ -78,16 +79,16 @@ It requires CE 2305 or CS 2305 or TE 2305 with a grade of C or better and MATH 2
 
 ```json
 {
-  "required": 1, // and (only 1 requirement in options)
   "type": "collection",
+  "required": 1, // and (only 1 requirement in options)
   "options": [
     {
-      "required": 2,    // and
       "type": "collection",
+      "required": 2, // and
       "options": [
         {
-          "required": 1,  // or
           "type": "collection",
+          "required": 1, // or
           "options": [
             {
               "type": "course",
@@ -107,8 +108,8 @@ It requires CE 2305 or CS 2305 or TE 2305 with a grade of C or better and MATH 2
           ]
         },
         {
-          "required": 1,  // or
           "type": "collection",
+          "required": 1, // or
           "options": [
             {
               "type": "course",
@@ -148,7 +149,6 @@ A `CourseRequirement` represents a specific `Course` that must be taken to satis
 }
 ```
 
-
 ## SectionRequirement
 
 A `SectionRequirement` represents a specific `Section` that must be taken to satisfy the requirement.
@@ -168,7 +168,6 @@ A `SectionRequirement` represents a specific `Section` that must be taken to sat
   "section_reference": "62410a21e27d0c74c4093d59" // ACCT 2301.001.17F
 }
 ```
-
 
 ## MajorRequirement
 
@@ -190,7 +189,6 @@ A `MajorRequirement`represents a major that a student must be enrolled in to sat
 }
 ```
 
-
 ## MinorRequirement
 
 A `MinorRequirement` represents a minor that a student must be enrolled in to satisfy the requirement.
@@ -210,7 +208,6 @@ A `MinorRequirement` represents a minor that a student must be enrolled in to sa
   "minor": "ENCS" // Engineering and Computer Science
 }
 ```
-
 
 ## ExamRequiremnet
 
@@ -256,7 +253,6 @@ A `GPARequirement` represents the minimum GPA a student must have to satisfy the
 }
 ```
 
-
 ## HoursRequirement
 
 An `HoursRequirement` represents the need to have taken some number of credit hours from a list of `CourseRequirement`s to satisfy the requirement.
@@ -275,12 +271,11 @@ An `HoursRequirement` represents the need to have taken some number of credit ho
 {
   "type": "hours",
   "minimum": 3,
-  "options": 
-    {
-      "type": "course",
-      "class_reference": "624127fce27d0c74c40941cd", // BMEN 4V95
-      "minimum_grade": ""
-    }
+  "options": {
+    "type": "course",
+    "class_reference": "624127fce27d0c74c40941cd", // BMEN 4V95
+    "minimum_grade": ""
+  }
 }
 ```
 
@@ -300,7 +295,7 @@ A `LimitRequirement` represents a limit on the number of credit hours that a cou
 ```json
 {
   "type": "limit",
-  "max_hours": 6,
+  "max_hours": 6
 }
 ```
 
@@ -320,7 +315,7 @@ A `ConsentRequirement` represents the need for consent from a faculty member to 
 ```json
 {
   "type": "consent",
-  "granter": "instructor",
+  "granter": "instructor"
 }
 ```
 

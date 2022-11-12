@@ -47,29 +47,29 @@ Below is a list of all of the parameters that can be used to refine your query:
 
 <h3 id="get__professor-parameters">Parameters</h3>
 
-| Name                           | In    | Type   | Required | Description                                                                               |
-| ------------------------------ | ----- | ------ | -------- | ----------------------------------------------------------------------------------------- |
-| first_name                     | query | string | false    | The professor's first name                                                                |
-| last_name                      | query | string | false    | The professor's last name                                                                 |
-| titles                         | query | string | false    | One of the professor's title                                                              |
-| email                          | query | string | false    | The professor's email address                                                             |
-| phone_number                   | query | string | false    | The professor's phone number                                                              |
-| office.building                | query | string | false    | The building of the location of the professor's office                                    |
-| office.room                    | query | string | false    | The room of the location of the professor's office                                        |
-| office.map_uri                 | query | string | false    | A hyperlink to the UTD room locator of the professor's office                             |
-| profile_uri                    | query | string | false    | A hyperlink pointing to the professor's official university profile                       |
-| image_uri                      | query | string | false    | A link to the image used for the professor on the professor's official university profile |
-| office_hours.start_date        | query | string | false    | The start date of one of the office hours meetings of the professor                       |
-| office_hours.end_date          | query | string | false    | The end date of one of the office hours meetings of the professor                         |
-| office_hours.meeting_days      | query | string | false    | One of the days that one of the office hours meetings of the professor                    |
-| office_hours.start_time        | query | string | false    | The time one of the office hours meetings of the professor starts                         |
-| office_hours.end_time          | query | string | false    | The time one of the office hours meetings of the professor ends                           |
-| office_hours.modality          | query | string | false    | The modality of one of the office hours meetings of the professor                         |
-| office_hours.location.building | query | string | false    | The building of one of the office hours meetings of the professor                         |
-| office_hours.location.room     | query | string | false    | The room of one of the office hours meetings of the professor                             |
-| office_hours.location.map_uri  | query | string | false    | A hyperlink to the UTD room locator of one of the office hours meetings of the professor  |
-| sections                       | query | string | false    | The \_id of one of the sections the professor teaches                                     |
-| offset                         | query | string | false    | The (zero-based) offset of the first item to return                                       |
+| Name                           | In    | Type    | Required | Description                                                                               |
+| ------------------------------ | ----- | ------- | -------- | ----------------------------------------------------------------------------------------- |
+| first_name                     | query | string  | false    | The professor's first name                                                                |
+| last_name                      | query | string  | false    | The professor's last name                                                                 |
+| titles                         | query | string  | false    | One of the professor's title                                                              |
+| email                          | query | string  | false    | The professor's email address                                                             |
+| phone_number                   | query | string  | false    | The professor's phone number                                                              |
+| office.building                | query | string  | false    | The building of the location of the professor's office                                    |
+| office.room                    | query | string  | false    | The room of the location of the professor's office                                        |
+| office.map_uri                 | query | string  | false    | A hyperlink to the UTD room locator of the professor's office                             |
+| profile_uri                    | query | string  | false    | A hyperlink pointing to the professor's official university profile                       |
+| image_uri                      | query | string  | false    | A link to the image used for the professor on the professor's official university profile |
+| office_hours.start_date        | query | string  | false    | The start date of one of the office hours meetings of the professor                       |
+| office_hours.end_date          | query | string  | false    | The end date of one of the office hours meetings of the professor                         |
+| office_hours.meeting_days      | query | string  | false    | One of the days that one of the office hours meetings of the professor                    |
+| office_hours.start_time        | query | string  | false    | The time one of the office hours meetings of the professor starts                         |
+| office_hours.end_time          | query | string  | false    | The time one of the office hours meetings of the professor ends                           |
+| office_hours.modality          | query | string  | false    | The modality of one of the office hours meetings of the professor                         |
+| office_hours.location.building | query | string  | false    | The building of one of the office hours meetings of the professor                         |
+| office_hours.location.room     | query | string  | false    | The room of one of the office hours meetings of the professor                             |
+| office_hours.location.map_uri  | query | string  | false    | A hyperlink to the UTD room locator of one of the office hours meetings of the professor  |
+| sections                       | query | string  | false    | The \_id of one of the sections the professor teaches                                     |
+| offset                         | query | integer | false    | The (zero-based) offset of the first item to return                                       |
 
 > Example responses
 
@@ -77,10 +77,10 @@ Below is a list of all of the parameters that can be used to refine your query:
 
 ```json
 {
-	"status": 200,
-	"message": "success",
+  "status": 200,
+  "message": "success",
   "data": [
-      {
+    {
       "_id": "623107c784ebaf3e8f1bbd8d",
       "email": "nXXXXXXXX@utdallas.edu",
       "first_name": "NXXXXXX",
@@ -96,12 +96,12 @@ Below is a list of all of the parameters that can be used to refine your query:
       "profile_uri": "https://profiles.utdallas.edu/XXXXXX",
       "sections": [
         "624163757a5c14bdce6ae7c4",
-        "624163777a5c14bdce6ae7c8",
+        "624163777a5c14bdce6ae7c8"
         // ...
       ],
       "titles": [
         "Professor - Electrical Engineering",
-        "Jonsson School Distinguished Professor",
+        "Jonsson School Distinguished Professor"
         // ...
       ]
     },
@@ -128,8 +128,8 @@ This endpoint returns a single Professor object with a primary key matching {id}
 
 ```json
 {
-	"status": 200,
-	"message": "success",
+  "status": 200,
+  "message": "success",
   "data": {
     "_id": "623107c784ebaf3e8f1bbd8d",
     "email": "nXXXXXXXX@utdallas.edu",
@@ -146,12 +146,12 @@ This endpoint returns a single Professor object with a primary key matching {id}
     "profile_uri": "https://profiles.utdallas.edu/XXXXXX",
     "sections": [
       "624163757a5c14bdce6ae7c4",
-      "624163777a5c14bdce6ae7c8",
+      "624163777a5c14bdce6ae7c8"
       // ...
     ],
     "titles": [
       "Professor - Electrical Engineering",
-      "Jonsson School Distinguished Professor",
+      "Jonsson School Distinguished Professor"
       // ...
     ]
   }

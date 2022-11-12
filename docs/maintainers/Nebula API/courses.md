@@ -76,9 +76,9 @@ Below is a list of all of the parameters that can be used to refine your query:
 
 ```json
 {
-	"status": 200,
-	"message": "success",
-	"data": [
+  "status": 200,
+  "message": "success",
+  "data": [
     {
       "_id": "6241a542e0a87a87f38b1aa3",
       "subject_prefix": "MATH",
@@ -104,7 +104,7 @@ Below is a list of all of the parameters that can be used to refine your query:
               {
                 "type": "other",
                 "description": "A score of 80% on ALEKS math placement exam",
-                "condition": null,
+                "condition": null
               },
               {
                 "type": "collection",
@@ -139,7 +139,7 @@ Below is a list of all of the parameters that can be used to refine your query:
       "school": "School of Natural Sciences and Mathematics",
       "sections": [
         "6241a542e0a87a87f38b1aa2",
-        "6241a542e0a87a87f38b1aa4",
+        "6241a542e0a87a87f38b1aa4"
         // ...
       ]
     },
@@ -170,9 +170,9 @@ This endpoint accepts a single route paramter: id
 
 ```json
 {
-	"status": 200,
-	"message": "success",
-	"data": {
+  "status": 200,
+  "message": "success",
+  "data": {
     "_id": "6241a542e0a87a87f38b1aa3",
     "subject_prefix": "MATH",
     "course_number": "2413",
@@ -197,7 +197,7 @@ This endpoint accepts a single route paramter: id
             {
               "type": "other",
               "description": "A score of 80% on ALEKS math placement exam",
-              "condition": null,
+              "condition": null
             },
             {
               "type": "collection",
@@ -232,7 +232,7 @@ This endpoint accepts a single route paramter: id
     "school": "School of Natural Sciences and Mathematics",
     "sections": [
       "6241a542e0a87a87f38b1aa2",
-      "6241a542e0a87a87f38b1aa4",
+      "6241a542e0a87a87f38b1aa4"
       // ...
     ]
   }

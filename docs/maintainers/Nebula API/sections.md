@@ -49,32 +49,32 @@ Below is a list of all of the parameters that can be used to refine your query:
 
 <h3 id="get__section-parameters">Parameters</h3>
 
-| Name                           | In    | Type   | Required | Description                                                                         |
-| ------------------------------ | ----- | ------ | -------- | ----------------------------------------------------------------------------------- |
-| section_number                 | query | string | false    | The section's official number                                                       |
-| course_reference               | query | string | false    | An id that points to the course in MongoDB that this section is an instantiation of |
-| academic_session.name          | query | string | false    | The name of the academic session of the section                                     |
-| academic_session.start_date    | query | string | false    | The date of classes starting for the section                                        |
-| academic_session.end_date      | query | string | false    | The date of classes ending for the section                                          |
-| professors                     | query | string | false    | One of the professors teaching the section                                          |
-| teaching_assistants.first_name | query | string | false    | The first name of one of the teaching assistants of the section                     |
-| teaching_assistants.last_name  | query | string | false    | The last name of one of the teaching assistants of the section                      |
-| teaching_assistants.role       | query | string | false    | The role of one of the teaching assistants of the section                           |
-| teaching_assistants.email      | query | string | false    | The email of one of the teaching assistants of the section                          |
-| internal_class_number          | query | string | false    | The internal (university) number used to reference this section                     |
-| instruction_mode               | query | string | false    | The instruction modality for this section                                           |
-| meetings.start_date            | query | string | false    | The start date of one of the section's meetings                                     |
-| meetings.end_date              | query | string | false    | The end date of one of the section's meetings                                       |
-| meetings.meeting_days          | query | string | false    | One of the days that one of the section's meetings                                  |
-| meetings.start_time            | query | string | false    | The time one of the section's meetings starts                                       |
-| meetings.end_time              | query | string | false    | The time one of the section's meetings ends                                         |
-| meetings.modality              | query | string | false    | The modality of one of the section's meetings                                       |
-| meetings.location.building     | query | string | false    | The building of one of the section's meetings                                       |
-| meetings.location.room         | query | string | false    | The room of one of the section's meetings                                           |
-| meetings.location.map_uri      | query | string | false    | A hyperlink to the UTD room locator of one of the section's meetings                |
-| core_flags                     | query | string | false    | One of core requirement codes this section fulfills                                 |
-| syllabus_uri                   | query | string | false    | A link to the syllabus on the web                                                   |
-| offset                         | query | integer | false    | The (zero-based) offset of the first item to return                                      |
+| Name                           | In    | Type    | Required | Description                                                                         |
+| ------------------------------ | ----- | ------- | -------- | ----------------------------------------------------------------------------------- |
+| section_number                 | query | string  | false    | The section's official number                                                       |
+| course_reference               | query | string  | false    | An id that points to the course in MongoDB that this section is an instantiation of |
+| academic_session.name          | query | string  | false    | The name of the academic session of the section                                     |
+| academic_session.start_date    | query | string  | false    | The date of classes starting for the section                                        |
+| academic_session.end_date      | query | string  | false    | The date of classes ending for the section                                          |
+| professors                     | query | string  | false    | One of the professors teaching the section                                          |
+| teaching_assistants.first_name | query | string  | false    | The first name of one of the teaching assistants of the section                     |
+| teaching_assistants.last_name  | query | string  | false    | The last name of one of the teaching assistants of the section                      |
+| teaching_assistants.role       | query | string  | false    | The role of one of the teaching assistants of the section                           |
+| teaching_assistants.email      | query | string  | false    | The email of one of the teaching assistants of the section                          |
+| internal_class_number          | query | string  | false    | The internal (university) number used to reference this section                     |
+| instruction_mode               | query | string  | false    | The instruction modality for this section                                           |
+| meetings.start_date            | query | string  | false    | The start date of one of the section's meetings                                     |
+| meetings.end_date              | query | string  | false    | The end date of one of the section's meetings                                       |
+| meetings.meeting_days          | query | string  | false    | One of the days that one of the section's meetings                                  |
+| meetings.start_time            | query | string  | false    | The time one of the section's meetings starts                                       |
+| meetings.end_time              | query | string  | false    | The time one of the section's meetings ends                                         |
+| meetings.modality              | query | string  | false    | The modality of one of the section's meetings                                       |
+| meetings.location.building     | query | string  | false    | The building of one of the section's meetings                                       |
+| meetings.location.room         | query | string  | false    | The room of one of the section's meetings                                           |
+| meetings.location.map_uri      | query | string  | false    | A hyperlink to the UTD room locator of one of the section's meetings                |
+| core_flags                     | query | string  | false    | One of core requirement codes this section fulfills                                 |
+| syllabus_uri                   | query | string  | false    | A link to the syllabus on the web                                                   |
+| offset                         | query | integer | false    | The (zero-based) offset of the first item to return                                 |
 
 > Example responses
 
@@ -82,11 +82,10 @@ Below is a list of all of the parameters that can be used to refine your query:
 
 ```json
 {
-	"status": 200,
-	"message": "success",
+  "status": 200,
+  "message": "success",
   "data": [
     {
-      "__v": 0,
       "_id": "62410a21e27d0c74c4093d59",
       "academic_session": {
         "end_date": "December 14, 2017",
@@ -98,22 +97,7 @@ Below is a list of all of the parameters that can be used to refine your query:
       },
       "core_flags": [],
       "course_reference": "62410a21e27d0c74c4093d5a",
-      "grade_distribution": [
-        0,
-        22,
-        5,
-        3,
-        9,
-        4,
-        2,
-        5,
-        2,
-        1,
-        0,
-        2,
-        5,
-        0
-      ],
+      "grade_distribution": [0, 22, 5, 3, 9, 4, 2, 5, 2, 1, 0, 2, 5, 0],
       "instruction_mode": "Face-to-Face",
       "internal_class_number": "8XXXX",
       "meetings": [
@@ -125,19 +109,13 @@ Below is a list of all of the parameters that can be used to refine your query:
             "map_uri": "https://locator.utdallas.edu/XXXXXX",
             "room": "XXXXX"
           },
-          "meeting_days": [
-            "Monday",
-            "Wednesday",
-            "Friday"
-          ],
+          "meeting_days": ["Monday", "Wednesday", "Friday"],
           "modality": null,
           "start_date": "August 21, 2017",
           "start_time": "8:00am"
         }
       ],
-      "professors": [
-        "62410a21e27d0c74c4093d5b"
-      ],
+      "professors": ["62410a21e27d0c74c4093d5b"],
       "section_corequisites": {
         "options": [],
         "type": "collection"
@@ -145,6 +123,9 @@ Below is a list of all of the parameters that can be used to refine your query:
       "section_number": "001",
       "syllabus_uri": "https://dox.utdallas.edu/sylXXXXX",
       "teaching_assistants": []
+    },
+    {
+      // ...
     }
   ]
 }
@@ -168,56 +149,46 @@ This endpoint accepts a single route paramter: id
 
 ```json
 {
-	"status": 200,
-	"message": "success",
+  "status": 200,
+  "message": "success",
   "data": {
-    "_id": "string",
-    "section_number": "string",
-    "course_reference": "string",
-    "section_corequisites": {
-      "name": "string",
-      "required": 0,
-      "options": [
-        {
-          "type": null
-        }
-      ],
-      "type": null
-    },
+    "_id": "62410a21e27d0c74c4093d59",
     "academic_session": {
-      "name": "string",
-      "start_date": "string",
-      "end_date": "string"
+      "end_date": "December 14, 2017",
+      "name": "17F",
+      "start_date": "August 21, 2017"
     },
-    "professors": ["string"],
-    "teaching_assistants": [
-      {
-        "first_name": "string",
-        "last_name": "string",
-        "role": "string",
-        "email": "string"
-      }
-    ],
-    "internal_class_number": "string",
-    "instruction_mode": "string",
+    "attributes": {
+      "raw_attributes": []
+    },
+    "core_flags": [],
+    "course_reference": "62410a21e27d0c74c4093d5a",
+    "grade_distribution": [0, 22, 5, 3, 9, 4, 2, 5, 2, 1, 0, 2, 5, 0],
+    "instruction_mode": "Face-to-Face",
+    "internal_class_number": "8XXXX",
     "meetings": [
       {
-        "start_date": "string",
-        "end_date": "string",
-        "meeting_days": ["string"],
-        "start_time": "string",
-        "end_time": "string",
-        "modality": "string",
+        "end_date": "December 6, 2017",
+        "end_time": "8:50am",
         "location": {
-          "building": "string",
-          "room": "string",
-          "map_uri": "string"
-        }
+          "building": "XXXX",
+          "map_uri": "https://locator.utdallas.edu/XXXXXX",
+          "room": "XXXXX"
+        },
+        "meeting_days": ["Monday", "Wednesday", "Friday"],
+        "modality": null,
+        "start_date": "August 21, 2017",
+        "start_time": "8:00am"
       }
     ],
-    "core_flags": ["string"],
-    "syllabus_uri": "string",
-    "grade_distribution": [0]
+    "professors": ["62410a21e27d0c74c4093d5b"],
+    "section_corequisites": {
+      "options": [],
+      "type": "collection"
+    },
+    "section_number": "001",
+    "syllabus_uri": "https://dox.utdallas.edu/sylXXXXX",
+    "teaching_assistants": []
   }
 }
 ```
