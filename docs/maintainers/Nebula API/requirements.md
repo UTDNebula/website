@@ -20,11 +20,9 @@ Requirements represent a requirement that can be satisfied. This is probably the
 
 ### Properties
 
-| Name | Type                                                                           | Required | Description                                     |
-| ---- | ------------------------------------------------------------------------------ | -------- | ----------------------------------------------- |
-| type | [RequirementType](docs/maintainers/Nebula%20API/requirements/#requirementtype) | true     | The type of requirement this object represents. |
-
-<a id="requirementtype"></a>
+| Name | Type                            | Required | Description                                     |
+| ---- | ------------------------------- | -------- | ----------------------------------------------- |
+| type | [RequirementType](#requirement) | true     | The type of requirement this object represents. |
 
 ### RequirementType
 
@@ -43,12 +41,12 @@ A `CollectionRequirement` represents the need to have some number of requirement
 
 ### Properties
 
-| Name     | Type                                                                     | Required | Restrictions | Description                                                                                              |
-| -------- | ------------------------------------------------------------------------ | -------- | ------------ | -------------------------------------------------------------------------------------------------------- |
-| type     | string                                                                   | true     | "collection" | none                                                                                                     |
-| name     | string                                                                   | false    | none         | A name for the collection to indicate what it holds. May be empty if not very applicable.                |
-| required | integer                                                                  | true     | none         | The minimum number of requirements (from `options`) necessary to satisfy the collection requirement.     |
-| options  | [[Requirement](docs/maintainers/Nebula%20API/requirements/#requirement)] | true     | none         | A list of all the options for requirements that can contribute to satisfying the collection requirement. |
+| Name     | Type                          | Required | Restrictions | Description                                                                                              |
+| -------- | ----------------------------- | -------- | ------------ | -------------------------------------------------------------------------------------------------------- |
+| type     | string                        | true     | "collection" | none                                                                                                     |
+| name     | string                        | false    | none         | A name for the collection to indicate what it holds. May be empty if not very applicable.                |
+| required | integer                       | true     | none         | The minimum number of requirements (from `options`) necessary to satisfy the collection requirement.     |
+| options  | [[Requirement](#requirement)] | true     | none         | A list of all the options for requirements that can contribute to satisfying the collection requirement. |
 
 ### Examples
 
