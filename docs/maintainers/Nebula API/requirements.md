@@ -29,8 +29,8 @@ Requirements represent a requirement that can be satisfied. This is probably the
 Requirement types are differentiated by the `type` attribute. The valid types are:
 
 ```
-"course", "section", "exam", "major", "minor",
-"gpa", "consent", "collection", "hours", "other"
+"collection", "course", "section", "major", "minor", "exam",
+"gpa", "hours", "consent", "limit", "core", "other"
 ```
 
 ## CollectionRequirement
