@@ -75,8 +75,61 @@ Below is a list of all of the parameters that can be used to refine your query:
 > 200 Response
 
 ```json
-[
-  {
+{
+	"status": 200,
+	"message": "success",
+  "data": [
+      {
+      "_id": "623107c784ebaf3e8f1bbd8d",
+      "email": "nXXXXXXXX@utdallas.edu",
+      "first_name": "NXXXXXX",
+      "image_uri": "https://profiles.utdallas.edu/storage/media/160/conversions/XXXXXXXXX-medium.jpg",
+      "last_name": "AXXXXXXX",
+      "office": {
+        "building": "ECN",
+        "room": "3XXX",
+        "map_uri": "https://locator.utdallas.edu/ECN_XXXX"
+      },
+      "office_hours": [],
+      "phone_number": "972-555-5555",
+      "profile_uri": "https://profiles.utdallas.edu/XXXXXX",
+      "sections": [
+        "624163757a5c14bdce6ae7c4",
+        "624163777a5c14bdce6ae7c8",
+        // ...
+      ],
+      "titles": [
+        "Professor - Electrical Engineering",
+        "Jonsson School Distinguished Professor",
+        // ...
+      ]
+    },
+    {
+      // ...
+    }
+  ]
+}
+```
+
+### GET /professor/{id}
+
+This endpoint returns a single Professor object with a primary key matching {id}.
+
+<h3 id="get__professor_{id}-parameters">Parameters</h3>
+
+| Name | In   | Type   | Required | Description                |
+| ---- | ---- | ------ | -------- | -------------------------- |
+| id   | path | string | true     | ID of the professor to get |
+
+> Example responses
+
+> 200 Response
+
+```json
+{
+	"status": 200,
+	"message": "success",
+  "data": {
     "_id": "623107c784ebaf3e8f1bbd8d",
     "email": "nXXXXXXXX@utdallas.edu",
     "first_name": "NXXXXXX",
@@ -100,49 +153,6 @@ Below is a list of all of the parameters that can be used to refine your query:
       "Jonsson School Distinguished Professor",
       // ...
     ]
-  },
-  // ...
-]
-```
-
-### GET /professor/{id}
-
-This endpoint returns a single Professor object with a primary key matching {id}.
-
-<h3 id="get__professor_{id}-parameters">Parameters</h3>
-
-| Name | In   | Type   | Required | Description                |
-| ---- | ---- | ------ | -------- | -------------------------- |
-| id   | path | string | true     | ID of the professor to get |
-
-> Example responses
-
-> 200 Response
-
-```json
-{
-  "_id": "623107c784ebaf3e8f1bbd8d",
-  "email": "nXXXXXXXX@utdallas.edu",
-  "first_name": "NXXXXXX",
-  "image_uri": "https://profiles.utdallas.edu/storage/media/160/conversions/XXXXXXXXX-medium.jpg",
-  "last_name": "AXXXXXXX",
-  "office": {
-    "building": "ECN",
-    "room": "3XXX",
-    "map_uri": "https://locator.utdallas.edu/ECN_XXXX"
-  },
-  "office_hours": [],
-  "phone_number": "972-555-5555",
-  "profile_uri": "https://profiles.utdallas.edu/XXXXXX",
-  "sections": [
-    "624163757a5c14bdce6ae7c4",
-    "624163777a5c14bdce6ae7c8",
-    // ...
-  ],
-  "titles": [
-    "Professor - Electrical Engineering",
-    "Jonsson School Distinguished Professor",
-    // ...
-  ]
+  }
 }
 ```

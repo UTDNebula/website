@@ -74,75 +74,79 @@ Below is a list of all of the parameters that can be used to refine your query:
 > 200 Response
 
 ```json
-[
-  {
-		"_id": "6241a542e0a87a87f38b1aa3",
-    "subject_prefix": "MATH",
-    "course_number": "2413",
-		"activity_type": "Lecture",
-		"class_level": "Undergraduate",
-    "credit_hours": "4",
-		"description": "MATH 2413 - Differential Calculus (4 semester credit hours) Course covers topics in differential calculus of functions of one variable; topics include limits, continuity, derivative, chain rule, implicit differentiation, mean value theorem, maxima and minima, curve sketching, derivatives of inverse trigonometric functions, antiderivative, substitution method, and applications. Three lecture hours and two discussion hours a week; a problem section required with MATH 2413, and will also be registered for exam section. Not all MATH/STAT courses may be counted toward various degree plans. Please consult your degree plan to determine the appropriate MATH/STAT course requirements. Prerequisite: ALEKS score required or a grade of at least a C- in MATH 2306 or MATH 2312. (3-2) S",
-		"grading": "Graded - Undergraduate",
-		"internal_course_number": "008610",
-		"laboratory_contact_hours": "2",
-		"lecture_contact_hours": "3",
-		"offering_frequency": "S",
-		"prerequisites": {
-			"type": "collection",
-      "required": 1,
-			"options": [
-				{
-					"options": [
-						{
-							"type": "other",
-							"description": "A score of 80% on ALEKS math placement exam",
-							"condition": null,
-						},
-						{
-							"options": [
-								{
-									"class_reference": "6240b438ddc4b627a73c07d3",
-									"minimum_grade": "C-",
-									"type": "course"
-								},
-								{
-									"class_reference": "6241a53ee0a87a87f38b1a95",
-									"minimum_grade": "C-",
-									"type": "course"
-								}
-							],
-							"required": 1,
-							"type": "collection"
-						}
-					],
-					"required": 1,
-					"type": "collection"
-				}
-			],
-		},
-		"corequisites": {
-      "options": [],
-			"required": 0,
-			"type": "collection"
-		},
-    "co_or_pre_requisites": {
-      "options": [],
-      "required": 0,
-      "type": "collection"
+{
+	"status": 200,
+	"message": "success",
+	"data": [
+    {
+      "_id": "6241a542e0a87a87f38b1aa3",
+      "subject_prefix": "MATH",
+      "course_number": "2413",
+      "title": "Differential Calculus",
+      "credit_hours": "4",
+      "class_level": "Undergraduate",
+      "activity_type": "Lecture",
+      "description": "MATH 2413 - Differential Calculus (4 semester credit hours) Course covers topics in differential calculus of functions of one variable; topics include limits, continuity, derivative, chain rule, implicit differentiation, mean value theorem, maxima and minima, curve sketching, derivatives of inverse trigonometric functions, antiderivative, substitution method, and applications. Three lecture hours and two discussion hours a week; a problem section required with MATH 2413, and will also be registered for exam section. Not all MATH/STAT courses may be counted toward various degree plans. Please consult your degree plan to determine the appropriate MATH/STAT course requirements. Prerequisite: ALEKS score required or a grade of at least a C- in MATH 2306 or MATH 2312. (3-2) S",
+      "grading": "Graded - Undergraduate",
+      "internal_course_number": "008610",
+      "laboratory_contact_hours": "2",
+      "lecture_contact_hours": "3",
+      "offering_frequency": "S",
+      "prerequisites": {
+        "type": "collection",
+        "required": 1,
+        "options": [
+          {
+            "type": "collection",
+            "required": 1,
+            "options": [
+              {
+                "type": "other",
+                "description": "A score of 80% on ALEKS math placement exam",
+                "condition": null,
+              },
+              {
+                "type": "collection",
+                "required": 1,
+                "options": [
+                  {
+                    "type": "course",
+                    "class_reference": "6240b438ddc4b627a73c07d3",
+                    "minimum_grade": "C-"
+                  },
+                  {
+                    "type": "course",
+                    "class_reference": "6241a53ee0a87a87f38b1a95",
+                    "minimum_grade": "C-"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "corequisites": {
+        "type": "collection",
+        "required": 0,
+        "options": []
+      },
+      "co_or_pre_requisites": {
+        "type": "collection",
+        "options": [],
+        "required": 0
+      },
+      "school": "School of Natural Sciences and Mathematics",
+      "sections": [
+        "6241a542e0a87a87f38b1aa2",
+        "6241a542e0a87a87f38b1aa4",
+        // ...
+      ]
     },
-		"school": "School of Natural Sciences and Mathematics",
-		"sections": [
-			"6241a542e0a87a87f38b1aa2",
-			"6241a542e0a87a87f38b1aa4",
+    {
       // ...
-		],
-		"title": "Differential Calculus"
-	},
-  {
-    // ...
-  }
-]
+    }
+  ]
+}
 ```
 
 ### GET /course/{id}
@@ -165,39 +169,71 @@ This endpoint accepts a single route paramter: id
 
 ```json
 {
-  "_id": "string",
-  "course_number": "string",
-  "subject_prefix": "string",
-  "title": "string",
-  "description": "string",
-  "school": "string",
-  "credit_hours": "string",
-  "class_level": "string",
-  "activity_type": "string",
-  "grading": "string",
-  "internal_course_number": "string",
-  "prerequisites": {
-    "name": "string",
-    "required": 0,
-    "options": [
-      {
-        "type": null
-      }
-    ],
-    "type": null
-  },
-  "corequisites": {
-    "name": "string",
-    "required": 0,
-    "options": [
-      {
-        "type": null
-      }
-    ],
-    "type": null
-  },
-  "lecture_contact_hours": "string",
-  "laboratory_contact_hours": "string",
-  "offering_frequency": "string"
+	"status": 200,
+	"message": "success",
+	"data": {
+    "_id": "6241a542e0a87a87f38b1aa3",
+    "subject_prefix": "MATH",
+    "course_number": "2413",
+    "title": "Differential Calculus",
+    "credit_hours": "4",
+    "class_level": "Undergraduate",
+    "activity_type": "Lecture",
+    "description": "MATH 2413 - Differential Calculus (4 semester credit hours) Course covers topics in differential calculus of functions of one variable; topics include limits, continuity, derivative, chain rule, implicit differentiation, mean value theorem, maxima and minima, curve sketching, derivatives of inverse trigonometric functions, antiderivative, substitution method, and applications. Three lecture hours and two discussion hours a week; a problem section required with MATH 2413, and will also be registered for exam section. Not all MATH/STAT courses may be counted toward various degree plans. Please consult your degree plan to determine the appropriate MATH/STAT course requirements. Prerequisite: ALEKS score required or a grade of at least a C- in MATH 2306 or MATH 2312. (3-2) S",
+    "grading": "Graded - Undergraduate",
+    "internal_course_number": "008610",
+    "laboratory_contact_hours": "2",
+    "lecture_contact_hours": "3",
+    "offering_frequency": "S",
+    "prerequisites": {
+      "type": "collection",
+      "required": 1,
+      "options": [
+        {
+          "type": "collection",
+          "required": 1,
+          "options": [
+            {
+              "type": "other",
+              "description": "A score of 80% on ALEKS math placement exam",
+              "condition": null,
+            },
+            {
+              "type": "collection",
+              "required": 1,
+              "options": [
+                {
+                  "type": "course",
+                  "class_reference": "6240b438ddc4b627a73c07d3",
+                  "minimum_grade": "C-"
+                },
+                {
+                  "type": "course",
+                  "class_reference": "6241a53ee0a87a87f38b1a95",
+                  "minimum_grade": "C-"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": {
+      "type": "collection",
+      "required": 0,
+      "options": []
+    },
+    "co_or_pre_requisites": {
+      "type": "collection",
+      "options": [],
+      "required": 0
+    },
+    "school": "School of Natural Sciences and Mathematics",
+    "sections": [
+      "6241a542e0a87a87f38b1aa2",
+      "6241a542e0a87a87f38b1aa4",
+      // ...
+    ]
+  }
 }
 ```

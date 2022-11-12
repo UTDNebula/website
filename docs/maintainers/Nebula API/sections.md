@@ -80,8 +80,10 @@ Below is a list of all of the parameters that can be used to refine your query:
 > 200 Response
 
 ```json
-"data": 
-  [
+{
+	"status": 200,
+	"message": "success",
+  "data": [
     {
       "__v": 0,
       "_id": "62410a21e27d0c74c4093d59",
@@ -144,6 +146,7 @@ Below is a list of all of the parameters that can be used to refine your query:
       "teaching_assistants": []
     }
   ]
+}
 ```
 
 ### GET /section/{id}
@@ -164,52 +167,56 @@ This endpoint accepts a single route paramter: id
 
 ```json
 {
-  "_id": "string",
-  "section_number": "string",
-  "course_reference": "string",
-  "section_corequisites": {
-    "name": "string",
-    "required": 0,
-    "options": [
+	"status": 200,
+	"message": "success",
+  "data": {
+    "_id": "string",
+    "section_number": "string",
+    "course_reference": "string",
+    "section_corequisites": {
+      "name": "string",
+      "required": 0,
+      "options": [
+        {
+          "type": null
+        }
+      ],
+      "type": null
+    },
+    "academic_session": {
+      "name": "string",
+      "start_date": "string",
+      "end_date": "string"
+    },
+    "professors": ["string"],
+    "teaching_assistants": [
       {
-        "type": null
+        "first_name": "string",
+        "last_name": "string",
+        "role": "string",
+        "email": "string"
       }
     ],
-    "type": null
-  },
-  "academic_session": {
-    "name": "string",
-    "start_date": "string",
-    "end_date": "string"
-  },
-  "professors": ["string"],
-  "teaching_assistants": [
-    {
-      "first_name": "string",
-      "last_name": "string",
-      "role": "string",
-      "email": "string"
-    }
-  ],
-  "internal_class_number": "string",
-  "instruction_mode": "string",
-  "meetings": [
-    {
-      "start_date": "string",
-      "end_date": "string",
-      "meeting_days": ["string"],
-      "start_time": "string",
-      "end_time": "string",
-      "modality": "string",
-      "location": {
-        "building": "string",
-        "room": "string",
-        "map_uri": "string"
+    "internal_class_number": "string",
+    "instruction_mode": "string",
+    "meetings": [
+      {
+        "start_date": "string",
+        "end_date": "string",
+        "meeting_days": ["string"],
+        "start_time": "string",
+        "end_time": "string",
+        "modality": "string",
+        "location": {
+          "building": "string",
+          "room": "string",
+          "map_uri": "string"
+        }
       }
-    }
-  ],
-  "core_flags": ["string"],
-  "syllabus_uri": "string",
-  "grade_distribution": [0]
+    ],
+    "core_flags": ["string"],
+    "syllabus_uri": "string",
+    "grade_distribution": [0]
+  }
 }
 ```

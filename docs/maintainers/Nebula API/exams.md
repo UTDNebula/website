@@ -40,12 +40,31 @@ Below is a list of all of the parameters that can be used to refine your query:
 > 200 Response
 
 ```json
-[
-  {
-    "_id": "string",
-    "type": "string"
-  }
-]
+{
+	"status": 200,
+	"message": "success",
+	"data": [
+		{
+			"_id": "623f8ef656965e1884291c17",
+			"type": "AP",
+			"name": "History of Art",
+			"yields": [
+				// ...
+			]
+		},
+    {
+			"_id": "623f8ef656965e1884291c36",
+			"type": "CLEP",
+			"name": "College Level French Level 2 (4 semesters)",
+      "yields": [
+        // ...
+      ]
+    },
+    {
+      // ...
+    }
+  ]
+}
 ```
 
 ## GET /exam/{id}
@@ -64,8 +83,54 @@ This endpoint returns a single Exam object with a primary key matching {id}.
 
 ```json
 {
-  "_id": "string",
-  "type": "string"
+	"status": 200,
+	"message": "success",
+	"data": {
+		"_id": "623f8ef656965e1884291c17",
+		"type": "AP",
+		"name": "History of Art",
+		"yields": [
+			{
+				"outcome": [
+					[
+						{
+							"category": "free",
+							"credit_hours": 3
+						}
+					]
+				],
+				"requirement": {
+					"exam_reference": "623f8ef656965e1884291c17",
+					"minimum_score": 3,
+					"type": "exam"
+				}
+			},
+			{
+				"outcome": [
+					[
+						"62410d50e27d0c74c4093e65"
+					]
+				],
+				"requirement": {
+					"exam_reference": "623f8ef656965e1884291c17",
+					"minimum_score": 4,
+					"type": "exam"
+				}
+			},
+			{
+				"outcome": [
+					[
+						"62410d50e27d0c74c4093e65"
+					]
+				],
+				"requirement": {
+					"exam_reference": "623f8ef656965e1884291c17",
+					"minimum_score": 5,
+					"type": "exam"
+				}
+			}
+		]
+	}
 }
 ```
 
