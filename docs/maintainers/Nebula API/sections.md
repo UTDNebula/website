@@ -74,6 +74,7 @@ Below is a list of all of the parameters that can be used to refine your query:
 | meetings.location.map_uri      | query | string | false    | A hyperlink to the UTD room locator of one of the section's meetings                |
 | core_flags                     | query | string | false    | One of core requirement codes this section fulfills                                 |
 | syllabus_uri                   | query | string | false    | A link to the syllabus on the web                                                   |
+| offset                         | query | integer | false    | The (zero-based) offset of the first item to return                                      |
 
 > Example responses
 

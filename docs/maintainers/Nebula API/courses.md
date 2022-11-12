@@ -54,20 +54,21 @@ Below is a list of all of the parameters that can be used to refine your query:
 
 <h3 id="get__course-parameters">Parameters</h3>
 
-| Name                   | In    | Type   | Required | Description                                                               |
-| ---------------------- | ----- | ------ | -------- | ------------------------------------------------------------------------- |
-| course_number          | query | string | false    | The course's official number                                              |
-| subject_prefix         | query | string | false    | The course's subject prefix                                               |
-| title                  | query | string | false    | The course's title                                                        |
-| description            | query | string | false    | The course's description                                                  |
-| school                 | query | string | false    | The course's school                                                       |
-| credit_hours           | query | string | false    | The number of credit hours awarded by successful completion of the course |
-| class_level            | query | string | false    | The level of education that this course course corresponds to             |
-| activity_type          | query | string | false    | The type of class this course corresponds to                              |
-| grading                | query | string | false    | The grading status of this course                                         |
-| internal_course_number | query | string | false    | The internal (university) number used to reference this course            |
-| lecture_contact_hours  | query | string | false    | The weekly contact hours in lecture for a course                          |
-| offering_frequency     | query | string | false    | The frequency of offering a course                                        |
+| Name                   | In    | Type    | Required | Description                                                               |
+| ---------------------- | ----- | ------- | -------- | ------------------------------------------------------------------------- |
+| course_number          | query | string  | false    | The course's official number                                              |
+| subject_prefix         | query | string  | false    | The course's subject prefix                                               |
+| title                  | query | string  | false    | The course's title                                                        |
+| description            | query | string  | false    | The course's description                                                  |
+| school                 | query | string  | false    | The course's school                                                       |
+| credit_hours           | query | string  | false    | The number of credit hours awarded by successful completion of the course |
+| class_level            | query | string  | false    | The level of education that this course course corresponds to             |
+| activity_type          | query | string  | false    | The type of class this course corresponds to                              |
+| grading                | query | string  | false    | The grading status of this course                                         |
+| internal_course_number | query | string  | false    | The internal (university) number used to reference this course            |
+| lecture_contact_hours  | query | string  | false    | The weekly contact hours in lecture for a course                          |
+| offering_frequency     | query | string  | false    | The frequency of offering a course                                        |
+| offset                 | query | integer | false    | The (zero-based) offset of the first item to return                       |
 
 > Example responses
 

@@ -29,11 +29,12 @@ Below is a list of all of the parameters that can be used to refine your query:
 
 <h3 id="get__exam-parameters">Parameters</h3>
 
-| Name  | In    | Type   | Required | Description                                        |
-| ----- | ----- | ------ | -------- | -------------------------------------------------- |
-| type  | query | string | false    | The type of exam                                   |
-| name  | query | string | false    | The name of the exam                               |
-| level | query | string | false    | The level of the IB exam (should it be an IB exam) |
+| Name   | In    | Type    | Required | Description                                         |
+| ------ | ----- | ------- | -------- | --------------------------------------------------- |
+| type   | query | string  | false    | The type of exam                                    |
+| name   | query | string  | false    | The name of the exam                                |
+| level  | query | string  | false    | The level of the IB exam (should it be an IB exam)  |
+| offset | query | integer | false    | The (zero-based) offset of the first item to return |
 
 > Example responses
 

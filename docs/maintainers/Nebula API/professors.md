@@ -69,6 +69,7 @@ Below is a list of all of the parameters that can be used to refine your query:
 | office_hours.location.room     | query | string | false    | The room of one of the office hours meetings of the professor                             |
 | office_hours.location.map_uri  | query | string | false    | A hyperlink to the UTD room locator of one of the office hours meetings of the professor  |
 | sections                       | query | string | false    | The \_id of one of the sections the professor teaches                                     |
+| offset                         | query | string | false    | The (zero-based) offset of the first item to return                                       |
 
 > Example responses
 
