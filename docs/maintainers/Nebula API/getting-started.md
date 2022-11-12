@@ -42,7 +42,7 @@ Because API keys are required to access the API, we recommend that you use a too
 ```
 GET /course/ HTTP/1.1
 
-Authorization: {API Key}
+x-api-key: {API Key}
 Accept: application/json
 ```
 
