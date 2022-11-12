@@ -1,5 +1,5 @@
 ---
-sidebar_position: 5
+sidebar_position: 9
 title: 'Professor'
 description: Nebula Labs's approach to user-centered design.
 ---

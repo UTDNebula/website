@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 5
 title: 'Degree'
 description: Nebula Labs's approach to user-centered design.
 ---

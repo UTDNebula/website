@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 3
 title: 'Course'
 description: Nebula Labs's approach to user-centered design.
 ---

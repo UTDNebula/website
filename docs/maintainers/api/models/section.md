@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 11
 title: 'Section'
 description: Nebula Labs's approach to user-centered design.
 ---

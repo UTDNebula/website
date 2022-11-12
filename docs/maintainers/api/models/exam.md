@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 6
 title: 'Exam'
 description: Nebula Labs's approach to user-centered design.
 ---

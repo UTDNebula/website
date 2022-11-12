@@ -1,5 +1,5 @@
 ---
-sidebar_position: 5
+sidebar_position: 8
 title: 'Meeting'
 description: Nebula Labs's approach to user-centered design.
 ---
