@@ -131,27 +131,27 @@ An `OtherRequirement` represents some miscellaneous need to satisfy the requirem
 
 ### CollectionRequirement Properties
 
-| Name         | Type                | Description                                                                               | Example                                                                                                  |
-| ------------ | ------------------- | ----------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
-| **type**     | String              | The type of requirement this object represents.                                           | collection                                                                                               |
-| **name**     | String              | A name for the collection to indicate what it holds. May be empty if not very applicable. | "Core Curriculum", "", "Major Requirements"                                                              |
-| **required** | Number              | The minimum number of required requirements necessary to satisfy the requirement.         | 3                                                                                                        |
-| **options**  | Array - Requirement | A list of all the options that can contribute to satisfying the requirement.              | [CourseRequirement1, CourseRequirement2, CourseRequirement3, CourseRequirement4, CollectionRequirement1] |
+| Name         | Type                                    | Description                                                                               | Example                                                                                                  |
+| ------------ | --------------------------------------- | ----------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| **type**     | String                                  | The type of requirement this object represents.                                           | collection                                                                                               |
+| **name**     | String                                  | A name for the collection to indicate what it holds. May be empty if not very applicable. | "Core Curriculum", "", "Major Requirements"                                                              |
+| **required** | Number                                  | The minimum number of required requirements necessary to satisfy the requirement.         | 3                                                                                                        |
+| **options**  | Array - [Requirement](./requirement.md) | A list of all the options that can contribute to satisfying the requirement.              | [CourseRequirement1, CourseRequirement2, CourseRequirement3, CourseRequirement4, CollectionRequirement1] |
 
 ### HoursRequirement Properties
 
-| Name         | Type                      | Description                                                                       | Example                                                                                                  |
-| ------------ | ------------------------- | --------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
-| **type**     | String                    | The type of requirement this object represents.                                   | hours                                                                                                    |
-| **required** | Number                    | The minimum number of required requirements necessary to satisfy the requirement. | 3                                                                                                        |
-| **options**  | Array - CourseRequirement | A list of all the options that can contribute to satisfying the requirement.      | [CourseRequirement1, CourseRequirement2, CourseRequirement3, CourseRequirement4, CollectionRequirement1] |
+| Name         | Type                                                                       | Description                                                                       | Example                                                                                                  |
+| ------------ | -------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| **type**     | String                                                                     | The type of requirement this object represents.                                   | hours                                                                                                    |
+| **required** | Number                                                                     | The minimum number of required requirements necessary to satisfy the requirement. | 3                                                                                                        |
+| **options**  | Array - [CourseRequirement](./requirement.md#courserequirement-properties) | A list of all the options that can contribute to satisfying the requirement.      | [CourseRequirement1, CourseRequirement2, CourseRequirement3, CourseRequirement4, CollectionRequirement1] |
 
 ### ChoiceRequirement Properties
 
-| Name        | Type                  | Description                                                                                                                           | Example |
-| ----------- | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------- | ------- |
-| **type**    | String                | The type of requirement this object represents.                                                                                       | choice  |
-| **choices** | CollectionRequirement | A `CollectionRequirement` of `CourseRequirement`s, from which only `CollectionRequirement.required` courses can be chosen for credit. |         |
+| Name        | Type                                                                       | Description                                                                                                                           | Example |
+| ----------- | -------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- | ------- |
+| **type**    | String                                                                     | The type of requirement this object represents.                                                                                       | choice  |
+| **choices** | [CollectionRequirement](./requirement.md#collectionrequirement-properties) | A `CollectionRequirement` of `CourseRequirement`s, from which only `CollectionRequirement.required` courses can be chosen for credit. |         |
 
 ### LimitRequirement Properties
 

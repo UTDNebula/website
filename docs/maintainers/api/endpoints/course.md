@@ -8,7 +8,7 @@ description: Nebula Labs's approach to user-centered design.
 
 Courses lay one level of abstraction above sections in the academic hierarchy at UTD. A **Course** represents a class offered by a school at UTD.
 
-A **Course** should not be confused with a **Section** which is the actual instantiation of a **Course** with a professor and dedicated meeting times.A course can have multiple sections associated with it every semester. An example of a course would be ECS1100.
+A **Course** should not be confused with a [Section](./section.md) which is the actual instantiation of a **Course** with a professor and dedicated meeting times.A course can have multiple sections associated with it every semester. An example of a course would be ECS1100.
 
 You are able to query for a **Course** by:
 
