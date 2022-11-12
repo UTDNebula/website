@@ -8,7 +8,7 @@ sidebar_position: 1
 Contributing to Nebula Labs is simple. All of our codebases use a consistent
 process to suggest or implement changes.
 
-Addiitonally, many of our projects use a consistent technology stack and similar
+Additionally, many of our projects use a consistent technology stack and similar
 tools.
 
 The process generally looks like one of the following:

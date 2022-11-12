@@ -6,7 +6,7 @@ description: Nebula Labs's approach to user-centered design.
 
 ## Overview
 
-An **Exam** represents a credit-bearing or placement examination at the University of Texas at Dallas. These are used to store exams that could fulfill the same requirements as courses at the University for fulfilling prerequisites or other degree requiremenmts. There are many different types of Exams but all are accessed through the same endpoints.
+An **Exam** represents a credit-bearing or placement examination at the University of Texas at Dallas. These are used to store exams that could fulfill the same requirements as courses at the University for fulfilling prerequisites or other degree requirements. There are many different types of Exams but all are accessed through the same endpoints.
 
 You are able to query for a **Exam** by:
 

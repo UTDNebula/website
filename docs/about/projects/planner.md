@@ -6,7 +6,7 @@ description: The Nebula Planner is a degree planning tool that makes planning an
 
 The Nebula Planner was made to do one thing: help students plan their college
 experience at a high level. It does the leg work so students can focus less on
-the minutae of planning their studies and more on the experiences that will
+the minutiae of planning their studies and more on the experiences that will
 prepare them as scholars and as members of society.
 
 ## Motivation
@@ -51,7 +51,7 @@ Nebula" with its name strongly inspired by Madison York, the editor-in-chief
 of the [Mercury](https://utdmercury.com) who helped him brainstorm names over
 hot chocolate.
 
-Over summer 2021, Project Nebula grew to ecompass several interconnected
+Over summer 2021, Project Nebula grew to encompass several interconnected
 projects: a degree planning tool (named Nebula), a public API and visualization
 dashboard for UTD-related data (Comet Data Service), and later, a guide for
 students (UTD Survival Guide).

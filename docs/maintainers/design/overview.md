@@ -19,7 +19,7 @@ from needless updates that don't bring value to our users, but we are always
 welcome to feedback so we know when we should change.
 
 For us, design isn't merely about building interfaces. Design is a process, a
-whole pipleine encompassing everything from developing user stories to using
+whole pipeline encompassing everything from developing user stories to using
 data-driven approaches to optimize user experience.
 
 ## Some Details

@@ -12,9 +12,9 @@ sidebar_position: 1
 
 Welcome to the Nebula API Documentation. The goal of this API is to provide students at UT Dallas with a
 comprehensive set of data about everything on campus. Currently the API primarily contains data regarding
-acadmenics, but is continually getting new data and information, so keep an eye out for new features.
+academics, but is continually getting new data and information, so keep an eye out for new features.
 
-## Acessing the API
+## Accessing the API
 
 The API is hosted by Nebula Labs at:
 
@@ -80,7 +80,7 @@ Route Parameters are parameters which are appended using an additional `/` after
 
 where a09ajca0a is the route parameter providing a section id.
 
-The other alternative is query paramters which are provided in key value pairings. These are denoted by following the endpoint with a `?` and delimiting each key value pair with an `&`. These are more useful when you are trying to perform traditional queries which return multiple results or need to provide multiple parameters to the endpoint. For our API an example of a query parameter may look like:
+The other alternative is query parameters which are provided in key value pairings. These are denoted by following the endpoint with a `?` and delimiting each key value pair with an `&`. These are more useful when you are trying to perform traditional queries which return multiple results or need to provide multiple parameters to the endpoint. For our API an example of a query parameter may look like:
 
 `api.utdnebula.com/section?academic_session.name=21F&instruction_mode=hybrid`
 

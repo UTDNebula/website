@@ -16,7 +16,7 @@ place.
 For some students, college life comes easily. For other students, like
 first-generation students those from non-traditional backgrounds, like student
 veterans or those going through undergrad after joining the workforce, going to
-university can be a dizzing or confusing experience. The Guide is an attempt to
+university can be a dizzying or confusing experience. The Guide is an attempt to
 make their lives easier while consolidating information that's accessible to and
 digestible by all students.
 
@@ -36,10 +36,10 @@ He _really_ wanted to build this to answer questions on the UT Dallas subreddit.
 A lot.
 
 In summer 2020, the first draft of content for the Guide was started
-indpendently from other groups. In summer 2021, it became a part of Project
+independently from other groups. In summer 2021, it became a part of Project
 Nebula and in fall 2021, it gained a dedicated project lead.
 
-The first iteration of the UTD Survival Guide is due to relase in spring 2022.
+The first iteration of the UTD Survival Guide is due to release in spring 2022.
 
 ## Features
 

@@ -33,7 +33,7 @@ UTDNebula organization):
   component library for Nebula Labs projects.
 - [website](https://github.com/UTDNebula/website) - Source for the Project
   Nebula team website
-- [utd-trends](https://github.com/UTDNebula/utd-trends) - Source fcode for the
+- [utd-trends](https://github.com/UTDNebula/utd-trends) - Source code for the
   UTD Grades service.
 - [comet-circle](https://github.com/UTDNebula/comet-circle) - Source code for
   the Comet Circle HackUTD VIII project.
