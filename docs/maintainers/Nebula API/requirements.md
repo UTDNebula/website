@@ -41,8 +41,6 @@ Requirement types are differentiated by the `type` attribute. The valid types ar
 
 A `CollectionRequirement` represents the need to have some number of requirements from a list of `Requirement`s to satisfy the requirement. This is used to represent groups of requirements, "and" relationships, "some" relationships, and "or" relationships. Collections can contain other collections.
 
-As a more realistic example, consider the prerequisites for the course CS 3305. It requires CE 2305 or CS 2305 or TE 2305 with a grade of C or better and MATH 2414 or MATH 2419. This would be represented as a `CollectionRequirement` with `required` set to 2. The two `options` are two separate `CollectionRequirement`s: one `CollectionRequirement` has a `required` property of 1 with the `options` of the `CourseRequirement`s CE 2305, CS 2305, TE 2305 each with a `minimum_grade` of "C". The other `CollectionRequirement` has a `required` of 1 and the two `options` being the two `CourseRequirement`s MATH 2414 and MATH 2419.
-
 ### Properties
 
 | Name     | Type                                                                     | Required | Restrictions | Description                                                                                              |
