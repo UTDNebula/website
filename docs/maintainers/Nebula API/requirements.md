@@ -12,15 +12,17 @@ sidebar_position: 3
 
 Requirements represent a requirement that can be satisfied. This is probably the most important concept in the API and also has the most cognitive overhead. Requirement is an abstract type and has multiple classes that derive from it to represent the various types of requirements at UTD.
 
+<a id="requirement"></a>
+
 ## Requirement
 
 > :warning: **This is an abstract type.**
 
 ### Properties
 
-| Name | Type                                 | Required | Description                                     |
-| ---- | ------------------------------------ | -------- | ----------------------------------------------- |
-| type | [RequirementType](/#requirementtype) | true     | The type of requirement this object represents. |
+| Name | Type                                                                           | Required | Description                                     |
+| ---- | ------------------------------------------------------------------------------ | -------- | ----------------------------------------------- |
+| type | [RequirementType](docs/maintainers/Nebula%20API/requirements/#requirementtype) | true     | The type of requirement this object represents. |
 
 <a id="requirementtype"></a>
 
@@ -33,6 +35,8 @@ Requirement types are differentiated by the `type` attribute. The valid types ar
 "gpa", "hours", "consent", "limit", "core", "other"
 ```
 
+<a id="collectionrequirement"></a>
+
 ## CollectionRequirement
 
 A `CollectionRequirement` represents the need to have some number of requirements from a list of `Requirement`s to satisfy the requirement. This is used to represent groups of requirements, "and" relationships, "some" relationships, and "or" relationships. Collections can contain other collections.
@@ -41,12 +45,12 @@ As a more realistic example, consider the prerequisites for the course CS 3305. 
 
 ### Properties
 
-| Name     | Type                                | Required | Restrictions | Description                                                                                              |
-| -------- | ----------------------------------- | -------- | ------------ | -------------------------------------------------------------------------------------------------------- |
-| type     | string                              | true     | "collection" | none                                                                                                     |
-| name     | string                              | false    | none         | A name for the collection to indicate what it holds. May be empty if not very applicable.                |
-| required | integer                             | true     | none         | The minimum number of requirements (from `options`) necessary to satisfy the collection requirement.     |
-| options  | [[Requirement](#schemarequirement)] | true     | none         | A list of all the options for requirements that can contribute to satisfying the collection requirement. |
+| Name     | Type                                                                     | Required | Restrictions | Description                                                                                              |
+| -------- | ------------------------------------------------------------------------ | -------- | ------------ | -------------------------------------------------------------------------------------------------------- |
+| type     | string                                                                   | true     | "collection" | none                                                                                                     |
+| name     | string                                                                   | false    | none         | A name for the collection to indicate what it holds. May be empty if not very applicable.                |
+| required | integer                                                                  | true     | none         | The minimum number of requirements (from `options`) necessary to satisfy the collection requirement.     |
+| options  | [[Requirement](docs/maintainers/Nebula%20API/requirements/#requirement)] | true     | none         | A list of all the options for requirements that can contribute to satisfying the collection requirement. |
 
 ### Examples
 
@@ -127,6 +131,8 @@ It requires CE 2305 or CS 2305 or TE 2305 with a grade of C or better and MATH 2
 }
 ```
 
+<a id="courserequirement"></a>
+
 ## CourseRequirement
 
 A `CourseRequirement` represents a specific `Course` that must be taken to satisfy the requirement. This will represent the majority of requirements.
@@ -149,6 +155,8 @@ A `CourseRequirement` represents a specific `Course` that must be taken to satis
 }
 ```
 
+<a id="sectionrequirement"></a>
+
 ## SectionRequirement
 
 A `SectionRequirement` represents a specific `Section` that must be taken to satisfy the requirement.
@@ -168,6 +176,8 @@ A `SectionRequirement` represents a specific `Section` that must be taken to sat
   "section_reference": "62410a21e27d0c74c4093d59" // ACCT 2301.001.17F
 }
 ```
+
+<a id="majorrequirement"></a>
 
 ## MajorRequirement
 
@@ -189,6 +199,8 @@ A `MajorRequirement`represents a major that a student must be enrolled in to sat
 }
 ```
 
+<a id="minorrequirement"></a>
+
 ## MinorRequirement
 
 A `MinorRequirement` represents a minor that a student must be enrolled in to satisfy the requirement.
@@ -208,6 +220,8 @@ A `MinorRequirement` represents a minor that a student must be enrolled in to sa
   "minor": "ENCS" // Engineering and Computer Science
 }
 ```
+
+<a id="examrequirement"></a>
 
 ## ExamRequiremnet
 
@@ -231,6 +245,8 @@ An `ExamRequirement` represents a specific `Exam` credit that must be received t
 }
 ```
 
+<a id="gparequirement"></a>
+
 ## GPARequirement
 
 A `GPARequirement` represents the minimum GPA a student must have to satisfy the requirement.
@@ -252,6 +268,8 @@ A `GPARequirement` represents the minimum GPA a student must have to satisfy the
   "subset": "university"
 }
 ```
+
+<a id="hoursrequirement"></a>
 
 ## HoursRequirement
 
@@ -279,6 +297,8 @@ An `HoursRequirement` represents the need to have taken some number of credit ho
 }
 ```
 
+<a id="limitrequirement"></a>
+
 ## LimitRequirement
 
 A `LimitRequirement` represents a limit on the number of credit hours that a course may be repeated for.
@@ -299,6 +319,8 @@ A `LimitRequirement` represents a limit on the number of credit hours that a cou
 }
 ```
 
+<a id="consentrequirement"></a>
+
 ## ConsentRequirement
 
 A `ConsentRequirement` represents the need for consent from a faculty member to satisfy the requirement.
@@ -318,6 +340,8 @@ A `ConsentRequirement` represents the need for consent from a faculty member to 
   "granter": "instructor"
 }
 ```
+
+<a id="corerequirement"></a>
 
 ## CoreRequirement
 
@@ -340,6 +364,8 @@ A `CoreRequirement` represents the need to have taken a course fulfilling a spec
   "hours": 6
 }
 ```
+
+<a id="otherrequirement"></a>
 
 ## OtherRequirement
 
