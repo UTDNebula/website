@@ -1,5 +1,5 @@
 ---
-title: Nebula Labs API v0.1.0
+title: Nebula Labs API v0.1.0 (Depreciated)
 language_tabs:
   - shell: Shell
   - http: HTTP
@@ -1997,10 +1997,10 @@ AP Exams are exams offered by College Board that are taken prior to college in o
 
 ### Properties
 
-| Name   | Type                                                                        | Required | Restrictions | Description                                                                                                                     |
-| ------ | --------------------------------------------------------------------------- | -------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------- |
-| name   | string                                                                      | true     | none         | The name of the exam                                                                                                            |
-| yields | [[Outcome](/docs/maintainers/Nebula%20API/api-documentation#schemaoutcome)] | true     | none         | An array of Outcomes for which the credit for the Course or Credit is received. Does not include placement, only actual credit. |
+| Name   | Type                        | Required | Restrictions | Description                                                                                                                     |
+| ------ | --------------------------- | -------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------- |
+| name   | string                      | true     | none         | The name of the exam                                                                                                            |
+| yields | [[Outcome](#schemaoutcome)] | true     | none         | An array of Outcomes for which the credit for the Course or Credit is received. Does not include placement, only actual credit. |
 
 allOf - discriminator: Exam.type
 
@@ -2093,10 +2093,10 @@ CLEP Exams are exams offered by College Board that are taken before or during co
 
 ### Properties
 
-| Name   | Type                                                                        | Required | Restrictions | Description                                                                                                                     |
-| ------ | --------------------------------------------------------------------------- | -------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------- |
-| name   | string                                                                      | true     | none         | The name of the exam                                                                                                            |
-| yields | [[Outcome](/docs/maintainers/Nebula%20API/api-documentation#schemaoutcome)] | true     | none         | An array of Outcomes for which the credit for the Course or Credit is received. Does not include placement, only actual credit. |
+| Name   | Type                        | Required | Restrictions | Description                                                                                                                     |
+| ------ | --------------------------- | -------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------- |
+| name   | string                      | true     | none         | The name of the exam                                                                                                            |
+| yields | [[Outcome](#schemaoutcome)] | true     | none         | An array of Outcomes for which the credit for the Course or Credit is received. Does not include placement, only actual credit. |
 
 allOf - discriminator: Exam.type
 
@@ -2136,9 +2136,9 @@ The CS Placement Exam is an exam required of Computer Science students upon entr
 
 ### Properties
 
-| Name   | Type                                                                        | Required | Restrictions | Description                                                                                                                     |
-| ------ | --------------------------------------------------------------------------- | -------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------- |
-| yields | [[Outcome](/docs/maintainers/Nebula%20API/api-documentation#schemaoutcome)] | true     | none         | An array of Outcomes for which the credit for the Course or Credit is received. Does not include placement, only actual credit. |
+| Name   | Type                        | Required | Restrictions | Description                                                                                                                     |
+| ------ | --------------------------- | -------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------- |
+| yields | [[Outcome](#schemaoutcome)] | true     | none         | An array of Outcomes for which the credit for the Course or Credit is received. Does not include placement, only actual credit. |
 
 allOf - discriminator: Exam.type
 
@@ -2314,24 +2314,24 @@ This data will include important pieces of information that a relevant to every 
 
 ### Properties
 
-| Name                     | Type                                                                                                  | Required | Restrictions | Description                                                                                                                                      |
-| ------------------------ | ----------------------------------------------------------------------------------------------------- | -------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------ |
-| \_id                     | string                                                                                                | true     | none         | The primary key associated with a course                                                                                                         |
-| course_number            | string                                                                                                | true     | none         | The course's official number                                                                                                                     |
-| subject_prefix           | string                                                                                                | true     | none         | The course's subject prefix                                                                                                                      |
-| title                    | string                                                                                                | true     | none         | The course's title                                                                                                                               |
-| description              | string                                                                                                | true     | none         | The course's description                                                                                                                         |
-| school                   | string                                                                                                | true     | none         | The course's school                                                                                                                              |
-| credit_hours             | string                                                                                                | true     | none         | The number of credit hours awarded by successful completion of the course                                                                        |
-| class_level              | string                                                                                                | true     | none         | The level of education that this course course corresponds to                                                                                    |
-| activity_type            | string                                                                                                | true     | none         | The type of class this course corresponds to                                                                                                     |
-| grading                  | string                                                                                                | true     | none         | The grading status of this course                                                                                                                |
-| internal_course_number   | string                                                                                                | true     | none         | The internal (university) number used to reference this course                                                                                   |
-| prerequisites            | [CollectionRequirement](/docs/maintainers/Nebula%20API/api-documentation#schemacollectionrequirement) | false    | none         | A Collection Requirement object containing a list of the courses that must be taken before this course                                           |
-| corequisites             | [CollectionRequirement](/docs/maintainers/Nebula%20API/api-documentation#schemacollectionrequirement) | false    | none         | A Collection Requirement object containing a list of the courses that must be taken before or alongside this course                              |
-| lecture_contact_hours    | string                                                                                                | true     | none         | The weekly contact hours in lecture for a course                                                                                                 |
-| laboratory_contact_hours | string                                                                                                | true     | none         | The weekly contact hours in laboratory for a course                                                                                              |
-| offering_frequency       | string                                                                                                | true     | none         | The frequency of offering a course. The meanings of each letter can be found in the UTD Course Policies page. Example: "S", "Y", "T", "R" course |
+| Name                     | Type                                                  | Required | Restrictions | Description                                                                                                                                      |
+| ------------------------ | ----------------------------------------------------- | -------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| \_id                     | string                                                | true     | none         | The primary key associated with a course                                                                                                         |
+| course_number            | string                                                | true     | none         | The course's official number                                                                                                                     |
+| subject_prefix           | string                                                | true     | none         | The course's subject prefix                                                                                                                      |
+| title                    | string                                                | true     | none         | The course's title                                                                                                                               |
+| description              | string                                                | true     | none         | The course's description                                                                                                                         |
+| school                   | string                                                | true     | none         | The course's school                                                                                                                              |
+| credit_hours             | string                                                | true     | none         | The number of credit hours awarded by successful completion of the course                                                                        |
+| class_level              | string                                                | true     | none         | The level of education that this course course corresponds to                                                                                    |
+| activity_type            | string                                                | true     | none         | The type of class this course corresponds to                                                                                                     |
+| grading                  | string                                                | true     | none         | The grading status of this course                                                                                                                |
+| internal_course_number   | string                                                | true     | none         | The internal (university) number used to reference this course                                                                                   |
+| prerequisites            | [CollectionRequirement](#schemacollectionrequirement) | false    | none         | A Collection Requirement object containing a list of the courses that must be taken before this course                                           |
+| corequisites             | [CollectionRequirement](#schemacollectionrequirement) | false    | none         | A Collection Requirement object containing a list of the courses that must be taken before or alongside this course                              |
+| lecture_contact_hours    | string                                                | true     | none         | The weekly contact hours in lecture for a course                                                                                                 |
+| laboratory_contact_hours | string                                                | true     | none         | The weekly contact hours in laboratory for a course                                                                                              |
+| offering_frequency       | string                                                | true     | none         | The frequency of offering a course. The meanings of each letter can be found in the UTD Course Policies page. Example: "S", "Y", "T", "R" course |
 
 ```json
 {
@@ -2588,11 +2588,11 @@ International Baccalaureate (IB) Exams are exams offered by the IBO for students
 
 ### Properties
 
-| Name   | Type                                                                        | Required | Restrictions | Description                                                                                                                     |
-| ------ | --------------------------------------------------------------------------- | -------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------- |
-| name   | string                                                                      | true     | none         | The name of the exam                                                                                                            |
-| level  | string                                                                      | true     | none         | The level of the IB exam.                                                                                                       |
-| yields | [[Outcome](/docs/maintainers/Nebula%20API/api-documentation#schemaoutcome)] | true     | none         | An array of Outcomes for which the credit for the Course or Credit is received. Does not include placement, only actual credit. |
+| Name   | Type                        | Required | Restrictions | Description                                                                                                                     |
+| ------ | --------------------------- | -------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------- |
+| name   | string                      | true     | none         | The name of the exam                                                                                                            |
+| level  | string                      | true     | none         | The level of the IB exam.                                                                                                       |
+| yields | [[Outcome](#schemaoutcome)] | true     | none         | An array of Outcomes for which the credit for the Course or Credit is received. Does not include placement, only actual credit. |
 
 allOf - discriminator: Exam.type
 
@@ -2880,19 +2880,19 @@ Professors are a representation of an insturctor on campus for a Course. Profess
 
 ### Properties
 
-| Name         | Type                                                                        | Required | Restrictions | Description                                                                                                                                                                          |
-| ------------ | --------------------------------------------------------------------------- | -------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| \_id         | string                                                                      | true     | none         | The MongoDB database id for the Professor object.                                                                                                                                    |
-| first_name   | string                                                                      | true     | none         | The professor's first name.                                                                                                                                                          |
-| last_name    | string                                                                      | true     | none         | The professor's last name.                                                                                                                                                           |
-| titles       | [string]                                                                    | false    | none         | The professor's titles. Example: ["Senior Mathematics Lecturer"], ["Lars Magnus Ericsson Chair", "Dean – Erik Jonsson School of Engineering and Computer Science"]                   |
-| email        | string                                                                      | true     | none         | The professor's email address.                                                                                                                                                       |
-| phone_number | string                                                                      | false    | none         | The professor's phone number.                                                                                                                                                        |
-| office       | [Location](/docs/maintainers/Nebula%20API/api-documentation#schemalocation) | false    | none         | The location of the professor's office.                                                                                                                                              |
-| profile_uri  | string                                                                      | false    | none         | A hyperlink pointing to the professor's official university profile.                                                                                                                 |
-| image_uri    | string                                                                      | false    | none         | A link to the image used for the professor on the professor's official university profile.                                                                                           |
-| office_hours | [[Meeting](/docs/maintainers/Nebula%20API/api-documentation#schemameeting)] | false    | none         | A list of all office hours of the professor.                                                                                                                                         |
-| sections     | [string]                                                                    | false    | none         | A list of references to sections a professor is currently teaching or has taught. This will be sorted in descending order with respect to end_date in the section's academic_session |
+| Name         | Type                        | Required | Restrictions | Description                                                                                                                                                                          |
+| ------------ | --------------------------- | -------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| \_id         | string                      | true     | none         | The MongoDB database id for the Professor object.                                                                                                                                    |
+| first_name   | string                      | true     | none         | The professor's first name.                                                                                                                                                          |
+| last_name    | string                      | true     | none         | The professor's last name.                                                                                                                                                           |
+| titles       | [string]                    | false    | none         | The professor's titles. Example: ["Senior Mathematics Lecturer"], ["Lars Magnus Ericsson Chair", "Dean – Erik Jonsson School of Engineering and Computer Science"]                   |
+| email        | string                      | true     | none         | The professor's email address.                                                                                                                                                       |
+| phone_number | string                      | false    | none         | The professor's phone number.                                                                                                                                                        |
+| office       | [Location](#schemalocation) | false    | none         | The location of the professor's office.                                                                                                                                              |
+| profile_uri  | string                      | false    | none         | A hyperlink pointing to the professor's official university profile.                                                                                                                 |
+| image_uri    | string                      | false    | none         | A link to the image used for the professor on the professor's official university profile.                                                                                           |
+| office_hours | [[Meeting](#schemameeting)] | false    | none         | A list of all office hours of the professor.                                                                                                                                         |
+| sections     | [string]                    | false    | none         | A list of references to sections a professor is currently teaching or has taught. This will be sorted in descending order with respect to end_date in the section's academic_session |
 
 <a id="schemarequirement"></a>
 <a id="schema_Requirement"></a>
@@ -2976,21 +2976,21 @@ Sections are the lowest level unit of organization for a class at UT Dallas. A s
 
 ### Properties
 
-| Name                  | Type                                                                                                  | Required | Restrictions | Description                                                                                 |
-| --------------------- | ----------------------------------------------------------------------------------------------------- | -------- | ------------ | ------------------------------------------------------------------------------------------- |
-| \_id                  | string                                                                                                | true     | none         | The id represents the primary key associated with the section                               |
-| section_number        | string                                                                                                | true     | none         | This is the number associated with the course during its semester eg. .001                  |
-| course_reference      | string                                                                                                | true     | none         | The course reference represents a foreign key to the course record                          |
-| section_corequisites  | [CollectionRequirement](/docs/maintainers/Nebula%20API/api-documentation#schemacollectionrequirement) | false    | none         | All of the classes that must be taken alongside this section eg. A lab for a science course |
-| academic_session      | [AcademicSession](/docs/maintainers/Nebula%20API/api-documentation#schemaacademicsession)             | true     | none         | The name of the academic session of the section                                             |
-| professors            | [string]                                                                                              | true     | none         | An array of references to professor objects associated with this section                    |
-| teaching_assistants   | [[Assistant](/docs/maintainers/Nebula%20API/api-documentation#schemaassistant)]                       | false    | none         | An array of all TA's associated with this section                                           |
-| internal_class_number | string                                                                                                | true     | none         | The internal representation of the class number unique id from university                   |
-| instruction_mode      | string                                                                                                | true     | none         | The modality the course is taught it eg. Online, In Person, Hybrid                          |
-| meetings              | [[Meeting](/docs/maintainers/Nebula%20API/api-documentation#schemameeting)]                           | true     | none         | All of the meeting information associated with a section                                    |
-| core_flags            | [string]                                                                                              | false    | none         | Information if the course counts as a core credit for one of the core subject areas         |
-| syllabus_uri          | string                                                                                                | true     | none         | Link to the syllabus for the section listed on coursebook                                   |
-| grade_distribution    | [integer]                                                                                             | false    | none         | An array representing the distribution of grades for this section                           |
+| Name                  | Type                                                  | Required | Restrictions | Description                                                                                 |
+| --------------------- | ----------------------------------------------------- | -------- | ------------ | ------------------------------------------------------------------------------------------- |
+| \_id                  | string                                                | true     | none         | The id represents the primary key associated with the section                               |
+| section_number        | string                                                | true     | none         | This is the number associated with the course during its semester eg. .001                  |
+| course_reference      | string                                                | true     | none         | The course reference represents a foreign key to the course record                          |
+| section_corequisites  | [CollectionRequirement](#schemacollectionrequirement) | false    | none         | All of the classes that must be taken alongside this section eg. A lab for a science course |
+| academic_session      | [AcademicSession](#schemaacademicsession)             | true     | none         | The name of the academic session of the section                                             |
+| professors            | [string]                                              | true     | none         | An array of references to professor objects associated with this section                    |
+| teaching_assistants   | [[Assistant](#schemaassistant)]                       | false    | none         | An array of all TA's associated with this section                                           |
+| internal_class_number | string                                                | true     | none         | The internal representation of the class number unique id from university                   |
+| instruction_mode      | string                                                | true     | none         | The modality the course is taught it eg. Online, In Person, Hybrid                          |
+| meetings              | [[Meeting](#schemameeting)]                           | true     | none         | All of the meeting information associated with a section                                    |
+| core_flags            | [string]                                              | false    | none         | Information if the course counts as a core credit for one of the core subject areas         |
+| syllabus_uri          | string                                                | true     | none         | Link to the syllabus for the section listed on coursebook                                   |
+| grade_distribution    | [integer]                                             | false    | none         | An array representing the distribution of grades for this section                           |
 
 <a id="schemasectionrequirement"></a>
 <a id="schema_SectionRequirement"></a>
