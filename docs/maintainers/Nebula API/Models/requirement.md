@@ -4,8 +4,7 @@ toc_footers: []
 includes: []
 search: true
 highlight_theme: darkula
-headingLevel: 2
-sidebar_position: 3
+sidebar_position: 11
 ---
 
 <a id="requirement"></a>
@@ -14,11 +13,7 @@ sidebar_position: 3
 
 A **Requirement** represents a requirement that can be satisfied. This is probably the most important concept in the API and also has the most cognitive overhead. `Requirement` is an abstract type and has multiple classes that derive from it to represent the various types of requirements at UTD.
 
-## Requirement
-
-> :warning: **This is an abstract type.**
-
-### Properties
+## Properties
 
 | Name | Type                            | Required | Description                                     |
 | ---- | ------------------------------- | -------- | ----------------------------------------------- |
@@ -41,12 +36,12 @@ A `CollectionRequirement` represents the need to have some number of requirement
 
 ### Properties
 
-| Name     | Type                          | Required | Restrictions | Description                                                                                              |
-| -------- | ----------------------------- | -------- | ------------ | -------------------------------------------------------------------------------------------------------- |
-| type     | string                        | true     | "collection" | none                                                                                                     |
-| name     | string                        | false    | none         | A name for the collection to indicate what it holds. May be empty if not very applicable.                |
-| required | integer                       | true     | none         | The minimum number of requirements (from `options`) necessary to satisfy the collection requirement.     |
-| options  | [[Requirement](#requirement)] | true     | none         | A list of all the options for requirements that can contribute to satisfying the collection requirement. |
+| Name     | Type                                | Required | Restrictions | Description                                                                                              |
+| -------- | ----------------------------------- | -------- | ------------ | -------------------------------------------------------------------------------------------------------- |
+| type     | string                              | true     | "collection" | none                                                                                                     |
+| name     | string                              | false    | none         | A name for the collection to indicate what it holds. May be empty if not very applicable.                |
+| required | integer                             | true     | none         | The minimum number of requirements (from `options`) necessary to satisfy the collection requirement.     |
+| options  | Array - [Requirement](#requirement) | true     | none         | A list of all the options for requirements that can contribute to satisfying the collection requirement. |
 
 ### Examples
 

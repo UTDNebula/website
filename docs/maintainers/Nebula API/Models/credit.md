@@ -1,7 +1,10 @@
 ---
 sidebar_position: 4
 title: 'Credit'
-description: Nebula Labs's approach to user-centered design.
+toc_footers: []
+includes: []
+search: true
+highlight_theme: darkula
 ---
 
 ## Overview
