@@ -50,7 +50,7 @@ As a more realistic example, consider the prerequisites for the course CS 3305. 
 
 ### Examples
 
-An example collection requirement where completion of both CS 2305 and CS 2336 are required.
+The following is an example collection requirement where completion of both CS 2305 and CS 2336 are required.
 
 ```json
 {
@@ -73,20 +73,20 @@ An example collection requirement where completion of both CS 2305 and CS 2336 a
 }
 ```
 
-This is the prerequisites collection requirement for the course CS 3305:
+This is the prerequisites collection requirement for the course CS 3305.
 It requires CE 2305 or CS 2305 or TE 2305 with a grade of C or better and MATH 2414 or MATH 2419.
 
 ```json
 {
-  "required": 1,
+  "required": 1, // and (only 1 requirement in options)
   "type": "collection",
   "options": [
     {
-      "required": 2,
+      "required": 2,    // and
       "type": "collection",
       "options": [
         {
-          "required": 1,
+          "required": 1,  // or
           "type": "collection",
           "options": [
             {
@@ -107,7 +107,7 @@ It requires CE 2305 or CS 2305 or TE 2305 with a grade of C or better and MATH 2
           ]
         },
         {
-          "required": 1,
+          "required": 1,  // or
           "type": "collection",
           "options": [
             {
@@ -138,6 +138,17 @@ A `CourseRequirement` represents a specific `Course` that must be taken to satis
 | class_reference | ObjectID | true     | none         | The `id` of the respective `Course`                                                                               |
 | minimum_grade   | string   | false    | none         | The minimum grade required for the course to fulfill the requirement. An empty string indicates default behavior. |
 
+### Example
+
+```json
+{
+  "type": "course",
+  "class_reference": "6241328ce27d0c74c40942e3", // CE 2305
+  "minimum_grade": "C"
+}
+```
+
+
 ## SectionRequirement
 
 A `SectionRequirement` represents a specific `Section` that must be taken to satisfy the requirement.
@@ -148,6 +159,16 @@ A `SectionRequirement` represents a specific `Section` that must be taken to sat
 | ----------------- | -------- | -------- | ------------ | ------------------------------------ |
 | type              | string   | true     | "section"    | none                                 |
 | section_reference | ObjectID | true     | none         | The `id` of the respective `Section` |
+
+### Example
+
+```json
+{
+  "type": "section",
+  "section_reference": "62410a21e27d0c74c4093d59" // ACCT 2301.001.17F
+}
+```
+
 
 ## MajorRequirement
 
@@ -160,6 +181,16 @@ A `MajorRequirement`represents a major that a student must be enrolled in to sat
 | type  | string | true     | "major"      | none                                               |
 | major | string | true     | none         | The major abbreviation, as indicated on Coursebook |
 
+### Example
+
+```json
+{
+  "type": "major",
+  "major": "ENCS" // Engineering and Computer Science
+}
+```
+
+
 ## MinorRequirement
 
 A `MinorRequirement` represents a minor that a student must be enrolled in to satisfy the requirement.
@@ -170,6 +201,16 @@ A `MinorRequirement` represents a minor that a student must be enrolled in to sa
 | ----- | ------ | -------- | ------------ | -------------------------------------------------- |
 | type  | string | true     | "minor"      | none                                               |
 | minor | string | true     | none         | The minor abbreviation, as indicated on Coursebook |
+
+### Example
+
+```json
+{
+  "type": "minor",
+  "minor": "ENCS" // Engineering and Computer Science
+}
+```
+
 
 ## ExamRequiremnet
 
@@ -183,6 +224,16 @@ An `ExamRequirement` represents a specific `Exam` credit that must be received t
 | exam_reference | ObjectID | true     | none         | A reference to the exam required                                  |
 | minimum_score  | integer  | true     | none         | The minimum score required on the exam to fulfill the requirement |
 
+### Example
+
+```json
+{
+  "type": "exam",
+  "exam_reference": "623f8ef656965e1884291c17", // AP History of Art
+  "minimum_score": 3
+}
+```
+
 ## GPARequirement
 
 A `GPARequirement` represents the minimum GPA a student must have to satisfy the requirement.
@@ -194,6 +245,17 @@ A `GPARequirement` represents the minimum GPA a student must have to satisfy the
 | type    | string | true     | "gpa"        | none                                                                                                        |
 | minimum | float  | true     | 0.0 - 4.0    | The minimum GPA required to fulfill the requirement                                                         |
 | subset  | string | true     | none         | The subset of courses that are in question when determining the GPA. If empty, this represents overall GPA. |
+
+### Example
+
+```json
+{
+  "type": "gpa",
+  "minimum": 3,
+  "subset": "university"
+}
+```
+
 
 ## HoursRequirement
 
@@ -207,6 +269,21 @@ An `HoursRequirement` represents the need to have taken some number of credit ho
 | required | integer                                   | true     | none         | The minimum number of credit hours that a course meeting this requirement must fulfill |
 | options  | [[CourseRequirement](#courserequirement)] | true     | none         | The list of `CourseRequirement`s to take hours from                                    |
 
+### Example
+
+```json
+{
+  "type": "hours",
+  "minimum": 3,
+  "options": 
+    {
+      "type": "course",
+      "class_reference": "624127fce27d0c74c40941cd", // BMEN 4V95
+      "minimum_grade": ""
+    }
+}
+```
+
 ## LimitRequirement
 
 A `LimitRequirement` represents a limit on the number of credit hours that a course may be repeated for.
@@ -218,6 +295,15 @@ A `LimitRequirement` represents a limit on the number of credit hours that a cou
 | type      | string  | true     | "limit"      | none                                                                 |
 | max_hours | integer | true     | none         | The maximum number of credit hours that a course may be repeated for |
 
+### Example
+
+```json
+{
+  "type": "limit",
+  "max_hours": 6,
+}
+```
+
 ## ConsentRequirement
 
 A `ConsentRequirement` represents the need for consent from a faculty member to satisfy the requirement.
@@ -228,6 +314,15 @@ A `ConsentRequirement` represents the need for consent from a faculty member to 
 | ------- | ------ | -------- | ------------ | -------------------------------------------------- |
 | type    | string | true     | "consent"    | none                                               |
 | granter | string | true     | none         | The type of faculty member who's consent is needed |
+
+### Example
+
+```json
+{
+  "type": "consent",
+  "granter": "instructor",
+}
+```
 
 ## CoreRequirement
 
@@ -241,6 +336,16 @@ A `CoreRequirement` represents the need to have taken a course fulfilling a spec
 | core_flag | string | true     | none         | The Core Flag for this requirement, as indicated on the Course Catelog |
 | hours     | int    | true     | none         | The number of hours needed to satisfy this requirement                 |
 
+### Example
+
+```json
+{
+  "type": "core",
+  "core_flag": "010", // Communication Core
+  "hours": 6
+}
+```
+
 ## OtherRequirement
 
 An `OtherRequirement` represents some miscellaneous need to satisfy the requirement.
@@ -252,3 +357,13 @@ An `OtherRequirement` represents some miscellaneous need to satisfy the requirem
 | type        | string | true     | "other"      | none                                                                                                    |
 | description | string | true     | none         | A description of what kind of custom criteria will be used to determine if the requirement is satisfied |
 | condition   | string | true     | none         | The condition to determine if the requirement is satisfied                                              |
+
+### Example
+
+```json
+{
+  "type": "other",
+  "description": "Incoming freshmen must enroll and complete requirements of UNIV 1010",
+  "condition": "Student completed UNIV 1010 or is not an incoming freshman"
+}
+```

@@ -80,57 +80,70 @@ Below is a list of all of the parameters that can be used to refine your query:
 > 200 Response
 
 ```json
-[
-  {
-    "_id": "string",
-    "section_number": "string",
-    "course_reference": "string",
-    "section_corequisites": {
-      "name": "string",
-      "required": 0,
-      "options": [
+"data": 
+  [
+    {
+      "__v": 0,
+      "_id": "62410a21e27d0c74c4093d59",
+      "academic_session": {
+        "end_date": "December 14, 2017",
+        "name": "17F",
+        "start_date": "August 21, 2017"
+      },
+      "attributes": {
+        "raw_attributes": []
+      },
+      "core_flags": [],
+      "course_reference": "62410a21e27d0c74c4093d5a",
+      "grade_distribution": [
+        0,
+        22,
+        5,
+        3,
+        9,
+        4,
+        2,
+        5,
+        2,
+        1,
+        0,
+        2,
+        5,
+        0
+      ],
+      "instruction_mode": "Face-to-Face",
+      "internal_class_number": "8XXXX",
+      "meetings": [
         {
-          "type": null
+          "end_date": "December 6, 2017",
+          "end_time": "8:50am",
+          "location": {
+            "building": "XXXX",
+            "map_uri": "https://locator.utdallas.edu/XXXXXX",
+            "room": "XXXXX"
+          },
+          "meeting_days": [
+            "Monday",
+            "Wednesday",
+            "Friday"
+          ],
+          "modality": null,
+          "start_date": "August 21, 2017",
+          "start_time": "8:00am"
         }
       ],
-      "type": null
-    },
-    "academic_session": {
-      "name": "string",
-      "start_date": "string",
-      "end_date": "string"
-    },
-    "professors": ["string"],
-    "teaching_assistants": [
-      {
-        "first_name": "string",
-        "last_name": "string",
-        "role": "string",
-        "email": "string"
-      }
-    ],
-    "internal_class_number": "string",
-    "instruction_mode": "string",
-    "meetings": [
-      {
-        "start_date": "string",
-        "end_date": "string",
-        "meeting_days": ["string"],
-        "start_time": "string",
-        "end_time": "string",
-        "modality": "string",
-        "location": {
-          "building": "string",
-          "room": "string",
-          "map_uri": "string"
-        }
-      }
-    ],
-    "core_flags": ["string"],
-    "syllabus_uri": "string",
-    "grade_distribution": [0]
-  }
-]
+      "professors": [
+        "62410a21e27d0c74c4093d5b"
+      ],
+      "section_corequisites": {
+        "options": [],
+        "type": "collection"
+      },
+      "section_number": "001",
+      "syllabus_uri": "https://dox.utdallas.edu/sylXXXXX",
+      "teaching_assistants": []
+    }
+  ]
 ```
 
 ### GET /section/{id}

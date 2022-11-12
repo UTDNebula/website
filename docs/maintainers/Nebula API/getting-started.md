@@ -33,7 +33,7 @@ The API is free to use for any students at UTD, but each key does have a limit o
 
 ## Making your first request
 
-Because API keys are required to access the API, we recommend that you use a tool like [Postman](https://www.postman.com/). From here you can make richly formatted requests with proper HTTP Headings.
+Because API keys are required to access the API, we recommend that you use a tool like [Postman](https://www.postman.com/) or [Insomnia](https://insomnia.rest/). From here you can make richly formatted requests with proper HTTP Headings.
 
 ```
 GET /course/ HTTP/1.1
@@ -49,11 +49,11 @@ If that includes you, here is an example of how a Javascript request would look
 
 ```javascript
 const headers = {
-  Authorization: { API_KEY },
+  x-api-key: { API_KEY },
   Accept: 'application/json',
 };
 
-fetch('/section', {
+fetch('https://api.utdnebula.com/section', {
   method: 'GET',
 
   headers: headers,
@@ -78,7 +78,7 @@ where a09ajca0a is the route parameter providing a section id.
 
 The other alternative is query paramters which are provided in key value pairings. These are denoted by following the endpoint with a `?` and delimiting each key value pair with an `&`. These are more useful when you are trying to perform traditional queries which return multiple results or need to provide multiple parameters to the endpoint. For our API an example of a query parameter may look like:
 
-`api.utdnebula.com/section?academic_session=21f&instruction_mode=Hybrid`
+`api.utdnebula.com/section?academic_session.name=21f&instruction_mode=Hybrid`
 
 ## Get Started!
 

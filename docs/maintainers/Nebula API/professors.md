@@ -77,36 +77,31 @@ Below is a list of all of the parameters that can be used to refine your query:
 ```json
 [
   {
-    "_id": "string",
-    "first_name": "string",
-    "last_name": "string",
-    "titles": ["string"],
-    "email": "string",
-    "phone_number": "string",
+    "_id": "623107c784ebaf3e8f1bbd8d",
+    "email": "nXXXXXXXX@utdallas.edu",
+    "first_name": "NXXXXXX",
+    "image_uri": "https://profiles.utdallas.edu/storage/media/160/conversions/XXXXXXXXX-medium.jpg",
+    "last_name": "AXXXXXXX",
     "office": {
-      "building": "string",
-      "room": "string",
-      "map_uri": "string"
+      "building": "ECN",
+      "room": "3XXX",
+      "map_uri": "https://locator.utdallas.edu/ECN_XXXX"
     },
-    "profile_uri": "string",
-    "image_uri": "string",
-    "office_hours": [
-      {
-        "start_date": "string",
-        "end_date": "string",
-        "meeting_days": ["string"],
-        "start_time": "string",
-        "end_time": "string",
-        "modality": "string",
-        "location": {
-          "building": "string",
-          "room": "string",
-          "map_uri": "string"
-        }
-      }
+    "office_hours": [],
+    "phone_number": "972-555-5555",
+    "profile_uri": "https://profiles.utdallas.edu/XXXXXX",
+    "sections": [
+      "624163757a5c14bdce6ae7c4",
+      "624163777a5c14bdce6ae7c8",
+      // ...
     ],
-    "sections": ["string"]
-  }
+    "titles": [
+      "Professor - Electrical Engineering",
+      "Jonsson School Distinguished Professor",
+      // ...
+    ]
+  },
+  // ...
 ]
 ```
 
@@ -126,34 +121,28 @@ This endpoint returns a single Professor object with a primary key matching {id}
 
 ```json
 {
-  "_id": "string",
-  "first_name": "string",
-  "last_name": "string",
-  "titles": ["string"],
-  "email": "string",
-  "phone_number": "string",
+  "_id": "623107c784ebaf3e8f1bbd8d",
+  "email": "nXXXXXXXX@utdallas.edu",
+  "first_name": "NXXXXXX",
+  "image_uri": "https://profiles.utdallas.edu/storage/media/160/conversions/XXXXXXXXX-medium.jpg",
+  "last_name": "AXXXXXXX",
   "office": {
-    "building": "string",
-    "room": "string",
-    "map_uri": "string"
+    "building": "ECN",
+    "room": "3XXX",
+    "map_uri": "https://locator.utdallas.edu/ECN_XXXX"
   },
-  "profile_uri": "string",
-  "image_uri": "string",
-  "office_hours": [
-    {
-      "start_date": "string",
-      "end_date": "string",
-      "meeting_days": ["string"],
-      "start_time": "string",
-      "end_time": "string",
-      "modality": "string",
-      "location": {
-        "building": "string",
-        "room": "string",
-        "map_uri": "string"
-      }
-    }
+  "office_hours": [],
+  "phone_number": "972-555-5555",
+  "profile_uri": "https://profiles.utdallas.edu/XXXXXX",
+  "sections": [
+    "624163757a5c14bdce6ae7c4",
+    "624163777a5c14bdce6ae7c8",
+    // ...
   ],
-  "sections": ["string"]
+  "titles": [
+    "Professor - Electrical Engineering",
+    "Jonsson School Distinguished Professor",
+    // ...
+  ]
 }
 ```
