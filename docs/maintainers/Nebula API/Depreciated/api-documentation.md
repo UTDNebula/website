@@ -1935,7 +1935,7 @@ This operation does not require authentication
 
 ## ALEKSExam
 
-The ALEXS Exam is an exam required by all students for math placement upon admittance to the University. This Exam is used in leiu of credit for lower level math courses in the University.
+The ALEXS Exam is an exam required by all students for math placement upon admittance to the University. This Exam is used in lieu of credit for lower level math courses in the University.
 
 ```json
 {
@@ -2424,10 +2424,10 @@ The Credit object represents an amount of 'semester credit hours' given by The U
 
 ### Properties
 
-| Name         | Type   | Required | Restrictions | Description                                                                                                                                |
-| ------------ | ------ | -------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------ |
-| category     | string | true     | none         | The catergory of the credit hours. If there is no category associated with the credit, the value is "general". "free" is a valid category. |
-| credit_hours | int    | true     | none         | The number of credit hours.                                                                                                                |
+| Name         | Type   | Required | Restrictions | Description                                                                                                                               |
+| ------------ | ------ | -------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| category     | string | true     | none         | The category of the credit hours. If there is no category associated with the credit, the value is "general". "free" is a valid category. |
+| credit_hours | int    | true     | none         | The number of credit hours.                                                                                                               |
 
 <a id="schemaexam"></a>
 <a id="schema_Exam"></a>
@@ -2567,7 +2567,7 @@ and
 
 ## IBExam
 
-International Baccalaureate (IB) Exams are exams offered by the IBO for students in secondary education to obtain credit for university level credit. Depending upon the score recieved on these exams, a student may be eligible for credit that can replace other required courses in their degree plan.
+International Baccalaureate (IB) Exams are exams offered by the IBO for students in secondary education to obtain credit for university level credit. Depending upon the score received on these exams, a student may be eligible for credit that can replace other required courses in their degree plan.
 
 ```json
 {
@@ -2842,7 +2842,7 @@ xor
 
 ## Professor
 
-Professors are a representation of an insturctor on campus for a Course. Professors can be queried to find information regarding their professional information and office hours information.
+Professors are a representation of an instructor on campus for a Course. Professors can be queried to find information regarding their professional information and office hours information.
 
 ```json
 {

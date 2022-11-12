@@ -10,7 +10,7 @@ of endpoints to access archived data in addition to live, up-to-date data.
 ## Motivation
 
 In short, without Nebula API, no programmatic way of accessing
-university-related data. Some students at UT Dallas have made innnovative tools
+university-related data. Some students at UT Dallas have made innovative tools
 like Discord bots to view dining services times or to see parking availability
 on campus, but these involve implementing boilerplate just to get the data they
 need.
