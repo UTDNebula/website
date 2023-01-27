@@ -37,20 +37,36 @@ module.exports = {
       items: [
         {
           type: 'doc',
-          docId: 'about/overview',
+          docId: 'projects/overview',
           position: 'left',
-          label: 'About',
+          label: 'Projects',
         },
         {
           type: 'doc',
-          docId: 'maintainers/overview',
+          docId: 'divisions/overview',
           position: 'left',
-          label: 'Maintainer Docs',
+          label: 'Divisions',
         },
-        { to: '/blog', label: 'Blog', position: 'left' },
-        { to: '/contact', label: 'Contact Us', position: 'left' },
+
         {
-          href: 'https://github.com/UTDNebula/website',
+          type: 'doc',
+          docId: 'api-docs/getting-started',
+          position: 'left',
+          label: 'Nebula API Docs',
+        },
+        {
+          type: 'doc',
+          docId: 'team/meet-team',
+          position: 'left',
+          label: 'Team',
+        },
+        {
+          to: '/contact',
+          label: 'Contact Us',
+          position: 'right',
+        },
+        {
+          href: 'https://github.com/UTDNebula/',
           label: 'GitHub',
           position: 'right',
         },
@@ -95,10 +111,6 @@ module.exports = {
         {
           title: 'More',
           items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
             {
               label: 'Website Source',
               href: 'https://github.com/UTDNebula/website',
