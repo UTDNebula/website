@@ -255,7 +255,7 @@ lifecycle and how to work with JSX, a syntax extension that allows you to write
 HTML-like code in your JavaScript files.
 
 To begin learning React, you can start with the following tutorial:
-https://reactjs.org/tutorial/tutorial.html
+https://beta.reactjs.org/
 
 #### Next.js
 
