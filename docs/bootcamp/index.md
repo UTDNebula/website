@@ -1,6 +1,13 @@
 ---
+id: 'bootcamp'
 title: 'Boot Camp'
 ---
+
+**Welcome to the Boot Camp!** If you've been here before and you want to get
+going, **skip down to the [tutorials](#tutorials)**. If you're ready to start on a
+small project, skip down to learn about **grabbing a [ticket](#tickets)**. If this
+is your first time, **learn a little bit [about Boot Camp](#what-is-boot-camp)**
+and then **[get started](#get-started)**.
 
 ## What is Boot Camp?
 
@@ -55,7 +62,7 @@ tools.
 You can use any text editor or IDE (Integrated Development Environment) of your
 choice to write HTML, CSS, JavaScript, TypeScript, React, and Next.js code.
 Some popular options include Visual Studio Code, Sublime Text, Atom, and
-WebStorm. Prerequisite Technology
+WebStorm.
 
 Here are the prerequisite technologies you'll need to install to follow along
 with the Nebula Labs tutorial program:
@@ -178,12 +185,12 @@ To get started with working on a project and to request assistance from a
 mentor, simply flag down a mentor or ask in the Boot Camp channel on Discord
 Our mentors will be happy to help you.
 
-### Tutorials
+## Tutorials
 
 You're ready to get started with the tutorials! Depending on what topics you
 already know, you may skip ahead.
 
-#### HTML
+### HTML
 
 HTML (Hypertext Markup Language) is a standard markup language used for
 creating web pages. It provides a way to structure content on a web page and
@@ -198,7 +205,7 @@ to improve the accessibility and SEO of your web pages.
 To begin learning HTML, you can start with the following tutorial:
 https://www.freecodecamp.org/learn/responsive-web-design/#basic-html-and-html5
 
-#### CSS
+### CSS
 
 CSS (Cascading Style Sheets) is a styling language used for adding visual
 styles to web pages. It provides a way to control the layout, colors, fonts,
@@ -213,7 +220,7 @@ different devices and screen sizes.
 To begin learning CSS, you can start with the following tutorial:
 https://www.freecodecamp.org/learn/responsive-web-design/#basic-css
 
-#### JavaScript
+### JavaScript
 
 JavaScript is a programming language used for adding interactivity to web
 pages. It provides a way to add dynamic behavior to web pages, such as
@@ -228,7 +235,7 @@ the DOM using JavaScript.
 To begin learning JavaScript, you can start with the following tutorial:
 https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps
 
-#### TypeScript
+### TypeScript
 
 TypeScript is a superset of JavaScript that provides additional features such
 as static typing, making it easier to write and maintain code. To get started
@@ -242,7 +249,7 @@ it into your existing JavaScript projects.
 To begin learning TypeScript, you can start with the following tutorial:
 https://developer.mozilla.org/en-US/docs/Learn/TypeScript
 
-#### React
+### React
 
 React is a popular JavaScript library used for building user interfaces. To get
 started with React, you can follow the tutorial provided by the official React
@@ -257,7 +264,7 @@ HTML-like code in your JavaScript files.
 To begin learning React, you can start with the following tutorial:
 https://beta.reactjs.org/
 
-#### Next.js
+### Next.js
 
 Next.js is a popular open-source React framework for building server-side
 rendered (SSR) web applications. It provides a number of features that make it
@@ -291,7 +298,7 @@ applications. If you get stuck or need help along the way, don't hesitate to
 reach out to one of our mentors for assistance. They can provide guidance and
 support to help you overcome any challenges you may encounter.
 
-### Tickets
+## Tickets
 
 As part of Boot Camp, you'll have the opportunity to work on real projects and
 gain practical experience. These projects are broken down into smaller tasks,
