@@ -100,8 +100,8 @@ program.
 ### Cloud-based Code Editing Tools
 
 Cloud-based code editing tools can be a great option for those who don't want
-to install software on their local machine. Two popular options are GitHub
-Codespaces and Gitpod.
+to install software on their local machine. Three popular options are GitHub
+Codespaces, Gitpod, and Replit.
 
 #### GitHub Codespaces
 
@@ -133,6 +133,17 @@ visiting "https://gitpod.io/#https://github.com/username/repository".
 
 For more information on getting started with Gitpod, check out the official
 documentation: https://www.gitpod.io/docs/getting-started/
+
+#### Replit
+
+Replit.com is a similar cloud-based development environment that supports a
+variety of programming languages. It also provides features such as version
+control, collaboration, and deployment. Replit is particularly useful for
+beginners as it offers a number of templates and starter projects to help you
+get started quickly.
+
+For more information on getting started with Gitpod, check out the official
+documentation: https://docs.replit.com/getting-started/intro-replit
 
 #### Free Usage Limits
 
