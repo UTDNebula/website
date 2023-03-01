@@ -48,6 +48,12 @@ module.exports = {
           label: 'Maintainer Docs',
         },
         { to: '/blog', label: 'Blog', position: 'left' },
+        {
+          type: 'doc',
+          docId: 'bootcamp/bootcamp',
+          position: 'left',
+          label: 'Boot Camp',
+        },
         { to: '/contact', label: 'Contact Us', position: 'left' },
         {
           href: 'https://github.com/UTDNebula/website',
