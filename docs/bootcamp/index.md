@@ -249,8 +249,8 @@ write complex CSS code.
 To get started with Tailwind, you can install it using a package manager like
 npm or yarn, and then include its CSS file in your HTML document. You can then
 start using Tailwind's utility classes in your HTML elements to apply styles.
-For example, to add padding to an element, you can use the p- prefix followed
-by a number to specify the amount of padding, like p-4.
+For example, to add padding to an element, you can use the `p-` prefix followed
+by a number to specify the amount of padding, like `p-4`.
 
 Tailwind also provides a powerful configuration file that allows you to
 customize the framework to your specific needs. You can use this file to define
