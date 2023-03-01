@@ -274,7 +274,7 @@ the DOM using JavaScript.
 To begin learning JavaScript, you can start with the following tutorial:
 https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps
 
-### TypeScript
+#### TypeScript
 
 TypeScript is a superset of JavaScript that provides additional features such
 as static typing, making it easier to write and maintain code. While it is not
