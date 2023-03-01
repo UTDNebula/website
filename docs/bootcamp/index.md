@@ -238,16 +238,18 @@ https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps
 ### TypeScript
 
 TypeScript is a superset of JavaScript that provides additional features such
-as static typing, making it easier to write and maintain code. To get started
-with TypeScript, you can follow the tutorial provided by MDN docs.
+as static typing, making it easier to write and maintain code. While it is not
+required to use React and Next.js, Nebula projects will use TypeScript to
+enforce better code.
 
-In this tutorial, you'll learn the basics of TypeScript, including how to
-define types, write functions, use interfaces, work with classes, and more.
-You'll also learn about the benefits of using TypeScript and how to integrate
-it into your existing JavaScript projects.
+Now that you have learned JavaScript, you can quickly learn the features that
+TypeScript adds. In this tutorial, you'll learn the basics of TypeScript,
+including how to define types, write functions, use interfaces, work with
+classes, and more. You'll also learn about the benefits of using TypeScript,
+specifically its advanced type system.
 
 To begin learning TypeScript, you can start with the following tutorial:
-https://developer.mozilla.org/en-US/docs/Learn/TypeScript
+https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html
 
 ### React
 
@@ -263,6 +265,11 @@ HTML-like code in your JavaScript files.
 
 To begin learning React, you can start with the following tutorial:
 https://beta.reactjs.org/
+
+After installing React, you should start with the "Quick Start" section. Once
+you get some experience using the Tic-Tac-Toe tutorial, move on to the "Learn
+React" series for an in-depth exploration of React. Feel free to contact a
+mentor if you need assistance navigating the React tutorial.
 
 ### Next.js
 
