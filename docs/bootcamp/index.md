@@ -231,6 +231,34 @@ different devices and screen sizes.
 To begin learning CSS, you can start with the following tutorial:
 https://www.freecodecamp.org/learn/responsive-web-design/#basic-css
 
+#### Tailwind
+
+In favor of plain CSS, Nebula labs uses a utility-first CSS framework called
+Tailwind. Tailwind CSS is a popular utility-first CSS framework that allows you
+to rapidly build custom user interfaces. Instead of writing custom CSS styles
+from scratch, you can use Tailwind's pre-defined classes to quickly style your
+HTML elements. Tailwind's classes are designed to be highly reusable and
+configurable, so you can easily customize your styles to match your design
+requirements.
+
+Tailwind offers a comprehensive set of utility classes for common CSS
+properties such as padding, margin, typography, and color. You can also use
+Tailwind to create complex layouts and responsive designs, without having to
+write complex CSS code.
+
+To get started with Tailwind, you can install it using a package manager like
+npm or yarn, and then include its CSS file in your HTML document. You can then
+start using Tailwind's utility classes in your HTML elements to apply styles.
+For example, to add padding to an element, you can use the p- prefix followed
+by a number to specify the amount of padding, like p-4.
+
+Tailwind also provides a powerful configuration file that allows you to
+customize the framework to your specific needs. You can use this file to define
+your own custom colors, fonts, breakpoints, and more.
+
+To learn more about using Tailwind CSS, you can check out the official
+documentation at https://tailwindcss.com/docs.
+
 ### JavaScript
 
 JavaScript is a programming language used for adding interactivity to web
