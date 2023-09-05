@@ -7,7 +7,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
 import HomepageFeatures from '../components/HomepageFeatures';
 
-import ProjectNebulaLogoWordmark from '../assets/nebula-logo-wordmark-dark.png';
+import ProjectNebulaLogoWordmark from '/img/logos/nebula-logo-white.png';
 import Head from '@docusaurus/Head';
 
 function HomepageHeader() {
@@ -17,7 +17,11 @@ function HomepageHeader() {
       <div className="container">
         {/* <h1 className="hero__title">{siteConfig.title}</h1> */}
         <div>
-          <img src={ProjectNebulaLogoWordmark} alt="Nebula Labs logo" />
+          <img
+            src={ProjectNebulaLogoWordmark}
+            alt="Nebula Labs logo"
+            style={{ paddingBottom: '2em' }}
+          />
         </div>
         <p className={clsx('hero__subtitle', styles.hero__subtitle)}>
           {siteConfig.tagline}

@@ -32,7 +32,7 @@ module.exports = {
       title: 'Nebula Labs',
       logo: {
         alt: 'Nebula Labs Logo',
-        src: 'img/logos/nebula-logo.svg',
+        src: 'img/logos/icon.svg',
       },
       items: [
         {
@@ -122,16 +122,15 @@ module.exports = {
           ],
         },
       ],
-      logo: {
-        alt: 'Nebula Labs Logo',
-        src: 'img/logos/nebula-logo-wordmark.png',
-        href: '/',
-      },
       copyright: `Copyright © ${new Date().getFullYear()} Nebula Labs Maintainers. Built with Docusaurus.`,
     },
     prism: {
       theme: lightCodeTheme,
       darkTheme: darkCodeTheme,
+    },
+    colorMode: {
+      defaultMode: 'dark',
+      disableSwitch: true,
     },
   },
   presets: [
