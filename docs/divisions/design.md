@@ -6,40 +6,28 @@ description: Description of UI/UX Design division member responsibilities
 
 ## Overview
 
-Nebula Labs is an initiative to build tools that help students. Front-end developers for Nebula Labs implement the user experiences that allow students to get the information they need and plan their college experience.
+Nebula Labs is an initiative to build tools that help students. At a high level, designers for Nebula Labs focus on defining the general design language shared across all our projects. Designers may also design graphics, ui mock-ups, and other digital assets for our various products.
 
-This description is general for all of Nebula Labs’s projects, but your desired project may have specific responsibilities that you can ask Willie about.
-
-## What We Need
-
-Nebula Labs is looking for someone with:
-
-- Some experience using reactive frameworks to build interactive websites
-- Experience debugging software
-- Knowledge of state management systems
-  Additionally, the following would be useful:
-- Knowledge of how to use Git and GitHub
-- A sense of design aesthetics
-- Experience creating wireframes or mock-ups
+This description is general for all of Nebula Labs’s projects, but your desired project may have specific responsibilities that you can ask a project lead about.
 
 ## What You’ll Do
 
 Your general responsibilities would be:
 
+- Attending weekly team meetings
 - Collaborating with your project lead and the Head of Design to implement mock-ups
 - Keeping in touch with your project lead
-  On a day-to-day basis, you would:
-- Program solutions
-- Keep in touch with the Head of Design
-- Keep in touch with the Engineering Lead
+- Keep in touch with the Head of Design to ensure a cohesive design language
 
-Expect to spend around 4 hours per week on this role.
+## Time Commitment
+
+Dedicate as much (or as little!) time as you'd like to working on our projects. Consistency and communication are valued.
 
 ## What You'll Learn
 
-You’ll be in a team of supportive developers, and you will learn how to work with others using collaborative tools like GitHub.
+At Nebula Labs, we value teaching our members highly employable skills that aren't always taught in the classroom. In the Nebula Labs design division, you might learn how to...
 
-Specifically, you’ll learn:
-
-- How to design build user-facing applications
-- How to read and write technical documentation
+- Design user-facing applications
+- Employ design principles to make intuitive interfaces
+- Create wireframes or mock-ups
+- Use industry-standard tools like Figma and Canva

@@ -6,32 +6,20 @@ description: Description of Engineering division member responsibilities
 
 ## Overview
 
-Nebula Labs is an initiative to build tools that help students. Back-end developers for Nebula Labs build and maintain the core infrastructure that allow front-end developers to create robust user experiences.
+Nebula Labs is an initiative to build tools that help students with both back-end and front-end developers.
+
+Back-end developers for Nebula Labs build and maintain the core infrastructure that allow front-end developers to create robust user experiences.
 
 Additionally, developers for Nebula Labs play an active role on the team and are encouraged to take part in discussions for designing and creating new features for products.
 
-This description is general for all of Nebula Labs’s projects, but your desired project may have specific responsibilities that you can ask Willie about.
-
-## What We Need
-
-Nebula Labs is looking for someone with:
-
-- Some experience building a project that uses a databases (SQL or NoSQL)
-- Some experience making calls to third-party APIs
-- Ability to communicate with others on a team
-- Experience debugging software
-
-Additionally, the following would be useful:
-
-- Knowledge of how to use Git and GitHub
-- Experience building custom APIs
+This description is general for all of Nebula Labs’s projects, but your desired project may have specific responsibilities that you can ask a project lead about.
 
 ## What You’ll Do
 
 Your general responsibilities would be:
 
-- Attending weekly team meetings
-- Building back-end solutions
+- Attending weekly team meetings when possible
+- Building either front-end or back-end solutions
 
 On a day-to-day basis, you would:
 
@@ -39,11 +27,17 @@ On a day-to-day basis, you would:
 - Engage in discussions on GitHub about the issues
 - Read and write technical documentation for your project
 
-Expect to spend around 4 hours per week on this role.
+## Time Commitment
+
+Dedicate as much (or as little!) time as you'd like to working on our projects. Consistency and communication are valued.
 
 ## What You'll Learn
 
-As a developer for Nebula Labs, you’ll learn a mix of skills including:
+At Nebula Labs, we value teaching our members highly employable skills that aren't always taught in the classroom. On a Nebula Labs team, you might learn how to...
 
-- How to utilize database tools to store and retrieve data
-- How to read and write technical documentation
+- Utilize database tools to store and retrieve data
+- Read and write technical documentation
+- Use Git and GitHub to manage software versioning
+- Build and use APIs
+- Efficiently develop a high-impact project with a team
+- Debug software
