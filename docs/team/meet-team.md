@@ -9,8 +9,8 @@ description: 'These are the current leaders of Nebula Labs, if you have a questi
 export const Profile = ({image = 'blank.png', name, position, linkedin, discord}) => (
 
 <div style = {{maxWidth: '20%', minWidth: '200px', padding: '2em'}}>
-<img src = {require('/img/headshots/' + image).default} style = {{borderRadius: '50%'}}/>
-<p style = {{textAlign: 'center'}}>{name}<br/><em>{position}</em><br/><a href = {'https://linkedin.com/in/' + linkedin}><i class="fa-brands fa-linkedin fa-lg" style = {{paddingRight: '5px', color: '#0077B5'}}/></a><a href = {'https://discord.com/users/' + discord}><i class="fa fa-brands fa-discord" style = {{paddingRight: '5px', color: '#5865F2'}}/></a></p>
+    <img src = {require('/img/headshots/' + image).default} style = {{borderRadius: '50%'}}/>
+    <p style = {{textAlign: 'center'}}>{name}<br/><em>{position}</em><br/><a href = {'https://linkedin.com/in/' + linkedin}><i class="fa-brands fa-linkedin fa-lg" style = {{paddingRight: '5px', color: '#0077B5'}}/></a><a href = {'https://discord.com/users/' + discord}><i class="fa fa-brands fa-discord" style = {{paddingRight: '5px', color: '#5865F2'}}/></a></p>
 </div>
 );
 
